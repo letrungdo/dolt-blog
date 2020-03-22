@@ -8,7 +8,6 @@ cover: "../images/2017/05/instagram-liker.png"
 categories:
   - Tricks
 tags:
-  - Hack like
   - Instagram
 ---
 Bạn muốn ảnh trên Instagram của mình có nhiều lượt like. Trên facebook thì đã có nhiều công cụ giúp tăng like, vậy **cách hack like trên instagram** thì sao?

@@ -8,9 +8,6 @@ cover: "../images/2017/06/ppnckh.png"
 categories:
   - Documents
   - HUFI
-tags:
-  - HUFI
-  - Phương pháp nghiên cứu khoa học
 ---
 Ngân hàng câu hỏi và đáp án môn Phương pháp nghiên cứu khoa học (PP NCKH) của trường Đại học Công nghiệp Thực phẩm tp.HCM (HUFI). Hình thức thi tự luận 100% đề đóng. 2 câu lý thuyết(2 x 3đ) và 1 câu thực hành(4đ).
 

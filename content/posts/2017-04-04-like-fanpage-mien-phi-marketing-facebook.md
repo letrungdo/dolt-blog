@@ -8,10 +8,6 @@ cover: "../images/2017/04/10000-like-fanpage.png"
 categories:
   - Facebook
   - Tricks
-tags:
-  - Facebook
-  - Like Content
-  - Like Fanpage
 ---
 Dưới đây là một số cách **like fanpage miễn phí**  dễ hiểu và dễ sử dụng nhất cho những người không có tiền dùng để quảng cáo fanpage nhưng vẫn muốn xây dựng một fanpage có số lượng like lớn để bán hàng hoặc phát triển thương hiệu, cộng đồng trên facebook.
 

@@ -6,7 +6,7 @@ template: "post"
 slug: "khong-doc-duoc-file-chm-trong-windows"
 cover: "../images/2016/05/chm.png"
 categories:
-  - Fix bug
+  - Bugs
 ---
 <p style="text-align: justify;">
   Không đọc được file .chm? Bạn tìm được một cuốn tài liệu ebook hay trên mạng với định dạng (.chm) nhưng khi mở tài liệu ra chỉ có đề mục còn nội dụng thì không có.<img class="aligncenter size-full wp-image-2039" src="/media/2016/05/chm-1.png" alt="" width="94" height="93" />

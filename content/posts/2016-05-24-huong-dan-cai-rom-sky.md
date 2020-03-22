@@ -6,7 +6,7 @@ template: "post"
 slug: "huong-dan-cai-rom-sky"
 cover: "../images/2016/05/up_rom_sky.jpg"
 categories:
-  - Fix bug
+  - Bugs
   - Phones
 ---
 Đây là cách up ROM chung cho tấc cả các dòng SKY từ A600 đến A920. Hướng dẫn cài rom SKY gốc - sửa lỗi treo logo an toàn và thực hiện nhanh nhất. Nếu điện thoại bạn bị treo logo hay rom bị lỗi thì yên tâm đã có cách giải quyết.

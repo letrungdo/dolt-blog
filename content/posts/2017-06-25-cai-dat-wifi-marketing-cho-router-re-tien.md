@@ -1,5 +1,5 @@
 ---
-title: 'Cài đặt Wifi Marketing cho Router rẻ tiền &#8211; Dùng Nodogsplash'
+title: 'Cài đặt Wifi Marketing cho Router rẻ tiền dùng Nodogsplash'
 date: 2017-06-25T13:27:09+07:00
 author: letrungdo
 template: "post"
@@ -8,10 +8,7 @@ cover: "../images/2017/06/wifi-maketing-voi-nodogsplash.png"
 categories:
   - Tricks
 tags:
-  - 'Error: No such file or directory'
   - Nodogsplash
-  - nodogsplash probably not started
-  - Wifi
   - Wifi Marketing
 ---
 <a href="/tag/wifi-marketing/" target="_blank" rel="noopener"><strong>Wifi Marketing</strong></a> là hình thức quảng cáo thông qua Wifi. Khi kết nối vào WiFi thì bạn sẽ được dẫn tới 1 trang web có chứa hình ảnh, nội dung quảng cáo. Để dùng được wifi thì bạn cần bấm vào quảng cáo hoặc một số hình thức đăng nhập khác... Với các Router loại thường thì firmware gốc của nhà sản xuất không có tính năng Wifi Marketing. Vì vậy bài viết này sẽ giúp các bạn **cài đặt Wifi Marketing** cho modem router của mình.

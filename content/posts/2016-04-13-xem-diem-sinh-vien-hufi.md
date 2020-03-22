@@ -7,8 +7,6 @@ slug: "xem-diem-sinh-vien-hufi"
 cover: "../images/2016/04/xem-diem-hufi.png"
 categories:
   - HUFI
-tags:
-  - HUFI
 ---
 <p style="text-align: justify;">
   Hôm mình đi học môn<strong> sinh hoạt giữa khóa </strong>tới phần giới thiệu về trường, có một cô nói về những ưu điểm của cổng thông tin mới. Trong đó có nói về tính bảo mật cao, điểm số sinh viên được giấu kín, không coi được thông tin của nhau... Vậy có thể <strong>xem điểm sinh viên hufi</strong> được không các bạn thử xem!

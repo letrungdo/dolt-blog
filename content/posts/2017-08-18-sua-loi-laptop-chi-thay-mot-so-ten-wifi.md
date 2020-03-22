@@ -6,11 +6,7 @@ template: "post"
 slug: "sua-loi-laptop-chi-thay-mot-so-ten-wifi"
 cover: "../images/2017/08/sua-loi-laptop-chi-thay-1-so-song-wifi.png"
 categories:
-  - Fix bug
-tags:
-  - County Region
-  - Driver
-  - Wifi
+  - Bugs
 ---
 Sau khi cài lại win hay sau khi update, lỗi laptop chỉ thấy một số tên <a href="/tag/wifi/" target="_blank" rel="noopener">wifi</a> của nhà hàng xóm, còn wifi phòng mình thì không. Lỗi này thường do driver không phù hợp với máy, hoặc cấu hình chọn kênh thu wifi bị sai. Bài viết sẽ hướng dẫn các bạn **sửa lỗi Laptop chỉ thấy một số tên Wifi** theo các cách sau.
 

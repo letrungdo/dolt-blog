@@ -6,12 +6,7 @@ template: "post"
 slug: "sua-loi-java-khi-bien-dich-bang-cmd"
 cover: "../images/2016/07/error-java-helloworld.png"
 categories:
-  - Code
-  - Fix bug
-tags:
-  - học lập trình
-  - Học lập trình java
-  - sửa lỗi
+  - Bugs
 ---
 Mới bắt đầu học <a href="/hoc-lap-trinh/java" target="_blank" rel="noopener">JAVA</a>, chắc chắn bạn nào cũng đi qua bài đầu tiên **HelloWorld**. Học cách biên dịch tập tin HelloWorld.java bằng 2 lệnh **javac** và **java** trong Command Prompt (CMD). Có thể gặp lỗi sau: "Error: Could not find or load main class HelloWorld". Cách **sửa lỗi java** này rất đơn giản, là lỗi cú pháp.
 

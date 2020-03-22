@@ -9,8 +9,6 @@ categories:
   - Tricks
 tags:
   - Instagram
-  - Tải ảnh instagram
-  - thủ thuật chrome
 ---
 Dạo qua <a href="/tag/instagram" target="_blank" rel="noopener">instagram</a> thấy nhiều ảnh đại diện của bạn bè rất đẹp. Nhưng nhìn nhỏ quá không đã mắt, mình đã thử sửa lại link và thành công. Sau đây là cách **tải ảnh đại diện** trên instagram **FULL SIZE**
 

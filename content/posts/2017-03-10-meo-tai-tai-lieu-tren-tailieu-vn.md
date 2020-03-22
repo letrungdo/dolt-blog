@@ -8,9 +8,6 @@ cover: "../images/2017/03/huong-dan-su-dung-thu-vien-so-hufi-pdf.jpg"
 categories:
   - Documents
   - Tricks
-tags:
-  - Tài liệu VIP
-  - tailieu.vn
 ---
 Bạn hay tải tài liệu, đồ án, luận văn... nhưng thường gặp phải các tài liệu bắt mua mới tải được. "Đây là tài liệu VIP, để tải tài liệu này ..." Cũng có các group hay giúp đỡ các bạn tải các loại tài liệu này nhưng chờ dài cổ á :3. Sau đây là **Mẹo tải tài liệu VIP** trên các trang tailieu.vn, doc.edu.vn, luanvan.net.vn ...
 

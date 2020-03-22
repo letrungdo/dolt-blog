@@ -7,8 +7,6 @@ slug: "cach-huy-nhan-ban-tin-hang-loat-trong-gmail"
 cover: "../images/2017/04/Gmail-Unsubscribe-Cover.png"
 categories:
   - Tricks
-tags:
-  - Gmail Unsubscribe
 ---
 Bạn nhận được quá nhiều thư rác, thư quảng cáo. Do thường hay đăng ký các tài khoản trên mạng, nên việc hủy nhận bản tin quảng cáo từng cái một rất tốn thời gian. <a href="https://unroll.me/" target="_blank" rel="noopener noreferrer"><strong>Unroll.me</strong></a> là dịch vụ trực tuyến miễn phí có tính năng **hủy nhận bản tin hàng loạt trong Gmail**. Tuy nhiên <span class="FullNameGroup"><a href="https://twitter.com/labnol/status/856193422578679808" target="_blank" rel="noopener noreferrer"><strong class="fullname show-popup-with-id " data-aria-label-part="">Amit Agarwal</strong>‏</a> nói rằng </span>Unroll.me đang âm thầm bán dữ liệu Gmail của bạn cho Uber.
 

@@ -7,7 +7,6 @@ guid: /?p=174
 slug: "khong-xoa-duoc-theme-plugin-wordpress"
 cover: "../images/2016/04/perm.png"
 categories:
-  - Fix bug
   - Web
 tags:
   - Wordpress

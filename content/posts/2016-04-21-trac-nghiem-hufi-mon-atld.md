@@ -8,8 +8,6 @@ cover: "../images/2016/04/atld.jpg"
 categories:
   - Documents
   - HUFI
-tags:
-  - HUFI
 ---
 <p style="text-align: left;">
   Ngân hàng câu hỏi trắc nghiệm HUFI môn<strong> An toàn lao động</strong> cho ôn thi <strong>giữa kỳ</strong> và <strong>cuối kỳ.</strong>

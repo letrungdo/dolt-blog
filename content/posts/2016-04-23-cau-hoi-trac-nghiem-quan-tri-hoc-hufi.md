@@ -8,8 +8,6 @@ cover: "../images/2016/04/HUFI-trac-nghiem-quan-tri-hoc.jpg"
 categories:
   - Documents
   - HUFI
-tags:
-  - HUFI
 ---
 Ngân hàng câu hỏi trắc nghiệm môn **Quản trị học** HUFI
 

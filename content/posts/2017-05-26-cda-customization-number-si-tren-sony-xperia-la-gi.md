@@ -7,9 +7,6 @@ slug: "cda-customization-number-si-tren-sony-xperia-la-gi"
 cover: "../images/2017/05/CDA-Customization-Number-SI-la-gi.png"
 categories:
   - Phones
-tags:
-  - Customization Number
-  - Sony Xperia
 ---
 **CDA** (Cellular Digital Accessory) hay  **Customization Number** hoặc **SI** là thông tin số phiên bản phần mềm và nguồn gốc  cho một chiếc điện thoại di động. Thuật ngữ CDA, SI, Customization Number thường thấy trên các thiết bị điện thoại Sony Xperia. Các thuật ngữ này có ý nghĩa như nhau.
 

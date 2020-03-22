@@ -7,11 +7,6 @@ slug: "kich-hoat-windows-10-online"
 cover: "../images/2016/04/active-windows-10.jpg"
 categories:
   - Tricks
-tags:
-  - active windows
-  - key mak
-  - PID Key
-  - Windows 10
 ---
 <p style="text-align: justify;">
   Hiện nay <strong>key kích hoạt Windows 10 online</strong> đang rất hiếm, buộc bạn phải tìm <a href="/tag/key-mak/" target="_blank" rel="noopener noreferrer"><strong>key MAK</strong></a> còn 0 lượt kích hoạt để <strong>Active by phone</strong>. Nhưng quá trình kích hoạt rắc rối, phải <strong>fake ip</strong> gọi điện.. có nhiều khi key sống mà gọi không được.

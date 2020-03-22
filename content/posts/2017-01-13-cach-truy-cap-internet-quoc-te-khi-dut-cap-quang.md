@@ -7,10 +7,6 @@ slug: "cach-truy-cap-internet-quoc-te-khi-dut-cap-quang"
 cover: "../images/2017/01/chon-server-free.png"
 categories:
   - Tricks
-tags:
-  - Đứt cáp quang
-  - Internet
-  - VPN
 ---
 Từ tối hôm qua 11/01/2016 người dùng **internet mạng Viettel** không thể truy cập các trang web có host nước ngoài. Tôi có thử các tiện ích mở rộng VPN như Hostspot Shield Free VPN Proxy, Unlimited Free VPN - Hola, ... nhưng đáng tiếc là các tiện ích này không thể tải về được. Các trang lấy VPN tốt như zpn.im,.. do host ở nước ngoài nên cũng không truy cập được. Nên **cách truy cập Internet quốc tế khi đứt cáp quang** là kiếm các trang cung cấp VPN ở Việt Nam, và VietPN là trang cung cấp VPN ổn định mà tôi muốn giới thiệu cho các bạn trong bài viết này.
 

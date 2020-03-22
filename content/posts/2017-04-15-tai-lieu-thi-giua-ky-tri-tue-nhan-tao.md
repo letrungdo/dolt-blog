@@ -8,8 +8,6 @@ cover: "../images/2017/04/tri-tue-nhan-tao.png"
 categories:
   - Documents
   - HUFI
-tags:
-  - Trí tuệ nhân tạo
 ---
 Bài viết này là **tài liệu thi giữa kỳ trí tuệ nhân tạo** cho các bạn sinh viên. Nội dung được tóm tắt ngắn gọn và minh họa các giải thuật chi tiết.
 

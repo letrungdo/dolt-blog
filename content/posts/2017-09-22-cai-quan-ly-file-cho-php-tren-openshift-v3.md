@@ -8,7 +8,6 @@ cover: "../images/2017/09/quan-ly-file-openshift-v3.png"
 categories:
   - Web
 tags:
-  - Hosting Free
   - Openshift
   - Wordpress
 ---

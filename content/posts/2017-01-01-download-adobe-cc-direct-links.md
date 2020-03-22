@@ -7,10 +7,6 @@ slug: "download-adobe-cc-direct-links"
 cover: "../images/2017/01/Adobe-CC-2017.jpg"
 categories:
   - Softwares
-tags:
-  - Adobe
-  - Adobe CC
-  - Adobe CC 2017
 ---
 Adobe has officially updated version in 2017 for almost all of Adobe.
 

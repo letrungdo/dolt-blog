@@ -7,9 +7,6 @@ slug: "email-ao-la-gi-dang-ky-tai-khoan-rac"
 cover: "../images/2016/04/email-ao.jpg"
 categories:
   - Tricks
-tags:
-  - email ảo
-  - mail 10 phut
 ---
 <p style="text-align: justify;">
   Bạn muốn&nbsp;tạo nhiều tài khoản email nhanh chóng? Nhưng tạo 1 email như gmail, outlook, yahoo phải thực hiện nhiều bước và phải&nbsp;xác nhận số điện thoại nên việc đăng ký lâu và khó khăn.&nbsp;Tất cả những phiền phức đó đều có thể được giải quyết bằng cách sử dụng các&nbsp;địa chỉ email ảo. Vậy địa chỉ email ảo là gì và cách tạo email ảo như thế nào?

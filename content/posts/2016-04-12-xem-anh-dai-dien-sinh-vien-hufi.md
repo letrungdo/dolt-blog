@@ -7,8 +7,6 @@ slug: "xem-anh-dai-dien-sinh-vien-hufi"
 cover: "../images/2016/04/anh-dai-dien-hufi.jpg"
 categories:
   - HUFI
-tags:
-  - HUFI
 ---
 <p style="text-align: justify;">
   Cổng thông tin <strong>sinh viên HUFI</strong> mới có phần ảnh đại diện cho mỗi sinh viên, đây là cái mình thích nhất 😉 Sau đây là 2 cách để <strong>xem ảnh đại diện sinh viên HUFI</strong>.

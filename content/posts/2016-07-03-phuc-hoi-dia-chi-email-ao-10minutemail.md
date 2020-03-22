@@ -7,9 +7,6 @@ slug: "phuc-hoi-dia-chi-email-ao-10minutemail"
 cover: "../images/2016/07/mail-10-phut.png"
 categories:
   - Tricks
-tags:
-  - email ảo
-  - mail 10 phut
 ---
 Khi dùng <a href="/email-ao-la-gi-dang-ky-tai-khoan-rac/" target="_blank" rel="noopener">email ảo</a> để đăng ký các tài khoản như Facebook,... Nếu bạn không may bị checkpoint hay quên mật khẩu đăng nhập thì làm sao để phục hồi địa chỉ email ảo đã tạo trước đó? Bài viết này hướng dẫn cách lấy lại địa chỉ email ảo từ 10minutemail.net
 

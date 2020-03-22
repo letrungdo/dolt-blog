@@ -7,9 +7,6 @@ slug: "sdcard-lam-bo-nho-trong-android-marshmallow"
 cover: "../images/2017/08/cach-dung-the-nho-lam-bo-nho-trong.png"
 categories:
   - Phones
-tags:
-  - Internal Mode
-  - Marshmallow
 ---
 Trong Android 6.0 (Marshmallow) có thêm chức năng dùng thẻ nhớ như là bộ nhớ trong (Internal Mode) để cài ứng dụng. Các ứng dụng được di chuyển 100% dung lượng qua phân vùng thẻ nhớ này. Đặc biệt máy bạn không cần root hay cài các ứng dụng Link2SD hay Apps2SD. Trong một số máy đã ẩn đi tính năng này. Bài viết sẽ hướng dẫn bạn cách để kích hoạt tính năng **dùng thẻ nhớ làm bộ nhớ trong** cho các máy đã ẩn đi tính năng này.
 
