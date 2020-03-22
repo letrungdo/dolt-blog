@@ -1,8 +1,8 @@
 const config = {
   // Site info
-  siteTitle: "Lê Trung Đô Blog", // Site title.
-  siteTitleShort: "DoLT Blog", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "Lê Trung Đô Blog", // Alternative site title for SEO.
+  siteTitle: "TĐ.VN", // Site title.
+  siteTitleShort: "TĐ.VN", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: "TĐ.VN - Le Trung Do Blog", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024x1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://xn--t-lia.vn", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
