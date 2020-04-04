@@ -4,6 +4,17 @@ import './ScrollToTop.css';
 
 class ScrollToTop extends React.Component {
   rootRef = React.createRef();
+  
+  componentDidMount() {
+    this.rootElm = this.rootRef.current;
+    this.showOrHideBackToTopButton();
+
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
 
   handleClick = () => {
     window.scroll({ top: 0, left: 0, behavior: 'smooth' });
@@ -30,34 +41,22 @@ class ScrollToTop extends React.Component {
     }, 100);
   }
 
-  componentDidMount() {
-    this.rootElm = this.rootRef.current;
-    this.showOrHideBackToTopButton();
-
-    window.addEventListener('scroll', this.handleScroll);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
-  }
-
   render() {
-    const { bgColor, color } = this.props;
+    const { bgColor } = this.props;
 
     return (
       <div
         ref={this.rootRef}
         onClick={this.handleClick}
         className={`scroll-to-top position-fixed background-color-${bgColor} 
-          cursor-pointer transition padding line-height-reset border-radius`}
+          cursor-pointer transition line-height-reset`}
       > 
         <FontAwesomeIcon 
           icon={["fas", "angle-up"]} 
-          style={{ color }} 
+          style={{ color: this.props.color, fontSize: "2.2rem" }} 
         />
       </div>
     )
   }
 }
-
 export default ScrollToTop;
