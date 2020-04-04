@@ -14,12 +14,12 @@ const Sidebar = ({ tagList, categoryList, latestPostEdges, links }) => {
       }`}
     >
       <WidgetSearch />
+      
+      {categoryList && <WidgetCategory categoryList={categoryList} />}
 
       {latestPostEdges && (
         <WidgetLatestPosts latestPostEdges={latestPostEdges} />
       )}
-
-      {categoryList && <WidgetCategory categoryList={categoryList} />}
 
       {tagList && <WidgetTag tagList={tagList} />}
 

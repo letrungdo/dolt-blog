@@ -150,7 +150,7 @@ const config = {
   ],
   copyright: "Copyright © 2020 Le Trung Do. Unless otherwise noted, all code MIT license.",
   // Use for manifest
-  themeColor: "#2196F3", // Used for setting manifest and progress theme colors.
+  themeColor: "#4f4f4f", // Used for setting manifest and progress theme colors.
   backgroundColor: "#FFF" // Used for setting manifest background color.
 };
 

@@ -3,3 +3,12 @@ img.size-full {
     width: 100%;
     height: auto;
 }
+.widget_categories .category-text {
+    display: inline-block;
+    margin: 0;
+    transition: padding-left 0.15s linear 0s;
+    -moz-transition: padding-left 0.15s linear 0s;
+    -ms-transition: padding-left 0.15s linear 0s;
+    -o-transition: padding-left 0.15s linear 0s;
+    -webkit-transition: padding-left 0.15s linear 0s;
+}
