@@ -1,17 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+import { themeColors } from "../../styles/themeColors";
 import AutoLink from "../AutoLink/AutoLink";
 import WidgetContainer from "./WidgetContainer";
 import WidgetTitle from "./WidgetTitle";
 import { getCategoryPath } from "../../utils/helpers";
 import config from "../../../data/SiteConfig";
 
-const categoryColors = [
-  "#00a8ce", "#940034", "#4c0063", "#f5b400", "#e2003c", 
-  "#000000", "#009443", "#3460aa", "#00a64d", "#b5630b",
-  "#403d3b", "#cc2b59", "#63313f", "#300b70", "#70120b",
-  "#0d3e42",
-];
 const CategoryWrapper = styled.div`
   &:hover .category-text {
     padding-left: 5px;
@@ -33,7 +28,7 @@ const IndexWrapper = styled.div`
 `;
 const WidgetCategory = ({ categoryList }) => (
   <WidgetContainer extraClass="categories-container">
-    <WidgetTitle title={config.categoryWidgetTitle} />
+    <WidgetTitle title={config.categoryWidgetTitle} color={themeColors[6]} />
     <div>
       {categoryList.map((category, index) => (
         <AutoLink
@@ -41,10 +36,10 @@ const WidgetCategory = ({ categoryList }) => (
           to={getCategoryPath(category)}
           className="flex align-items-center border-bottom border-color-light-grey padding-top-half padding-bottom-half widget_categories"
         >
-          <IndexWrapper color={categoryColors[index]}>
-            <span>{index + 1}</span>
+          <IndexWrapper color={themeColors[index]}>
+            {index + 1}
           </IndexWrapper>
-          <CategoryWrapper color={categoryColors[index]}>
+          <CategoryWrapper color={themeColors[index]}>
             <span className="category-text">{category}</span>
           </CategoryWrapper>
         </AutoLink>

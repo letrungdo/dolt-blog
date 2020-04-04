@@ -4,13 +4,13 @@ import WidgetContainer from "./WidgetContainer";
 import WidgetTitle from "./WidgetTitle";
 import { getPostList } from "../../utils/helpers";
 import config from "../../../data/SiteConfig";
+import { themeColors } from "../../styles/themeColors";
 
 const WidgetLatesPosts = ({ latestPostEdges }) => {
   const postList = getPostList(latestPostEdges);
-
   return (
     <WidgetContainer extraClass="latest-posts-container">
-      <WidgetTitle title={config.latestPostsWidgetTitle} />
+      <WidgetTitle title={config.latestPostsWidgetTitle} color={themeColors[0]} />
       <div>
         {
           postList.map(post => (
@@ -27,5 +27,4 @@ const WidgetLatesPosts = ({ latestPostEdges }) => {
     </WidgetContainer>
   )
 }
-
 export default WidgetLatesPosts;

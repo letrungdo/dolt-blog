@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import WidgetContainer from './WidgetContainer';
 import WidgetTitle from './WidgetTitle';
 import config from '../../../data/SiteConfig';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { themeColors } from "../../styles/themeColors";
 
 class WidgetSearch extends Component {
   render() {
@@ -10,7 +11,7 @@ class WidgetSearch extends Component {
       <>
         {config.hasSearch && (
           <WidgetContainer extraClass="search-container">
-            <WidgetTitle title={config.searchWidgetTitle} />
+            <WidgetTitle title={config.searchWidgetTitle} color={themeColors[4]} />
             <form className="margin-bottom-none" action="/search/" method="get">
               <div className="container-full row padding-none margin-bottom-none">
                 <div className="padding-none padding-right-half col-xs-10">
@@ -39,5 +40,4 @@ class WidgetSearch extends Component {
     );
   }
 }
-
 export default WidgetSearch;
