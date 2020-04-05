@@ -7,7 +7,7 @@ import PostDivider from "./PostDivider";
 import PostCategories from "./PostCategories";
 import "./Post.scss";
 import "../../../content/styles/code-highlight.scss";
-import PostLinkAds from "./PostLinkAds";
+import GoogleAds from "../GoogleAds";
 
 const Post = ({ postNode, config, slug }) => {
   const post = postNode.frontmatter;
@@ -35,7 +35,7 @@ const Post = ({ postNode, config, slug }) => {
           <PostCategories categories={post.categories} extraClass="block" iconColor="#555" />
           <PostTags tags={post.tags} extraClass="block padding-top-half" iconColor="#555" />
         </small>
-        <PostLinkAds />
+        <GoogleAds adFormat="link" adSlot="5431006373" />
       </div>
       <PostDivider />
       <Comment 
