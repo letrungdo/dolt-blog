@@ -52,7 +52,7 @@ const config = {
   // Use for Google custom search
   searchWidgetTitle: "Search",
   searchWidgetPlaceHolder: "Enter keyword",
-  searchEngineID: "013972051337549109334:8ixnhhoodtp",
+  searchEngineID: "partner-pub-1932696824172910:bvnk1ezmb1a",
   hasSearch: true,
   // Use for links widget
   sidebarSticky: true,

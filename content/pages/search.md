@@ -5,5 +5,5 @@ description: "Search results from Google Custom Search of TĐ.VN Blog"
 slug: "search"
 ---
 
-<script async src="https://cse.google.com/cse.js?cx=013972051337549109334:8ixnhhoodtp"></script>
+<script async src="https://cse.google.com/cse.js?cx=partner-pub-1932696824172910:bvnk1ezmb1a"></script>
 <div class="gcse-searchresults-only"></div>
