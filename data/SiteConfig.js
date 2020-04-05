@@ -22,7 +22,7 @@ const config = {
   postInCategories: "",
   postOnDate: "Posted on",
   // Use for comment
-  lazyLoadComments: false,
+  lazyLoadComments: true,
   disqusShortname: "doltblog", // Disqus shortname.
   btnLoadComments: "Load comments",
   // Use for home page
