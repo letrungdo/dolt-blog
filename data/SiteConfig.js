@@ -13,7 +13,7 @@ const config = {
   googleAnalyticsID: "UA-154318328-2", // GA tracking ID.
   postDefaultCategoryID: "", // Default category for posts.
   // Common for tag, category pages and widget
-  numberLatestPost: 8,
+  numberLatestPost: 6,
   postsPerPage: 6,
   // Use for post
   dateFromFormat: "YYYY-MM-DDTHH:mm:ssZ", // Date format used in the frontmatter.
