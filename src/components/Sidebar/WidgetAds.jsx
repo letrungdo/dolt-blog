@@ -13,7 +13,7 @@ const WidgetAds = () => (
       />
       <ins
         className="adsbygoogle"
-        style={{ display: "block" }}
+        style={{ display: "block", minHeight: 300 }}
         data-ad-client="ca-pub-1932696824172910"
         data-ad-slot="8582663769"
         data-ad-format="auto"
