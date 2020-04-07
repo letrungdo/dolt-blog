@@ -25,15 +25,13 @@ const Sidebar = ({ tagList, categoryList, latestPostEdges, links }) => {
 
       {tagList && <WidgetTag tagList={tagList} />}
 
-      {links && <WidgetLinks links={links} />}
+      <WidgetContainer extraClass="categories-container">
+        <GoogleAds adFormat="auto" adSlot="8582663769" />
+      </WidgetContainer>
 
-      {
-        <div className="position-sticky top-zero">
-          <WidgetContainer extraClass="categories-container">
-            <GoogleAds adFormat="auto" adSlot="8582663769" />
-          </WidgetContainer>
-        </div>
-      }
+      <div className="position-sticky top-zero">
+        {links && <WidgetLinks links={links} />}
+      </div>
     </aside>
   );
 };
