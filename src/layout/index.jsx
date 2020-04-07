@@ -29,6 +29,7 @@ const MainLayout = ({ children, hasFooter = true }) => (
       <meta name="description" content={siteConfig.siteDescription} />
       <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
       <script
+        data-ad-client={siteConfig.adsClientId}
         async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
       />

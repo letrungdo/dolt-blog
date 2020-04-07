@@ -1,4 +1,5 @@
 import React from "react";
+import siteConfig from "../../../data/SiteConfig";
 
 export default class GoogleAds extends React.Component {
   componentDidMount() {
@@ -11,7 +12,7 @@ export default class GoogleAds extends React.Component {
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}
-        data-ad-client="ca-pub-1932696824172910"
+        data-ad-client={siteConfig.adsClientId}
         data-ad-slot={adSlot}
         data-ad-format={adFormat}
         data-full-width-responsive="true"

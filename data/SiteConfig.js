@@ -12,6 +12,7 @@ const config = {
   siteFBAppID: "2944501422238707", // FB Application ID for using app insights
   googleAnalyticsID: "UA-154318328-2", // GA tracking ID.
   postDefaultCategoryID: "", // Default category for posts.
+  adsClientId: "ca-pub-1932696824172910",
   // Common for tag, category pages and widget
   numberLatestPost: 6,
   postsPerPage: 6,
