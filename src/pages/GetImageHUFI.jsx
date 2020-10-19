@@ -142,7 +142,7 @@ class GetImageHUFI extends React.Component {
                   style={{ display: "none" }}
                   key={mssv}
                   alt="hufi"
-                  src={`http://sinhvien.hufi.edu.vn/GetImage.aspx?MSSV=${mssv}`}
+                  src={`http://docsv.hufi.edu.vn/GetImage.aspx?MSSV=${mssv}`}
                   width={135}
                   height={180}
                   onLoad={(ev) => {
