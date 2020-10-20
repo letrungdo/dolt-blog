@@ -4,10 +4,10 @@ import { graphql } from "gatsby";
 import Layout from "../layout";
 import MainContainer from "../components/MainContainer/MainContainer";
 import Sidebar from "../components/Sidebar/Sidebar";
-import SEO from "../components/SEO/SEO";
 import { getPostList, getTagCategoryList } from "../utils/helpers";
 import config from "../../data/SiteConfig";
 import GoogleAds from "../components/GoogleAds";
+import cover from "../../content/images/2020/get-avatar-hufi.png";
 
 class GetImageHUFI extends React.Component {
   Course = [
@@ -109,8 +109,19 @@ class GetImageHUFI extends React.Component {
         <div className="index-container">
           <Helmet
             title={`Xem ảnh đại diện sinh viên HUFI - ${config.siteTitle}`}
-          />
-          <SEO />
+          >
+            <meta
+              property="og:title"
+              content={`Xem ảnh đại diện sinh viên HUFI - ${config.siteTitle}`}
+            />
+            <meta
+              property="og:description"
+              content="Xem ảnh đại diện sinh viên HUFI, Quét toàn bộ ảnh sinh viên HUFI theo khoa."
+            />
+            <meta name="image" content={cover} />
+            <meta property="og:image" content={cover} />
+            <meta property="og:type" content="article" />
+          </Helmet>
           <MainContainer sidebar={sidebar}>
             <h2>Quét ảnh sinh viên HUFI theo khoa</h2>
             <p>
