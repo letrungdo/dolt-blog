@@ -110,6 +110,7 @@ const config = {
   // Use for navigation
   navTitle: "TĐ.VN",
   navLinks: [
+    { label: "Tools", url: "/tools" },
     { label: "About", url: "/about" },
     { label: "Contact", url: "/contact" },
   ],

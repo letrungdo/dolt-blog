@@ -5,5 +5,5 @@ description: "For information about TĐ.VN Blog, technical problems with the web
 slug: "contact"
 ---
 
-- Email: letrdo@gmail.com
-- Phone: +84963273900
+- Phone: [0963273900](tel:0963273900)
+- Email: [letrdo@gmail.com](mailto:letrdo@gmail.com)
