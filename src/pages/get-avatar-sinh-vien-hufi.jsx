@@ -183,6 +183,7 @@ class GetImageHUFI extends React.Component {
                           "img-ok"
                         ).length,
                       });
+                      this.errorCount = 0;
                     }}
                     onError={() => {
                       this.setState({
