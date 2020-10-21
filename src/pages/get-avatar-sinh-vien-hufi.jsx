@@ -215,8 +215,8 @@ class GetImageHUFI extends React.Component {
                 ))}
               </div>
             </div>
+            <GoogleAds adFormat="auto" adSlot="7887711263" />
           </MainContainer>
-          <GoogleAds adFormat="auto" adSlot="7887711263" />
           {resultCount > 0 ? (
             <div
               className="fload-button"
