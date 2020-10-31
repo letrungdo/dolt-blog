@@ -4,7 +4,7 @@ title: Ngân hàng câu hỏi trắc nghiệm sinh hoạt đầu khóa HUFI
 date: 2019-08-15T20:31:02+07:00
 author: letrungdo
 slug: "ngan-hang-cau-hoi-trac-nghiem-sinh-hoat-dau-khoa-hufi"
-cover: "../images/2019/08/ngan-hang-cau-hoi-shdk.png"
+cover: "../../images/2019/08/ngan-hang-cau-hoi-shdk.png"
 keywords: "trắc nghiệm sinh hoạt đầu khóa"
 categories:
   - HUFI

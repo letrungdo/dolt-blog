@@ -1,11 +1,11 @@
 ---
 template: "post"
-title: How to Deploy Nextjs to CenOS Apache. Apache to Nginx Webserver
+title: How to Deploy Nextjs to CentOS Apache. Apache to Nginx Webserver
 date: 2020-10-31T12:15:00+07:00
 author: letrungdo
-slug: "how-to-deploy-nextjs-to-cenos-apache"
-cover: "../images/2020/10/nextjs-cenos-nginx.png"
-keywords: "Deploy Nextjs to CenOS, CenOS Nginx"
+slug: "how-to-deploy-nextjs-to-centos-apache"
+cover: "../../images/2020/10/nextjs-centos-nginx.png"
+keywords: "Deploy Nextjs to CentOS, CentOS Nginx"
 categories:
   - Nextjs
 ---
@@ -265,7 +265,7 @@ http {
 }
 ```
 
-#### Tip: How can I perform a git pull without re-entering password?
+> Tip: How can I perform a git pull without re-entering password?
 ```bash
 > git config credential.helper store 
 ```
