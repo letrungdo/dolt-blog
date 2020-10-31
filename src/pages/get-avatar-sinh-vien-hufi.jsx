@@ -121,10 +121,6 @@ class GetImageHUFI extends React.Component {
             <meta name="image" content={cover} />
             <meta property="og:image" content={cover} />
             <meta property="og:type" content="article" />
-            <meta
-              httpEquiv="Content-Security-Policy"
-              content="upgrade-insecure-requests"
-            />
           </Helmet>
           <MainContainer sidebar={sidebar}>
             <h2>Quét ảnh sinh viên HUFI theo khoa</h2>
@@ -133,8 +129,22 @@ class GetImageHUFI extends React.Component {
               thắc mắc hay đóng góp ý kiến xin gửi về địa chỉ mail ở trang
               Contact.
             </p>
-
-            <div className="">
+            <p>
+              Hiện tại trang chỉ hoạt động trên PC. Điện thoại không thể get
+              hình do bị chặn http. Trên PC các bạn làm theo cách sau sẽ get
+              được hình.
+            </p>
+            <img
+              src="/media/2020/site-setting.png"
+              className="aligncenter size-full"
+              alt="site setting"
+            />
+            <img
+              src="/media/2020/allow-mix-content.png"
+              className="aligncenter size-full"
+              alt="allow mix content"
+            />
+            <div className="margin-top">
               <select
                 onChange={(ev) => {
                   this.setState({
