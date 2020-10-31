@@ -9,6 +9,11 @@ keywords: "Deploy Nextjs to CenOS, CenOS Nginx"
 categories:
   - Nextjs
 ---
+Currently there are many automated deploy support services for Nextjs such as Vercel, Netlify, AWS...
+But vercel cannot deploy if the nextjs custom server. Netlify does not have basic authen. There is a fee for AWS.
+
+For the purpose of serving product testing before release. I will guide you to deploy nextjs to your own server.
+
 ## A. Static HTML Export => Apache
 If build using next export, copy all files inside out directory to /var/www/html
 
