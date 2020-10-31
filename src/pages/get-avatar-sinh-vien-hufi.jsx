@@ -121,6 +121,10 @@ class GetImageHUFI extends React.Component {
             <meta name="image" content={cover} />
             <meta property="og:image" content={cover} />
             <meta property="og:type" content="article" />
+            <meta
+              httpEquiv="Content-Security-Policy"
+              content="upgrade-insecure-requests"
+            />
           </Helmet>
           <MainContainer sidebar={sidebar}>
             <h2>Quét ảnh sinh viên HUFI theo khoa</h2>
