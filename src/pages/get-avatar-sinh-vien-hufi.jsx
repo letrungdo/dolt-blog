@@ -7,7 +7,7 @@ import Sidebar from "../components/Sidebar/Sidebar";
 import { getPostList, getTagCategoryList } from "../utils/helpers";
 import config from "../../data/SiteConfig";
 import GoogleAds from "../components/GoogleAds";
-import cover from "../../content/images/2020/get-avatar-hufi.png";
+import cover from "../../content/images/2020/10/get-avatar-hufi.png";
 
 class GetImageHUFI extends React.Component {
   Course = [

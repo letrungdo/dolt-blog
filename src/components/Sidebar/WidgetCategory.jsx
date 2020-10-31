@@ -36,9 +36,7 @@ const WidgetCategory = ({ categoryList }) => (
           to={getCategoryPath(category)}
           className="flex align-items-center border-bottom border-color-light-grey padding-top-half padding-bottom-half widget_categories"
         >
-          <IndexWrapper color={themeColors[index]}>
-            {index + 1}
-          </IndexWrapper>
+          <IndexWrapper color={themeColors[index]} />
           <CategoryWrapper color={themeColors[index]}>
             <span className="category-text">{category}</span>
           </CategoryWrapper>
