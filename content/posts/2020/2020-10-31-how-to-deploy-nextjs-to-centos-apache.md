@@ -144,7 +144,7 @@ server {
     }
 ```
 ```bash
-> sudo systemctl nginx restart
+> sudo systemctl restart nginx
 ```
 
 ### 4. Keep your application alive forever
