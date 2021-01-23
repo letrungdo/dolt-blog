@@ -1,51 +1,47 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { graphql } from "gatsby";
-import Layout from "../layout";
-import MainContainer from "../components/MainContainer/MainContainer";
-import Sidebar from "../components/Sidebar/Sidebar";
-import { getPostList, getTagCategoryList } from "../utils/helpers";
+import cover from "../../content/images/2020/10/get-avatar-hufi.png";
 import config from "../../data/SiteConfig";
 import GoogleAds from "../components/GoogleAds";
-import cover from "../../content/images/2020/10/get-avatar-hufi.png";
+import MainContainer from "../components/MainContainer/MainContainer";
+import Sidebar from "../components/Sidebar/Sidebar";
+import Layout from "../layout";
+import { getPostList, getTagCategoryList } from "../utils/helpers";
 
 class GetImageHUFI extends React.Component {
   Course = [
-    ["02DHTH", 2001110000],
+    ["02DHTH", 2001110],
 
-    ["03DHTH", 2001120000],
-    ["03DHQT", 2013120000],
+    ["03DHTH", 2001120],
+    ["03DHQT", 2013120],
 
-    ["04DHTH", 2001130000],
-    ["04DHQT", 2013130000],
-    ["04DHDT", 2002130000],
+    ["04DHTH", 2001130],
+    ["04DHQT", 2013130],
+    ["04DHDT", 2002130],
 
-    ["05DHTH", 2001140000],
-    ["05DHQT", 2013140000],
+    ["05DHTH", 2001140],
+    ["05DHQT", 2013140],
 
-    ["06DHTH", 2001150000],
-    ["06DHKT", 2007150000],
-    ["06DHNH", 2023150000],
+    ["06DHTH", 2001150],
+    ["06DHKT", 2007150],
+    ["06DHNH", 2023150],
 
-    ["07DHTH", 2001160000],
-    ["07DHDT", 2002160000],
+    ["07DHTH", 2001160],
+    ["07DHDT", 2002160],
 
-    ["08DHTH", 2001170000],
-    ["08DHQT", 2013170000],
-    ["08DHNH", 2023170000],
-    ["08DHDB", 2022170000],
-    ["08DHKT", 2007170000],
+    ["08DHTH", 2001170],
+    ["08DHQT", 2013170],
+    ["08DHNH", 2023170],
+    ["08DHDB", 2022170],
+    ["08DHKT", 2007170],
 
-    ["09DHTH", 2001180000],
-    ["09DHKT", 2007180000],
+    ["09DHTH", 2001180],
+    ["09DHKT", 2007180],
 
-    ["10DHTH", 2001190000],
-    ["10DHQTDVNH", 2030190000],
-
-    ["11DHTH", 2001200000],
-    ["11DHDB", 2022202000],
-    ["11DHKT", 2007206000],
-    ["11DHQTDVLH", 2024203000],
+    ["10DHTH", 2001190],
+    ["11DHTH", 2001200],
+    ["11DHDB", 2022202],
+    ["11DHKT", 2007206],
   ];
 
   errorCount = 0;
@@ -54,17 +50,21 @@ class GetImageHUFI extends React.Component {
     super(props);
     this.state = {
       ls: [],
-      mssvStart: 2001120000,
+      mssvStart: "2001120",
       numberScan: 100,
       resultCount: 0,
     };
     this.cRef = React.createRef();
   }
 
+  validMSSV = (mssv) => {
+    return mssv && mssv.length === 7 && /^[0-9]\d*$/.test(mssv);
+  };
+
   getImage = () => {
     const { numberScan, mssvStart } = this.state;
-    if (!(mssvStart + 1 > 1)) {
-      alert("MSSV không hợp lệ!");
+    if (!this.validMSSV(mssvStart)) {
+      alert("Mã khoá không hợp lệ!");
       return;
     }
     if (!(numberScan + 1 > 1)) {
@@ -76,7 +76,7 @@ class GetImageHUFI extends React.Component {
       return;
     }
     let c = 0;
-    let mssv = mssvStart;
+    let mssv = Number(`${mssvStart}000`);
     const ls = [];
     while (c < numberScan) {
       ls.push(mssv);
@@ -123,17 +123,24 @@ class GetImageHUFI extends React.Component {
             <meta property="og:type" content="article" />
           </Helmet>
           <MainContainer sidebar={sidebar}>
-            <h2>Quét ảnh sinh viên HUFI theo khoa</h2>
+            <h2>Quét ảnh sinh viên HUFI theo khoá</h2>
             <p>
               Trang này dùng dữ liệu public lấy từ sinhvien.hufi.edu.vn. Mọi
               thắc mắc hay đóng góp ý kiến xin gửi về địa chỉ mail ở trang
               Contact.
             </p>
+            <h3>Cách dùng:</h3>
+            <p>
+              Nếu không tìm thấy khoá học của bạn trong danh sách thì chỉ cần
+              nhập 7 số đầu của MSSV.
+              <br />
+              Vd: MSSV của bạn là 2001200111 thì sẽ nhập là 2001200
+            </p>
             <div className="margin-top">
               <select
                 onChange={(ev) => {
                   this.setState({
-                    mssvStart: Number(ev.currentTarget.value),
+                    mssvStart: ev.currentTarget.value,
                   });
                 }}
               >
@@ -148,10 +155,10 @@ class GetImageHUFI extends React.Component {
                   style={{ minWidth: 130 }}
                   type="number"
                   value={mssvStart}
-                  placeholder="MSSV bắt đầu"
+                  placeholder="Mã khoá: (7 số đầu của MSSV)"
                   onChange={(ev) => {
                     this.setState({
-                      mssvStart: Number(ev.target.value),
+                      mssvStart: ev.target.value,
                     });
                   }}
                 />
