@@ -129,21 +129,6 @@ class GetImageHUFI extends React.Component {
               thắc mắc hay đóng góp ý kiến xin gửi về địa chỉ mail ở trang
               Contact.
             </p>
-            <p>
-              Hiện tại trang chỉ hoạt động trên PC. Điện thoại không thể get
-              hình do bị chặn http. Trên PC các bạn làm theo cách sau sẽ get
-              được hình.
-            </p>
-            <img
-              src="/media/2020/site-setting.png"
-              className="aligncenter size-full"
-              alt="site setting"
-            />
-            <img
-              src="/media/2020/allow-mix-content.png"
-              className="aligncenter size-full"
-              alt="allow mix content"
-            />
             <div className="margin-top">
               <select
                 onChange={(ev) => {
@@ -197,7 +182,7 @@ class GetImageHUFI extends React.Component {
                     style={{ display: "none" }}
                     key={mssv}
                     alt="hufi"
-                    src={`http://docsv.hufi.edu.vn/GetImage.aspx?MSSV=${mssv}`}
+                    src={`https://docsv.hufi.edu.vn/GetImage.aspx?MSSV=${mssv}`}
                     width={145}
                     onLoad={(ev) => {
                       const target = ev.currentTarget;
