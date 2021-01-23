@@ -214,7 +214,7 @@ class GetImageHUFI extends React.Component {
                           ls: ls.slice(0, ls.indexOf(mssv)),
                         });
                         this.errorCount = 0;
-                        alert("Stopped!");
+                        alert(`Tìm thấy ${resultCount} sinh viên!`);
                       }
                     }}
                   />
