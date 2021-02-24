@@ -34,6 +34,10 @@ Nginx does not start on its own. To get Nginx running, type:
 ```bash
 > sudo systemctl start nginx
 ```
+Install Nodejs
+```bash
+> sudo yum install nodejs
+```
 #### Handling error when start nginx
 The error basically means that some other application is using those default ports. You can check that using:
 ```bash
@@ -157,6 +161,10 @@ Make sure you've navigated into the /website project directory:
 ```bash
 > cd website
 > pm2 start --name=renew npm -- start
+```
+or run with custom script in package.json
+```bash
+> pm2 start npm --name=renew -- run "script-name"
 ```
 Display the new build:
 ```bash
