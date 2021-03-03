@@ -16,4 +16,10 @@ You need to call window.open as a direct result of a onclick event (user event).
 
 ## 2. Invalid date in safari
 new Date("YYYY.MM.DD HH:mm") // doesn't work in safari
+new Date("MM.DD.YYYY") // doesn't work in safari
+
 new Date("MM/DD/YYYY HH:mm:ss") // work in safari
+new Date("MM/DD/YYYY") // work in safari
+new Date("YYYY/MM/DD") // work in safari
+
+
