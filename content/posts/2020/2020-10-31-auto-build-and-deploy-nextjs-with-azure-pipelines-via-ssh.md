@@ -7,8 +7,9 @@ slug: "auto-build-and-deploy-nextjs-with-azure-pipelines-via-ssh"
 cover: "../../images/2020/10/azure-pipelines-ssh.png"
 keywords: "Deploy Nextjs with Azure Pipelines"
 categories:
-  - Nextjs
   - DevOps
+tags:
+  - Nextjs
 ---
 
 In the [previous post](/how-to-deploy-nextjs-to-centos-apache), I guided how to deploy nextjs to centos.

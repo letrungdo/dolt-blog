@@ -7,6 +7,8 @@ slug: "how-to-deploy-nextjs-to-centos-apache"
 cover: "../../images/2020/10/nextjs-centos-nginx.png"
 keywords: "Deploy Nextjs to CentOS, CentOS Nginx"
 categories:
+  - DevOps
+tags:
   - Nextjs
 ---
 Currently there are many automated deploy support services for Nextjs such as Vercel, Netlify, AWS...
@@ -21,6 +23,10 @@ But next export will pretty much limit the features that nextjs brings.
 So I will guide you to configure Nginx to run the next build.
 
 ## B. Servervside renders at runtime => Nginx
+Login to ssh:
+```bash
+> ssh <USER>@<IP> -p<PORT>
+```
 ### 1. Config Nginx
 To add the CentOS EPEL repository, open terminal and use the following command:
 ```bash
@@ -229,11 +235,8 @@ http {
 
     geo $authentication {
         default "Authentication required";
-        113.161.87.206 "off";
-        118.69.77.23 "off";
-        118.69.72.16 "off";
         192.168.1.56 "off";
-        14.241.224.70 "off";
+        ....[whitelist IP]
     }
 
     server {
