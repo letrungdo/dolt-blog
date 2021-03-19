@@ -8,7 +8,13 @@ import config from "../../../data/SiteConfig";
 import GoogleAds from "../GoogleAds";
 import WidgetContainer from "./WidgetContainer";
 
-const Sidebar = ({ tagList, categoryList, latestPostEdges, links }) => {
+const Sidebar = ({
+  tagList,
+  categoryList,
+  latestPostEdges,
+  links,
+  postInCategory,
+}) => {
   return (
     <aside
       className={`sidebar-container width-full ${
@@ -17,7 +23,12 @@ const Sidebar = ({ tagList, categoryList, latestPostEdges, links }) => {
     >
       <WidgetSearch />
 
-      {categoryList && <WidgetCategory categoryList={categoryList} />}
+      {categoryList && (
+        <WidgetCategory
+          categoryList={categoryList}
+          postInCategory={postInCategory}
+        />
+      )}
 
       {latestPostEdges && (
         <WidgetLatestPosts latestPostEdges={latestPostEdges} />

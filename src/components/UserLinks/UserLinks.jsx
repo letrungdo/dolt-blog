@@ -5,12 +5,13 @@ class UserLinks extends Component {
   getLinkElements() {
     const { userLinks } = this.props.config;
     const { labeled } = this.props;
-    return userLinks.map(link => (
-      <button key={link.label} href={link.url}>
+    return userLinks.map((link) => (
+      <button type="button" key={link.label} href={link.url}>
         {labeled ? link.label : ""}
       </button>
     ));
   }
+
   render() {
     const { userLinks } = this.props.config;
     if (!userLinks) {

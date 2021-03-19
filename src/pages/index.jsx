@@ -1,39 +1,45 @@
+import { graphql } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
-import { graphql } from "gatsby";
-import Layout from "../layout";
+import config from "../../data/SiteConfig";
 import Header from "../components/Header/Header";
 import MainContainer from "../components/MainContainer/MainContainer";
-import Sidebar from "../components/Sidebar/Sidebar";
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
-import { getPostList, getTagCategoryList } from "../utils/helpers";
-import config from "../../data/SiteConfig";
+import Sidebar from "../components/Sidebar/Sidebar";
+import Layout from "../layout";
+import {
+  getPostList,
+  getTagCategoryList,
+  getPostInCategory,
+} from "../utils/helpers";
 
 class Index extends React.Component {
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     const postList = getPostList(postEdges);
     const { tagList, categoryList } = getTagCategoryList(postList);
+    const postInCategory = getPostInCategory(postList, categoryList);
     const content = (
-      <PostListing 
-        postList={postList} 
-        hasThumbnail={config.homeHasThumbnail} 
-        hasLoadmore={config.homeHasLoadmore} 
+      <PostListing
+        postList={postList}
+        hasThumbnail={config.homeHasThumbnail}
+        hasLoadmore={config.homeHasLoadmore}
         postsPerPage={config.postsPerPage}
         numberLoadmore={config.numberLoadmore}
         btnLoadmore={config.btnLoadmore}
       />
     );
     const sidebar = (
-      <Sidebar 
-        tagList={tagList} 
-        categoryList={categoryList} 
+      <Sidebar
+        postInCategory={postInCategory}
+        tagList={tagList}
+        categoryList={categoryList}
         links={config.sidebarLinks}
       />
     );
 
-    const headerTitle = config.homeHeader 
+    const headerTitle = config.homeHeader
       ? `${config.siteTitle} - ${config.homeHeader}`
       : `${config.siteTitle}`;
 
@@ -57,15 +63,8 @@ export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
       limit: 2000
-      sort: { 
-        fields: [fields___date], 
-        order: DESC 
-      }
-      filter: { 
-        frontmatter: { 
-          template: { eq: "post" } 
-        } 
-      }
+      sort: { fields: [fields___date], order: DESC }
+      filter: { frontmatter: { template: { eq: "post" } } }
     ) {
       edges {
         node {

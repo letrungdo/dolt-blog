@@ -2,10 +2,14 @@ import React, { Component } from "react";
 import Article from "./Article";
 
 class PostListing extends Component {
-  state = {
-    maxPosts: this.props.hasLoadmore && this.props.postsPerPage
-      ? this.props.postsPerPage
-      : this.props.postList.length
+  constructor(props) {
+    super(props);
+    this.state = {
+      maxPosts:
+        this.props.hasLoadmore && this.props.postsPerPage
+          ? this.props.postsPerPage
+          : this.props.postList.length,
+    };
   }
 
   handleLoadmore = () => {
@@ -14,9 +18,9 @@ class PostListing extends Component {
     if (!hasLoadmore) return;
 
     this.setState((prevState) => ({
-      maxPosts: prevState.maxPosts + numberLoadmore
+      maxPosts: prevState.maxPosts + numberLoadmore,
     }));
-  }
+  };
 
   render() {
     const { postList, hasThumbnail = true, hasLoadmore = false } = this.props;
@@ -26,24 +30,31 @@ class PostListing extends Component {
       <>
         <div className="post-listing-container">
           {postList.map((post, index) => {
-            if (index < maxPosts) return (
-              <Article key={post.title} post={post} hasThumbnail={hasThumbnail} />
-            )
+            if (index < maxPosts)
+              return (
+                <Article
+                  key={post.title}
+                  post={post}
+                  hasThumbnail={hasThumbnail}
+                />
+              );
 
             return null;
           })}
         </div>
         {hasLoadmore && maxPosts < postList.length && (
-          <div 
-            className="loadmore-wrapper margin-top padding-top-half text-center"
-          >
-            <button className="btn-primary" onClick={this.handleLoadmore}>
+          <div className="loadmore-wrapper margin-top padding-top-half text-center">
+            <button
+              type="button"
+              className="btn-primary"
+              onClick={this.handleLoadmore}
+            >
               {this.props.btnLoadmore}
             </button>
           </div>
         )}
       </>
-    )
+    );
   }
 }
 

@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import WidgetContainer from './WidgetContainer';
-import WidgetTitle from './WidgetTitle';
-import config from '../../../data/SiteConfig';
+import React, { Component } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import WidgetContainer from "./WidgetContainer";
+import WidgetTitle from "./WidgetTitle";
+import config from "../../../data/SiteConfig";
 import { themeColors } from "../../styles/themeColors";
 
 class WidgetSearch extends Component {
@@ -11,7 +11,10 @@ class WidgetSearch extends Component {
       <>
         {config.hasSearch && (
           <WidgetContainer extraClass="search-container">
-            <WidgetTitle title={config.searchWidgetTitle} color={themeColors[4]} />
+            <WidgetTitle
+              title={config.searchWidgetTitle}
+              color={themeColors[4]}
+            />
             <form className="margin-bottom-none" action="/search/" method="get">
               <div className="container-full row padding-none margin-bottom-none">
                 <div className="padding-none padding-right-half col-xs-10">
@@ -27,8 +30,8 @@ class WidgetSearch extends Component {
                 <div className="padding-none padding-left-half col-xs-2">
                   <button type="submit" className="btn btn-primary">
                     <FontAwesomeIcon
-                      icon={['fas', 'search']}
-                      style={{ color: '#FFFFFF' }}
+                      icon={["fas", "search"]}
+                      style={{ color: "#FFFFFF" }}
                     />
                   </button>
                 </div>

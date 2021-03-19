@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
+import config from "../../../data/SiteConfig";
 import { themeColors } from "../../styles/themeColors";
+import { getCategoryPath } from "../../utils/helpers";
 import AutoLink from "../AutoLink/AutoLink";
 import WidgetContainer from "./WidgetContainer";
 import WidgetTitle from "./WidgetTitle";
-import { getCategoryPath } from "../../utils/helpers";
-import config from "../../../data/SiteConfig";
 
 const CategoryWrapper = styled.div`
   &:hover .category-text {
@@ -22,11 +22,13 @@ const IndexWrapper = styled.div`
   text-align: center;
   padding: 3px;
   font-size: 1.2rem;
+  font-weight: bold;
   line-height: 2rem;
   color: white;
   background-color: ${(props) => props.color};
 `;
-const WidgetCategory = ({ categoryList }) => (
+
+const WidgetCategory = ({ categoryList, postInCategory }) => (
   <WidgetContainer extraClass="categories-container">
     <WidgetTitle title={config.categoryWidgetTitle} color={themeColors[6]} />
     <div>
@@ -36,7 +38,9 @@ const WidgetCategory = ({ categoryList }) => (
           to={getCategoryPath(category)}
           className="flex align-items-center border-bottom border-color-light-grey padding-top-half padding-bottom-half widget_categories"
         >
-          <IndexWrapper color={themeColors[index]} />
+          <IndexWrapper color={themeColors[index]}>
+            {postInCategory?.[category]}
+          </IndexWrapper>
           <CategoryWrapper color={themeColors[index]}>
             <span className="category-text">{category}</span>
           </CategoryWrapper>

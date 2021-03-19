@@ -14,5 +14,5 @@ const WidgetTag = ({ tagList }) => (
       ))}
     </div>
   </WidgetContainer>
-)
+);
 export default WidgetTag;

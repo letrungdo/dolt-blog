@@ -6,7 +6,8 @@ const config = {
   siteLogo: "/logos/logo-1024x1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://xn--t-lia.vn", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: "Blog học lập trình Xamarin Forms, React, Chia sẻ tài liệu học tập.", // Website description used for RSS feeds/meta description tag.
+  siteDescription:
+    "Blog học lập trình Xamarin Forms, React, Chia sẻ tài liệu học tập.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteLang: "en",
   siteFBAppID: "2944501422238707", // FB Application ID for using app insights
@@ -34,9 +35,10 @@ const config = {
   homeHeader: "Home",
   // Use for page
   pathPrefixPagination: "/page", // Prefix path for pagination
-  pageNotFoundTitle: "Page Not Found", // 
+  pageNotFoundTitle: "Page Not Found", //
   pageNotFoundBtn: "Back to our site",
-  pageNotFoundContent: "Looks like you've followed a broken link or entered a URL that doesn't exist on this site.",
+  pageNotFoundContent:
+    "Looks like you've followed a broken link or entered a URL that doesn't exist on this site.",
   // Use for tag
   pathPrefixTag: "/tag", // Prefix path for tags
   tagHeader: "Posts tagged as", // use in header of tag-template page
@@ -60,15 +62,15 @@ const config = {
   sidebarLinks: [
     {
       label: "My CV",
-      url: "https://cv.xn--t-lia.vn/"
+      url: "https://cv.xn--t-lia.vn/",
     },
     {
       label: "My Shop",
-      url: "https://shop.xn--t-lia.vn/"
+      url: "https://shop.xn--t-lia.vn/",
     },
     {
       label: "My Blog",
-      url: "https://xn--t-lia.vn/"
+      url: "https://xn--t-lia.vn/",
     },
   ],
   // Use for user info
@@ -76,35 +78,35 @@ const config = {
   userEmail: "letrdo@gmail.com", // Email used for RSS feed"s author segment
   userTwitter: "letrungdo", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Ho Chi Minh City, Vietnam", // User location to display in the author segment.
-  userAvatar: "https://gravatar.com/avatar/cc508a89f5901e9f8e39a6ffee6f7319?size=300", // User avatar to display in the author segment.
-  userDescription:
-    "Software Engineer, Xamarin Forms, React Developer", // User description to display in the author segment.
+  userAvatar:
+    "https://gravatar.com/avatar/cc508a89f5901e9f8e39a6ffee6f7319?size=300", // User avatar to display in the author segment.
+  userDescription: "Software Engineer, Xamarin Forms, React Developer", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
       label: "Email",
       url: "mailto:letrdo@gmail.com",
-      iconClassName: "far envelope"
+      iconClassName: "far envelope",
     },
     {
       label: "Website",
       url: "https://xn--t-lia.vn/",
-      iconClassName: "fas globe"
+      iconClassName: "fas globe",
     },
     {
       label: "Twitter",
       url: "https://twitter.com/letrungdo",
-      iconClassName: "fab twitter"
+      iconClassName: "fab twitter",
     },
-    { 
-      label: "Facebook", 
-      url: "https://www.facebook.com/DoMemory/", 
-      iconClassName: "fab facebook-f" 
+    {
+      label: "Facebook",
+      url: "https://www.facebook.com/DoMemory/",
+      iconClassName: "fab facebook-f",
     },
-    { 
-      label: "Linkedin", 
-      url: "https://www.linkedin.com/in/letrungdo/", 
-      iconClassName: "fab linkedin-in"
+    {
+      label: "Linkedin",
+      url: "https://www.linkedin.com/in/letrungdo/",
+      iconClassName: "fab linkedin-in",
     },
   ],
   // Use for navigation
@@ -116,30 +118,30 @@ const config = {
   ],
   // Use for footer
   socialLinks: [
-    { 
+    {
       label: "GitHub",
       url: "https://github.com/letrungdo",
-      iconClassName: "fab github"
+      iconClassName: "fab github",
     },
-    { 
-      label: "Facebook", 
-      url: "https://www.facebook.com/DoMemory/", 
-      iconClassName: "fab facebook-f"
+    {
+      label: "Facebook",
+      url: "https://www.facebook.com/DoMemory/",
+      iconClassName: "fab facebook-f",
     },
-    { 
-      label: "Linkedin", 
-      url: "https://www.linkedin.com/in/letrungdo/", 
-      iconClassName: "fab linkedin-in"
+    {
+      label: "Linkedin",
+      url: "https://www.linkedin.com/in/letrungdo/",
+      iconClassName: "fab linkedin-in",
     },
     {
       label: "Twitter",
       url: "https://twitter.com/letrungdo",
-      iconClassName: "fab twitter"
+      iconClassName: "fab twitter",
     },
     {
       label: "RSS",
       url: "https://xn--t-lia.vn/rss.xml",
-      iconClassName: "fas rss"
+      iconClassName: "fas rss",
     },
   ],
   footerLinks: [
@@ -150,10 +152,11 @@ const config = {
     { label: "Privacy Policy", url: "/privacy" },
     { label: "Sitemap", url: "https://xn--t-lia.vn/sitemap.xml" },
   ],
-  copyright: "Copyright © 2020 Le Trung Do. Unless otherwise noted, all code MIT license.",
+  copyright:
+    "Copyright © 2020 Le Trung Do. Unless otherwise noted, all code MIT license.",
   // Use for manifest
   themeColor: "#4f4f4f", // Used for setting manifest and progress theme colors.
-  backgroundColor: "#FFF" // Used for setting manifest background color.
+  backgroundColor: "#FFF", // Used for setting manifest background color.
 };
 
 // Validate

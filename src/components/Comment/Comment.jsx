@@ -2,15 +2,18 @@ import React, { Component } from "react";
 import Disqus from "./Disqus";
 
 class Comment extends Component {
-  state = {
-    isShow: !this.props.lazyload
+  constructor(props) {
+    super(props);
+    this.state = {
+      isShow: !this.props.lazyload,
+    };
   }
 
   handleClick = () => {
-    this.setState(prevState => ({
-      isShow: !prevState.isShow
+    this.setState((prevState) => ({
+      isShow: !prevState.isShow,
     }));
-  }
+  };
 
   render() {
     const { extraClass, postNode, btnLoadComments } = this.props;
@@ -18,16 +21,18 @@ class Comment extends Component {
     return (
       <div className={`comment-container text-center ${extraClass}`}>
         {!this.state.isShow && (
-          <button className="btn-primary" onClick={this.handleClick}>
+          <button
+            type="button"
+            className="btn-primary"
+            onClick={this.handleClick}
+          >
             {btnLoadComments}
           </button>
         )}
 
-        {this.state.isShow && (
-          <Disqus postNode={postNode} />
-        )}
+        {this.state.isShow && <Disqus postNode={postNode} />}
       </div>
-    )
+    );
   }
 }
 
