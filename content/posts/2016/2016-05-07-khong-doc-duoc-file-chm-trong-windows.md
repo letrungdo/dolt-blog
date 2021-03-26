@@ -19,10 +19,10 @@ categories:
 
 <ul style="text-align: justify;">
   <li>
-    CHM là viết tắt của <a href="http://en.wikipedia.org/wiki/Microsoft_Compiled_HTML_Help">Compiled HTML</a> và là một định dạng giới thiệu bởi Microsoft được sử dụng bởi các ứng dụng Windows để cung cấp tài liệu hướng dẫn.
+    CHM là viết tắt của <a href="http://en.wikipedia.org/wiki/Microsoft_Compiled_HTML_Help" target="_blank" rel="nofollow noopener noreferrer">Compiled HTML</a> và là một định dạng giới thiệu bởi Microsoft được sử dụng bởi các ứng dụng Windows để cung cấp tài liệu hướng dẫn.
   </li>
   <li>
-    CHM là một tài liệu tập hợp các trang HTML, nén và đóng gói như một tập tin duy nhất. Các tập tin được nén bằng <a href="http://en.wikipedia.org/wiki/LZX_(algorithm)">thuật toán LZX</a> . Tài liệu CHM cũng chứa các tập tin bổ sung như chỉ mục tìm kiếm trước khi xây dựng, bảng nội dung cấu trúc v.v.
+    CHM là một tài liệu tập hợp các trang HTML, nén và đóng gói như một tập tin duy nhất. Các tập tin được nén bằng <a href="http://en.wikipedia.org/wiki/LZX_(algorithm)" target="_blank" rel="nofollow noopener noreferrer">thuật toán LZX</a> . Tài liệu CHM cũng chứa các tập tin bổ sung như chỉ mục tìm kiếm trước khi xây dựng, bảng nội dung cấu trúc v.v.
   </li>
 </ul>
 
@@ -85,7 +85,7 @@ categories:
 </h3>
 
 <p style="text-align: justify;">
-  Do tập tin hhctrl.ocx ở thư mục System32 bị lỗi hoặc bị cài đè lên file gốc của Windows bởi những phần mềm khác với phiên bản không tương thích. Để khắc phục, bạn làm theo các bước sau: tải về tập tin hhctrl.ocx tại trang Web: <a href="http://webketoan.com/redirect.php?http://freeware.it-mate.co.uk/?Cat=OCX_Files" target="_blank" rel="nofollow noopener" data-proxy-href="proxy.php?link=http%3A%2F%2Ffreeware.it-mate.co.uk%2F%3FCat%3DOCX_Files&hash=57dce8fd8960fb98be58d7f605cedae6">http://freeware.it-mate.co.uk/?Cat=OCX_Files</a>. Hoặc tìm máy có cùng phiên bản windows khác để lấy file hhctrl.oxc<br /> - Sao chép tập tin này vào thư mục C:windowssystem32.<br /> Trong hộp thoại Run, bạn gõ dòng lệnh “regsvr32 c:windowssystem32hhctrl.ocx” rồi nhấn OK, bạn phải thấy được bản thông báo đăng ký thành công, nếu không thành công, bạn cần phải tìm phiên bản khác. Sau đó khởi động lại máy tính.
+  Do tập tin hhctrl.ocx ở thư mục System32 bị lỗi hoặc bị cài đè lên file gốc của Windows bởi những phần mềm khác với phiên bản không tương thích. Để khắc phục, bạn làm theo các bước sau: tải về tập tin hhctrl.ocx. Hoặc tìm máy có cùng phiên bản windows khác để lấy file hhctrl.oxc<br /> - Sao chép tập tin này vào thư mục C:windowssystem32.<br /> Trong hộp thoại Run, bạn gõ dòng lệnh “regsvr32 c:windowssystem32hhctrl.ocx” rồi nhấn OK, bạn phải thấy được bản thông báo đăng ký thành công, nếu không thành công, bạn cần phải tìm phiên bản khác. Sau đó khởi động lại máy tính.
 </p>
 
 <h3 style="text-align: justify;">
@@ -133,29 +133,17 @@ categories:
 </p>
 
 <p style="text-align: justify;">
-  <a href="https://blog.kowalczyk.info/software/sumatrapdf/free-pdf-reader.html">Sumatra PDF</a> hỗ trợ xem file CHM kể từ phiên bản 1.9. Sumatra là miễn phí, mã nguồn mở và hỗ trợ nhiều định dạng khác như PDF, ePub, MOBI, XPS, DjVu, CBR, CBZ.
+  <a href="https://www.sumatrapdfreader.org/download-free-pdf-viewer.html" target="_blank" rel="nofollow noopener noreferrer">Sumatra PDF</a> hỗ trợ xem file CHM kể từ phiên bản 1.9. Sumatra là miễn phí, mã nguồn mở và hỗ trợ nhiều định dạng khác như PDF, ePub, MOBI, XPS, DjVu, CBR, CBZ.
 </p>
 
 <p style="text-align: justify;">
-  <a href="http://xchm.sourceforge.net/">Xchm</a> là một nền tảng mã nguồn mở, CHM người xem. Nó hoạt động trên Windows, Mac và Linux.
+  <a href="http://xchm.sourceforge.net/" target="_blank" rel="nofollow noopener noreferrer">Xchm</a> là một nền tảng mã nguồn mở, CHM người xem. Nó hoạt động trên Windows, Mac và Linux.
 </p>
 
 <p style="text-align: justify;">
-  <a href="http://www.fbreader.org/win32">FBReader</a> là một nền tảng mã nguồn mở, eBook reader mà cũng có thể đọc các file CHM.
+  <a href="http://www.fbreader.org/win32" target="_blank" rel="nofollow noopener noreferrer">FBReader</a> là một nền tảng mã nguồn mở, eBook reader mà cũng có thể đọc các file CHM.
 </p>
 
 <p style="text-align: justify;">
-  <a href="http://www.extrachm.com/">ExtraCHM</a> là một CHM reader thương mại.
-</p>
-
-<p style="text-align: justify;">
-  <a href="http://www.beyondchm.com/">Beyond CHM</a> là một thương mại, nhiều tab CHM đọc và biên tập.
-</p>
-
-<p style="text-align: justify;">
-  <a href="http://www.ultrachm.com/">UltraCHM</a> là một CHM xem thương mại.
-</p>
-
-<p style="text-align: justify;">
-  <a href="http://www.mobipocket.com/en/downloadsoft/productdetailsreader.asp">Mobipocket Reader</a> hỗ trợ định dạng CHM (trong số những người khác).
+  <a href="http://www.beyondchm.com/" target="_blank" rel="nofollow noopener noreferrer">Beyond CHM</a> là một thương mại, nhiều tab CHM đọc và biên tập.
 </p>
