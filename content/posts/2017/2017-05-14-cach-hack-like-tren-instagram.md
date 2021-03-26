@@ -30,6 +30,6 @@ Bạn sẽ nhận được nhiều like trong vài giây.
 
 **Lưu ý**: Tài khoản Instagram của bạn phải để ở chế độ công khai thì mới có thể hack like được.
 
-Trang chủ: <a href="http://thebhawanigarg.com/Bhawani_Garg_IG_Liker/" target="_blank" rel="noopener noreferrer">http://thebhawanigarg.com/Bhawani_Garg_IG_Liker/</a>
+Trang chủ: thebhawanigarg.com/Bhawani_Garg_IG_Liker
 
-Tác giả: <a href="https://www.facebook.com/bhawani.garg" target="_blank" rel="noopener noreferrer">https://www.facebook.com/bhawani.garg</a>
+**Update 2021**: Tool không còn hoạt động nha các bạn.
