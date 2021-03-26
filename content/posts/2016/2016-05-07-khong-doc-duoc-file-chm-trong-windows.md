@@ -8,8 +8,9 @@ cover: "../../images/2016/05/chm.png"
 categories:
   - Bugs
 ---
-<p style="text-align: justify;">
-  Không đọc được file .chm? Bạn tìm được một cuốn tài liệu ebook hay trên mạng với định dạng (.chm) nhưng khi mở tài liệu ra chỉ có đề mục còn nội dụng thì không có.<img class="aligncenter size-full wp-image-2039" src="/media/2016/05/chm-1.png" alt="" width="94" height="93" />
+<p style="display: flex">
+  <img src="/media/2016/05/chm-1.png" alt="chm icon" />
+  Không đọc được file .chm? Bạn tìm được một cuốn tài liệu ebook hay trên mạng với định dạng (.chm) nhưng khi mở tài liệu ra chỉ có đề mục còn nội dụng thì không có.
 </p>
 
 <p style="text-align: justify;">
@@ -46,7 +47,7 @@ categories:
 </p>
 
 <p style="text-align: justify;">
-  <img class="aligncenter wp-image-914 size-full" src="https://tđ.vnmedia/2016/05/chm.png" alt="Không đọc được file .chm" width="466" height="344" /><br /> Sau đó Click Open và mở bình thường.
+  <img class="aligncenter wp-image-914 size-full" src="/media/2016/05/chm.png" alt="Không đọc được file .chm" width="466" height="344" /><br /> Sau đó Click Open và mở bình thường.
 </p>
 
 <p style="text-align: justify;">
