@@ -1,7 +1,7 @@
 ---
 template: "post"
 title: How to config reactjs nextjs support IE 11
-date: 2021-03-03T08:10:00+07:00
+date: 2021-03-19T09:10:00+07:00
 author: letrungdo
 slug: "how-to-config-reactjs-nextjs-support-ie11"
 cover: "../../images/2021/03/nextjs-reactjs-support-ie11.png"
