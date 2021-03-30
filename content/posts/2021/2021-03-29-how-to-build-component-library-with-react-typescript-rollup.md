@@ -104,7 +104,7 @@ export default [
     },
 ];
 ```
-For the full source code, please refer to the following repo: https://github.com/letrungdo/react-ui-component-lib
+For the full source code, please refer to the following <a href="https://github.com/letrungdo/react-ui-component-lib" target="_blank" rel="noopener noreferrer">this repo</a>
 
 ## 3. How to use UI lib
 Local import for development
@@ -120,8 +120,7 @@ yarn link <ui-name>
 Ex: yarn link @letrungdo/web-ui
 
 ## 4. Reduce size when importing
-If use VS Code you should install Import Cost extension to view the size of the imported package:
-https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost
+If use VS Code you should install <a href="https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost" target="_blank" rel="nofollow noopener noreferrer">Import Cost</a> extension to view the size of the imported package:
 
 ```js
 import { Label } from "@letrungdo/web-ui/dist/lib/Label"; // 2.4K (gzipped: 1.1K)
