@@ -40,7 +40,7 @@ The main content is how to create an ui library with react typescript + rollup.
 - tsconfig.json
 
 ## 2. Config Rollup build
-```sh
+```bash
 npm init
 ```
 Edit package.json:
@@ -59,7 +59,7 @@ Edit package.json:
   ...
 }
 ```
-```sh
+```bash
 npm i @rollup/plugin-babel @rollup/plugin-commonjs @rollup/plugin-image @rollup/plugin-node-resolve rollup rollup-plugin-sass rollup-plugin-typescript2 -D
 ```
 Create rollup.config.js in root project with below content:
@@ -105,3 +105,27 @@ export default [
 ];
 ```
 For the full source code, please refer to the following repo: https://github.com/letrungdo/react-ui-component-lib
+
+## 3. How to use UI lib
+Local import for development
+In UI project run
+```bash
+npm run build
+yarn link
+```
+In Frontend project run
+```bash
+yarn link <ui-name>
+```
+Ex: yarn link @letrungdo/web-ui
+
+## 4. Reduce size when importing
+If use VS Code you should install Import Cost extension to view the size of the imported package:
+https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost
+
+```js
+import { Label } from "@letrungdo/web-ui/dist/lib/Label"; // 2.4K (gzipped: 1.1K)
+import { Label } from "@letrungdo/web-ui"; // 3.9K (gzipped: 1.4K)
+```
+
+Above are two ways to import. => Should choose method 1 to reduce size.
