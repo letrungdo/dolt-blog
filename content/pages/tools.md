@@ -6,3 +6,5 @@ slug: "tools"
 ---
 
 - [Get Avatar HUFI](/get-avatar-sinh-vien-hufi)
+- [Download Hemodynamics Notes](/hemodynamics-notes)
+
