@@ -17,6 +17,7 @@ class HemodynamicsNotes extends React.Component {
     super(props);
     this.state = {
       inputUrl: "https://www.osmosis.org/notes/Hemodynamics",
+      downloading: false,
     };
   }
 
@@ -69,8 +70,10 @@ class HemodynamicsNotes extends React.Component {
   };
 
   onDownload = () => {
-    if (this.download) return;
-    this.download = true;
+    if (this.state.downloading) return;
+    this.setState({
+      downloading: true,
+    })
     document.getElementById("png-list").innerHTML = "";
     const { inputUrl } = this.state;
     fetch(inputUrl).then((res) => {
@@ -80,7 +83,9 @@ class HemodynamicsNotes extends React.Component {
         const nodes = htmlDom.getElementsByClassName("notes")[0]?.childNodes;
         if (!nodes) {
           alert("Not support!");
-          this.download = false;
+          this.setState({
+            downloading: false,
+          })
           return;
         }
         const urls = [];
@@ -102,7 +107,9 @@ class HemodynamicsNotes extends React.Component {
           if (index === urls.length - 1) {
             zip.generateAsync({ type: "blob" }).then((blob) => {
               FileSaver.saveAs(blob, zipFilename);
-              this.download = false;
+              this.setState({
+                downloading: false,
+              })
             });
           }
         });
@@ -111,7 +118,7 @@ class HemodynamicsNotes extends React.Component {
   };
 
   render() {
-    const { inputUrl } = this.state;
+    const { inputUrl, downloading } = this.state;
     const postEdges = this.props.data.allMarkdownRemark.edges;
     const postList = getPostList(postEdges);
     const { tagList, categoryList } = getTagCategoryList(postList);
@@ -146,6 +153,7 @@ class HemodynamicsNotes extends React.Component {
                 href="https://cors-anywhere.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="margin"
               >
                 Please click here to allow CORS
               </a>
@@ -156,8 +164,8 @@ class HemodynamicsNotes extends React.Component {
                 onChange={this.onChangeUrl}
               />
               <button
-                className="margin-top"
-                style={{ margin: "0 auto" }}
+                className="margin"
+                style={{ margin: "0 auto", cursor: downloading ? "progress" : "pointer" }}
                 type="button"
                 onClick={this.onDownload}
               >
