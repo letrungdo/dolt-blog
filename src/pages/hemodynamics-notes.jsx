@@ -18,12 +18,19 @@ class HemodynamicsNotes extends React.Component {
     this.state = {
       inputUrl: "https://www.osmosis.org/notes/Hemodynamics",
       downloading: false,
+      prefixFilename: "Chapter_1",
     };
   }
 
   onChangeUrl = (ev) => {
     this.setState({
       inputUrl: ev.target.value,
+    });
+  };
+
+  onChangePrefix = (ev) => {
+    this.setState({
+      prefixFilename: ev.target.value,
     });
   };
 
@@ -66,9 +73,9 @@ class HemodynamicsNotes extends React.Component {
     if (this.state.downloading) return;
     this.setState({
       downloading: true,
-    })
+    });
     document.getElementById("png-list").innerHTML = "";
-    const { inputUrl } = this.state;
+    const { inputUrl, prefixFilename } = this.state;
     fetch(inputUrl).then((res) => {
       res.text().then((html) => {
         const parser = new DOMParser();
@@ -78,31 +85,28 @@ class HemodynamicsNotes extends React.Component {
           alert("Not support!");
           this.setState({
             downloading: false,
-          })
+          });
           return;
         }
         const urls = [];
         nodes.forEach((i) => {
           urls.push(i.data);
         });
-        console.log(urls);
         const zip = new JSZip();
         const zipFilename = "HemodynamicsNotes.zip";
         urls.forEach(async (url, index) => {
-          const filename = `page${index}.png`;
-
+          const filename = `${prefixFilename}_page_${index + 1}.png`;
           const dataImg = await this.downloadSVGFronUrl(
             `https://cors-anywhere.herokuapp.com/${url}`
           );
           zip.file(filename, dataImg.split("base64,")[1], { base64: true });
-          console.log(filename, index);
 
           if (index === urls.length - 1) {
             zip.generateAsync({ type: "blob" }).then((blob) => {
               FileSaver.saveAs(blob, zipFilename);
               this.setState({
                 downloading: false,
-              })
+              });
             });
           }
         });
@@ -111,7 +115,7 @@ class HemodynamicsNotes extends React.Component {
   };
 
   render() {
-    const { inputUrl, downloading } = this.state;
+    const { inputUrl, downloading, prefixFilename } = this.state;
     const postEdges = this.props.data.allMarkdownRemark.edges;
     const postList = getPostList(postEdges);
     const { tagList, categoryList } = getTagCategoryList(postList);
@@ -156,9 +160,22 @@ class HemodynamicsNotes extends React.Component {
                 value={inputUrl}
                 onChange={this.onChangeUrl}
               />
+              <div className="margin-top flex justify-content-center">
+                Prefix filename:
+                <input
+                  className="padding-half margin-left"
+                  placeholder="Enter prefix filename"
+                  value={prefixFilename}
+                  onChange={this.onChangePrefix}
+                />
+              </div>
+
               <button
                 className="margin"
-                style={{ margin: "0 auto", cursor: downloading ? "progress" : "pointer" }}
+                style={{
+                  margin: "0 auto",
+                  cursor: downloading ? "progress" : "pointer",
+                }}
                 type="button"
                 onClick={this.onDownload}
               >
