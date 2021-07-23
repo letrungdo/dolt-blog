@@ -40,25 +40,18 @@ class HemodynamicsNotes extends React.Component {
     return canvas;
   };
 
-  convertCanvasToImage = (data) => {
-    const image = new Image();
-    image.setAttribute(
-      "style",
-      "flex:1;margin:5px;height:400px;object-fit:contain;"
-    );
-    image.src = data;
-    return image;
-  };
-
   downloadSVGFronUrl = (src) => {
     return new Promise((resolve) => {
       const img = new Image();
+      img.setAttribute(
+        "style",
+        "flex:1;margin:5px;height:400px;object-fit:contain;"
+      );
       img.crossOrigin = "anonymous";
       img.onload = () => {
         const canvas = this.convertImageToCanvas(img);
         const imgData = canvas.toDataURL();
-        const pngImage = this.convertCanvasToImage(imgData);
-        document.getElementById("png-list").appendChild(pngImage);
+        document.getElementById("png-list").appendChild(img);
         // const doc = new jsPDF();
         // doc.addImage(canvas.toDataURL(), 'PNG', 0, 0, img.width, img.height);
         // doc.save("a4.pdf");
