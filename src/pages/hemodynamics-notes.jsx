@@ -19,6 +19,7 @@ class HemodynamicsNotes extends React.Component {
       inputUrl: "https://www.osmosis.org/notes/Hemodynamics",
       downloading: false,
       prefixFilename: "Chapter_1",
+      progress: 0,
     };
   }
 
@@ -73,6 +74,7 @@ class HemodynamicsNotes extends React.Component {
     if (this.state.downloading) return;
     this.setState({
       downloading: true,
+      progress: 0,
     });
     document.getElementById("png-list").innerHTML = "";
     const { inputUrl, prefixFilename } = this.state;
@@ -85,6 +87,7 @@ class HemodynamicsNotes extends React.Component {
           alert("Not support!");
           this.setState({
             downloading: false,
+            progress: 0,
           });
           return;
         }
@@ -92,6 +95,7 @@ class HemodynamicsNotes extends React.Component {
         nodes.forEach((i) => {
           urls.push(i.data);
         });
+        const pageCountPercent = 100 / urls.length;
         const zip = new JSZip();
         const zipFilename = "HemodynamicsNotes.zip";
         urls.forEach(async (url, index) => {
@@ -106,8 +110,13 @@ class HemodynamicsNotes extends React.Component {
               FileSaver.saveAs(blob, zipFilename);
               this.setState({
                 downloading: false,
+                progress: 100,
               });
             });
+          } else {
+            this.setState((prev) => ({
+              progress: prev.progress + pageCountPercent,
+            }));
           }
         });
       });
@@ -115,7 +124,7 @@ class HemodynamicsNotes extends React.Component {
   };
 
   render() {
-    const { inputUrl, downloading, prefixFilename } = this.state;
+    const { inputUrl, downloading, prefixFilename, progress } = this.state;
     const postEdges = this.props.data.allMarkdownRemark.edges;
     const postList = getPostList(postEdges);
     const { tagList, categoryList } = getTagCategoryList(postList);
@@ -160,7 +169,7 @@ class HemodynamicsNotes extends React.Component {
                 value={inputUrl}
                 onChange={this.onChangeUrl}
               />
-              <div className="margin-top flex justify-content-center">
+              <div className="margin-top flex align-items-center">
                 Prefix filename:
                 <input
                   className="padding-half margin-left"
@@ -169,11 +178,9 @@ class HemodynamicsNotes extends React.Component {
                   onChange={this.onChangePrefix}
                 />
               </div>
-
               <button
                 className="margin"
                 style={{
-                  margin: "0 auto",
                   cursor: downloading ? "progress" : "pointer",
                 }}
                 type="button"
@@ -181,6 +188,7 @@ class HemodynamicsNotes extends React.Component {
               >
                 Download
               </button>
+              <progress value={progress} max={100} />
               <div id="png-list" className="flex flex-row" />
             </div>
             <GoogleAds adFormat="auto" adSlot="7887711263" />
