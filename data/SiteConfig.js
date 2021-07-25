@@ -112,7 +112,7 @@ const config = {
   // Use for navigation
   navTitle: "TĐ.VN",
   navLinks: [
-    { label: "Tools", url: "/tools" },
+    { label: "App", url: "https://app.xn--t-lia.vn" },
     { label: "About", url: "/about" },
     { label: "Contact", url: "/contact" },
   ],
