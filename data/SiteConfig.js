@@ -62,15 +62,15 @@ const config = {
   sidebarLinks: [
     {
       label: "My CV",
-      url: "https://cv.xn--t-lia.vn/",
+      url: "https://app.xn--t-lia.vn/cv",
     },
     {
-      label: "My Shop",
-      url: "https://shop.xn--t-lia.vn/",
+      label: "My App",
+      url: "https://app.xn--t-lia.vn",
     },
     {
       label: "My Blog",
-      url: "https://xn--t-lia.vn/",
+      url: "https://xn--t-lia.vn",
     },
   ],
   // Use for user info
