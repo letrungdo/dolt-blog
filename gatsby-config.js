@@ -156,6 +156,7 @@ module.exports = {
                 custom_elements: [
                   { "content:encoded": edge.node.html },
                   { author: config.userEmail },
+                  { cover: edge.node.frontmatter.cover?.childImageSharp?.fixed?.src },
                 ],
               }));
             },
@@ -184,6 +185,13 @@ module.exports = {
                       date
                       categories
                       tags
+                      cover {
+                        childImageSharp {
+                          fixed (width: 900) {
+                            src
+                          }
+                        }
+                      }
                     }
                   }
                 }
