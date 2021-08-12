@@ -187,8 +187,8 @@ module.exports = {
                       tags
                       cover {
                         childImageSharp {
-                          fixed (width: 900) {
-                            src
+                          fluid(maxWidth: 660, quality: 100) {
+                            ...GatsbyImageSharpFluid
                           }
                         }
                       }
