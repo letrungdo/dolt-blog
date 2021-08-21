@@ -5,7 +5,7 @@ import Navigation from "../components/Navigation/Navigation";
 import Footer from "../components/Footer/Footer";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 import siteConfig from "../../data/SiteConfig";
-import brand from "../../content/images/brand.png";
+import brand from "../../content/images/brand.webp";
 import "../components/Icons/FontAwesome";
 import "../styles/main.min.css";
 import "../../content/styles/customize.scss";

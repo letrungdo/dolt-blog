@@ -62,7 +62,7 @@ const config = {
   sidebarLinks: [
     {
       label: "My CV",
-      url: "https://app.xn--t-lia.vn/cv",
+      url: "https://cv.xn--t-lia.vn",
     },
     {
       label: "My App",
@@ -90,7 +90,7 @@ const config = {
     },
     {
       label: "Website",
-      url: "https://xn--t-lia.vn/",
+      url: "https://xn--t-lia.vn",
       iconClassName: "fas globe",
     },
     {
@@ -100,12 +100,12 @@ const config = {
     },
     {
       label: "Facebook",
-      url: "https://www.facebook.com/DoMemory/",
+      url: "https://www.facebook.com/DoMemory",
       iconClassName: "fab facebook-f",
     },
     {
       label: "Linkedin",
-      url: "https://www.linkedin.com/in/letrungdo/",
+      url: "https://www.linkedin.com/in/letrungdo",
       iconClassName: "fab linkedin-in",
     },
   ],
@@ -125,12 +125,12 @@ const config = {
     },
     {
       label: "Facebook",
-      url: "https://www.facebook.com/DoMemory/",
+      url: "https://www.facebook.com/DoMemory",
       iconClassName: "fab facebook-f",
     },
     {
       label: "Linkedin",
-      url: "https://www.linkedin.com/in/letrungdo/",
+      url: "https://www.linkedin.com/in/letrungdo",
       iconClassName: "fab linkedin-in",
     },
     {
