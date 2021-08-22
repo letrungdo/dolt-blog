@@ -8,4 +8,4 @@
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Access-Control-Allow-Methods: GET
-    Access-Control-Allow-Headers: "Content-Type, x-requested-with"
+    Access-Control-Allow-Headers: "*"
