@@ -4,7 +4,7 @@ title: How to build component library with React Typescript & Rollup
 date: 2021-03-30T11:08:00+07:00
 author: letrungdo
 slug: "how-to-build-component-library-with-react-typescript-rollup"
-cover: "../../images/2021/03/react-component-library.png"
+cover: "../../images/2021/03/react-component-library.webp"
 keywords: "react component library, react storybook, react rollup typescript"
 categories:
   - Dev

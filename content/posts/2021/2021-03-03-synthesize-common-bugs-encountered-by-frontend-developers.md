@@ -4,7 +4,7 @@ title: Synthesize common bugs encountered by frontend developers
 date: 2021-03-03T08:10:00+07:00
 author: letrungdo
 slug: "synthesize-common-bugs-encountered-by-frontend-developers"
-cover: "../../images/2021/03/frontend-bugs.jpg"
+cover: "../../images/2021/03/frontend-bugs.webp"
 keywords: "common bugs, frontend bugs"
 categories:
   - Bugs
