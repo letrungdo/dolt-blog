@@ -1,5 +1,5 @@
 ---
-title: 'Hướng dẫn cài ROM SKY gốc &#8211; sửa lỗi treo logo cho mọi dòng SKY'
+title: 'Hướng dẫn cài ROM SKY gốc & sửa lỗi treo logo cho mọi dòng SKY'
 date: 2016-05-24T23:14:51+07:00
 author: letrungdo
 template: "post"

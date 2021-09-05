@@ -1,5 +1,5 @@
 ---
-title: 'Mẹo tải tài liệu VIP trên các trang tailieu.vn, doc.edu.vn, luanvan.net.vn &#8230;'
+title: 'Mẹo tải tài liệu VIP trên các trang tailieu.vn, doc.edu.vn, luanvan.net.vn'
 date: 2017-03-10T01:23:07+07:00
 author: letrungdo
 template: "post"

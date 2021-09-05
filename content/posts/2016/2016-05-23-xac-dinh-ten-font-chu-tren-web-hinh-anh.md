@@ -21,11 +21,11 @@ categories:
 </p>
 
 <p style="text-align: justify;">
-  Vào link sau:&nbsp;<a href="https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm">WhatFont</a>&nbsp;và bấm "Thêm vào Chrome" > "Thêm tiện ích".
+  Vào link sau:&nbsp;<a href="https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm" target="_blank">WhatFont</a>&nbsp;và bấm "Thêm vào Chrome" > "Thêm tiện ích".
 </p>
 
 <p style="text-align: justify;">
-  Để sử dụng ứng dụng, bạn click vào biểu tượng&nbsp;<img class="size-full wp-image-2016 aligncenter" src="/media/2016/05/wf.png" alt="" width="33" height="34" />&nbsp;ngay góc trên bên phải của trình duyệt để kích hoạt, bấm F5 để tải lại trang. Sau đó chỉ cần rê chuột vào font chữ nào thì tên font sẽ hiện ngay ra.
+  Để sử dụng ứng dụng, bạn click vào biểu tượng&nbsp;<img class="wp-image-2016 aligncenter" src="/media/2016/05/wf.png" alt="" width="33" height="34" />&nbsp;ngay góc trên bên phải của trình duyệt để kích hoạt, bấm F5 để tải lại trang. Sau đó chỉ cần rê chuột vào font chữ nào thì tên font sẽ hiện ngay ra.
 </p>
 
 <p style="text-align: justify;">
