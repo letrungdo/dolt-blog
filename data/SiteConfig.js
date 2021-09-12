@@ -62,11 +62,11 @@ const config = {
   sidebarLinks: [
     {
       label: "My CV",
-      url: "https://cv.xn--t-lia.vn",
+      url: "https://cv.letrungdo.com",
     },
     {
       label: "My App",
-      url: "https://app.xn--t-lia.vn",
+      url: "https://app.letrungdo.com",
     },
     {
       label: "My Blog",
