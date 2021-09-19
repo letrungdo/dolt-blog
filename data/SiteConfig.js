@@ -7,7 +7,7 @@ const config = {
   siteUrl: "https://xn--t-lia.vn", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription:
-    "Blog học lập trình Xamarin Forms, React, Chia sẻ tài liệu học tập.", // Website description used for RSS feeds/meta description tag.
+    "Blog học lập trình Xamarin Forms, ReactJs, Chia sẻ tài liệu học tập.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteLang: "en",
   siteFBAppID: "2944501422238707", // FB Application ID for using app insights
@@ -112,7 +112,8 @@ const config = {
   // Use for navigation
   navTitle: "TĐ.VN",
   navLinks: [
-    { label: "App", url: "https://app.xn--t-lia.vn" },
+    { label: "CV", url: "https://cv.letrungdo.com" },
+    { label: "App", url: "https://app.letrungdo.com" },
     { label: "About", url: "/about" },
     { label: "Contact", url: "/contact" },
   ],
