@@ -8,6 +8,10 @@ cover: "../../images/2021/11/deploy-wordpress-to-aws-ec2-linux-2.webp"
 keywords: "Deploy Wordpress EC2, Wordpress EC2 Linux 2"
 categories:
   - DevOps
+tags:
+  - AWS
+  - EC2
+  - Wordpress
 ---
 
 Hướng dẫn deploy Wordpress lên AWS EC2 Linux 2 thủ công nhưng sẽ dễ bảo trì về sau. Đã từng thử qua WordPress Bitnami trên AWS Marketplace nhưng phát sinh một số lỗi và khó fix. 
