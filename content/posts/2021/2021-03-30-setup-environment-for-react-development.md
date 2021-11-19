@@ -4,7 +4,7 @@ title: Setup environment for react development
 date: 2021-03-30T15:30:16+07:00
 author: letrungdo
 slug: "setup-environment-for-react-development"
-cover: "../../images/2021/03/react-vscode.png"
+cover: "../../images/2021/03/react-vscode.jpg"
 keywords: "vs code extension for react, environment for react development"
 categories:
   - Dev
