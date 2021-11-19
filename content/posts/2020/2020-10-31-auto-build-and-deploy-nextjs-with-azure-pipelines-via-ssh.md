@@ -4,7 +4,7 @@ title: Auto Build & Deploy Nextjs with Azure Pipelines via SSH
 date: 2020-10-31T20:32:22+07:00
 author: letrungdo
 slug: "auto-build-and-deploy-nextjs-with-azure-pipelines-via-ssh"
-cover: "../../images/2020/10/azure-pipelines-ssh.webp"
+cover: "../../images/2020/10/azure-pipelines-ssh.png"
 keywords: "Deploy Nextjs with Azure Pipelines"
 categories:
   - DevOps

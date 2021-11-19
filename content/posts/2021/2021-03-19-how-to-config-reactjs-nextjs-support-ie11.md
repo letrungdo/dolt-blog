@@ -4,7 +4,7 @@ title: How to config reactjs nextjs support IE 11
 date: 2021-03-19T09:10:00+07:00
 author: letrungdo
 slug: "how-to-config-reactjs-nextjs-support-ie11"
-cover: "../../images/2021/03/nextjs-reactjs-support-ie11.webp"
+cover: "../../images/2021/03/nextjs-reactjs-support-ie11.png"
 keywords: "reactjs support ie 11, nextjs support ie 11"
 categories:
   - Dev
