@@ -4,7 +4,7 @@ title: Hướng dẫn tải theme trên themeforest miễn phí
 date: 2021-11-14T20:35:00+00:00
 author: letrungdo
 slug: "huong-dan-tai-theme-tren-themeforest-mien-phi"
-cover: "../../images/2021/11/download-themeforest.webp"
+cover: "../../images/2021/11/download-themeforest.jpg"
 keywords: "download themeforest, tải themeforest"
 categories:
   - Tricks

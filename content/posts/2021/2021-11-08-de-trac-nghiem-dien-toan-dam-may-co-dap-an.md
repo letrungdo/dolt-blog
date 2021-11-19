@@ -4,7 +4,7 @@ title: Đề trắc nghiệm điện toán đám mây có đáp án
 date: 2021-11-08T16:25:00+00:00
 author: letrungdo
 slug: "de-trac-nghiem-dien-toan-dam-may-co-dap-an"
-cover: "../../images/2021/11/dien-toan-dam-may.webp"
+cover: "../../images/2021/11/dien-toan-dam-may.jpg"
 keywords: "đề trắc nghiệm, trắc nghiệm điện toán đám mây"
 categories:
   - Documents

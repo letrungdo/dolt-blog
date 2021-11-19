@@ -4,7 +4,7 @@ title: Cách chỉnh sửa commit, gộp nhiều commit thành một trong git
 date: 2021-11-08T15:20:22+02:00
 author: letrungdo
 slug: "cach-chinh-sua-commit-gop-nhieu-commit-thanh-mot-trong-git"
-cover: "../../images/2021/11/git-rebase.webp"
+cover: "../../images/2021/11/git-rebase.jpg"
 keywords: "git rebabse, git merge history"
 categories:
   - Git

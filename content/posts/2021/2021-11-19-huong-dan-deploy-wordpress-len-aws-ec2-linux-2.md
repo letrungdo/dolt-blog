@@ -4,7 +4,7 @@ title: Hướng dẫn deploy wordpress lên AWS EC2 Linux 2
 date: 2021-11-19T21:25:00+00:00
 author: letrungdo
 slug: "huong-dan-deploy-wordpress-len-aws-ec2-linux-2"
-cover: "../../images/2021/11/deploy-wordpress-to-aws-ec2-linux-2.webp"
+cover: "../../images/2021/11/deploy-wordpress-to-aws-ec2-linux-2.jpg"
 keywords: "Deploy Wordpress EC2, Wordpress EC2 Linux 2"
 categories:
   - DevOps
