@@ -127,3 +127,20 @@ User là root và password là pw đã tạo trước đó ở bước 3<br/>
 Xong bấm Install là ok.
 
 > Ref: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/hosting-wordpress.html
+
+## Cách update PHP 7.2 lên PHP 7.4
+
+```bash
+sudo amazon-linux-extras disable php7.2
+sudo amazon-linux-extras disable lamp-mariadb10.2-php7.2
+sudo amazon-linux-extras enable php7.4
+sudo yum clean metadata
+sudo yum install php-cli php-pdo php-fpm php-json php-mysqlnd
+sudo systemctl restart httpd
+sudo systemctl restart php-fpm
+```
+
+Gõ php -v nếu hiện như dưới là ok
+> PHP 7.4.21 (cli) (built: Jul  7 2021 17:35:08) ( NTS )
+
+> Ref: https://greggborodaty.com/amazon-linux-2-upgrading-from-php-7-2-to-php-7-4/
