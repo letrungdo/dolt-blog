@@ -1,8 +1,8 @@
 ---
 template: "post"
 title: Hướng dẫn deploy wordpress lên AWS EC2 Linux 2
-description: Hướng dẫn deploy Wordpress lên AWS EC2 Linux 2. Đã từng thử qua WordPress Bitnami trên AWS Marketplace nhưng phát sinh một số lỗi và khó fix.
-date: 2021-11-19T21:25:00+00:00
+description: WordPress Bitnami trên AWS Marketplace dễ cài đặt nhưng phát sinh một số lỗi. Hướng dẫn deploy Wordpress lên AWS EC2 Linux 2 theo hai cách LAMP và Docker compose.
+date: 2021-11-21T22:40:00+00:00
 author: letrungdo
 slug: "huong-dan-deploy-wordpress-len-aws-ec2-linux-2"
 cover: "../../images/2021/11/deploy-wordpress-to-aws-ec2-linux-2.jpg"
@@ -15,9 +15,10 @@ tags:
   - Wordpress
 ---
 
-Mình đã từng thử qua WordPress Bitnami trên AWS Marketplace nhưng phát sinh một số lỗi và khó fix. Bài viết này sẽ hướng dẫn các bạn deploy Wordpress lên AWS EC2 Linux 2 thủ công nhưng sẽ dễ bảo trì về sau.
+Mình đã thử qua WordPress Bitnami trên AWS Marketplace nhưng phát sinh một số lỗi và khó fix.<br/>
+Bài viết này sẽ hướng dẫn các bạn deploy Wordpress lên AWS EC2 Linux 2 theo 2 cách: LAMP và Docker compose
 
-## Bước 1: Tạo mới một instance
+## I. Tạo mới một instance
 Truy cập vào https://console.aws.amazon.com/ec2/
 
 Từ EC2 Dashboard chọn Launch Instance. Chọn "Amazon Linux 2 AMI (HVM), SSD Volume Type"<br/>
@@ -28,7 +29,7 @@ Chú ý sau khi Launch xong thì vào tab Security chọn Security groups và Ed
 
 > Ref: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-launch-instance
 
-## Bước 2: Kết nối vào instance
+## II. Kết nối vào instance
 Có nhiều cách để kết nối vào instance của EC2. Có 2 cách phổ biến sau:
 1. Kết nối qua SSH:<br/>
 Vào EC2 > Instances
@@ -44,8 +45,8 @@ Nhập thông tin server là Public IPv4 DNS và SSH Private Key là file xxx.pe
 
 > Ref: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html
 
-## Bước 3: Cài LAMP web server lên Amazon Linux 2
-Cài Apache web server với PHP và MariaDB được gọi ngắn gọn là LAMP.
+# Cách 1: Deploy wordpress lên AWS EC2 Linux 2 bằng LAMP
+Cài Apache, MySQL, và PHP lên Linux được gọi ngắn gọn là LAMP.
 
 Connect qua SSH và chạy các lệnh sau:
 
@@ -97,7 +98,7 @@ Vào /var/www/html/phpMyAdmin đổi tên config.sample.inc.php thành config.in
 
 > Ref: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-lamp-amazon-linux-2.html
 
-## Bước 4: Cài WordPress lên AWS EC2
+### Cài WordPress lên AWS EC2
 Vào Public IPv4 address/phpMyAdmin login với user là root, password là pw đã tạo trước đó ở bước 3<br/>
 Tạo 1 db mới với tên tuỳ ý
 
@@ -129,7 +130,7 @@ Xong bấm Install là ok.
 
 > Ref: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/hosting-wordpress.html
 
-## Cách update PHP 7.2 lên PHP 7.4
+### Cách update PHP 7.2 lên PHP 7.4
 
 ```bash
 sudo amazon-linux-extras disable php7.2
@@ -145,3 +146,83 @@ Gõ php -v nếu hiện như dưới là ok
 > PHP 7.4.21 (cli) (built: Jul  7 2021 17:35:08) ( NTS )
 
 > Ref: https://greggborodaty.com/amazon-linux-2-upgrading-from-php-7-2-to-php-7-4/
+
+<br/><br/>
+# Cách 2: Deploy wordpress lên AWS EC2 Linux 2 bắng Docker Compose
+
+Mở terminal và chạy các lệnh sau:
+
+```bash
+sudo yum update
+sudo amazon-linux-extras install docker
+sudo systemctl start docker
+sudo usermod -a -G docker ec2-user
+exit
+```
+
+```bash
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+```
+Phiên bản mới nhất khi viết bài này là 1.29.2. Vào https://docs.docker.com/compose/install/#install-compose-on-linux-systems để lấy phiên bản mới hơn.
+
+```bash
+mkdir wordpress
+vi ~/wordpress/docker-compose.yml
+```
+Nhấn phím i để chuyển sang mode insert và dán đoạn mã dưới đây vào:
+
+```yml
+version: "3.9"
+    
+services:
+  db:
+    image: mysql:5.7
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: yourpassword
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+    
+  wordpress:
+    depends_on:
+      - db
+    image: wordpress:latest
+    volumes:
+      - wordpress_data:/var/www/html
+    ports:
+      - "80:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    ports:
+      - 3333:80
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORT: yourpassword
+volumes:
+  db_data: {}
+  wordpress_data: {}
+```
+Thay yourpassword bằng mật khẩu mới của bạn
+
+Nhấn ESC và gõ :wq để save và thoát
+
+```bash
+cd ~/wordpress/
+docker-compose up --build -d
+```
+
+> Ref: https://qiita.com/HyunwookPark/items/92d10899cd19f2f06f91
+
+Xong mở vào Security groups mở thêm port 3333 để truy cập vào phpMyAdmin
