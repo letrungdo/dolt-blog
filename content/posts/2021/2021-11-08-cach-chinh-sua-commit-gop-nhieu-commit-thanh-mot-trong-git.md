@@ -1,6 +1,7 @@
 ---
 template: "post"
 title: Cách chỉnh sửa commit, gộp nhiều commit thành một trong git
+description: Hướng dẫn cách push nội dung chỉnh sửa gộp chung với commit trước đó mà không tạo thêm commit mới. Cách gộp các commit cũ thành 1 commit duy nhất để làm gọn git history.
 date: 2021-11-08T15:20:22+02:00
 author: letrungdo
 slug: "cach-chinh-sua-commit-gop-nhieu-commit-thanh-mot-trong-git"
@@ -12,7 +13,7 @@ tags:
   - Rebase
 ---
 Bài viết này sẽ hướng dẫn các bạn cách push nội dung chỉnh sửa gộp chung với commit trước đó mà không tạo thêm commit mới.
-Và cách gọp các commit cũ thành 1 commit duy nhất để làm gọn git history.
+Và cách gộp các commit cũ thành 1 commit duy nhất để làm gọn git history.
 
 ## Cách push nội dung chỉnh sửa gộp chung với commit trước đó
 Mở terminal và nhập lệnh sau:

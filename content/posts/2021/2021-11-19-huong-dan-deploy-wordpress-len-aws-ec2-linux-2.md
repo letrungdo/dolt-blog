@@ -1,6 +1,7 @@
 ---
 template: "post"
 title: Hướng dẫn deploy wordpress lên AWS EC2 Linux 2
+description: Hướng dẫn deploy Wordpress lên AWS EC2 Linux 2. Đã từng thử qua WordPress Bitnami trên AWS Marketplace nhưng phát sinh một số lỗi và khó fix.
 date: 2021-11-19T21:25:00+00:00
 author: letrungdo
 slug: "huong-dan-deploy-wordpress-len-aws-ec2-linux-2"
@@ -14,7 +15,7 @@ tags:
   - Wordpress
 ---
 
-Hướng dẫn deploy Wordpress lên AWS EC2 Linux 2 thủ công nhưng sẽ dễ bảo trì về sau. Đã từng thử qua WordPress Bitnami trên AWS Marketplace nhưng phát sinh một số lỗi và khó fix. 
+Mình đã từng thử qua WordPress Bitnami trên AWS Marketplace nhưng phát sinh một số lỗi và khó fix. Bài viết này sẽ hướng dẫn các bạn deploy Wordpress lên AWS EC2 Linux 2 thủ công nhưng sẽ dễ bảo trì về sau.
 
 ## Bước 1: Tạo mới một instance
 Truy cập vào https://console.aws.amazon.com/ec2/

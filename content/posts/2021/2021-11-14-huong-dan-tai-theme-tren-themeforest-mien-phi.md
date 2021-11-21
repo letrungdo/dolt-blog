@@ -1,6 +1,7 @@
 ---
 template: "post"
 title: Hướng dẫn tải theme trên themeforest miễn phí
+description: Themeforest là nơi mua bán themes và templates website phong phú. Hướng dẫn tải theme miễn phí trên themeforest bằng github.
 date: 2021-11-14T20:35:00+00:00
 author: letrungdo
 slug: "huong-dan-tai-theme-tren-themeforest-mien-phi"
