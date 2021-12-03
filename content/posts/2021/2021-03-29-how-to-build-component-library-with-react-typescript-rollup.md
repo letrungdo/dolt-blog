@@ -12,9 +12,11 @@ tags:
   - Nextjs
   - Reactjs
 ---
+
 The main content is how to create an ui library with react typescript + rollup.
 
 ## Features:
+
 - Storybook for UI development
 - Emotion for write CSS in JS
 - Jest Enzyme for testing
@@ -22,6 +24,7 @@ The main content is how to create an ui library with react typescript + rollup.
 - Rollup for bundling
 
 ## 1. Main Directory Structure
+
 - src
   - lib
     - index.ts
@@ -40,10 +43,13 @@ The main content is how to create an ui library with react typescript + rollup.
 - tsconfig.json
 
 ## 2. Config Rollup build
+
 ```bash
 npm init
 ```
+
 Edit package.json:
+
 ```json
 {
   ...
@@ -59,10 +65,13 @@ Edit package.json:
   ...
 }
 ```
+
 ```bash
 npm i @rollup/plugin-babel @rollup/plugin-commonjs @rollup/plugin-image @rollup/plugin-node-resolve rollup rollup-plugin-sass rollup-plugin-typescript2 -D
 ```
+
 Create rollup.config.js in root project with below content:
+
 ```js
 import babel from "@rollup/plugin-babel";
 import commonjs from "@rollup/plugin-commonjs";
@@ -73,53 +82,58 @@ import typescript from "rollup-plugin-typescript2";
 import pkg from "./package.json";
 
 export default [
-    {
-        input: ["src/index.ts"],
-        output: [
-            {
-                dir: "dist",
-                format: "cjs",
-                exports: "auto",
-            },
-        ],
-        preserveModules: true,
-        plugins: [
-            typescript({ tsconfig: "tsconfig-lib.json" }),
-            sass({
-                insert: true,
-            }),
-            image(),
-            babel({
-                babelHelpers: "bundled",
-                presets: ["@babel/preset-env", "@babel/preset-react"],
-                extensions: [".js"],
-                exclude: ["node_modules/**"],
-            }),
-            resolve(),
-            commonjs(),
-        ],
-        external: [
-            ...Object.keys(pkg.peerDependencies || {}),
-        ],
-    },
+  {
+    input: ["src/index.ts"],
+    output: [
+      {
+        dir: "dist",
+        format: "cjs",
+        exports: "auto",
+      },
+    ],
+    preserveModules: true,
+    plugins: [
+      typescript({ tsconfig: "tsconfig-lib.json" }),
+      sass({
+        insert: true,
+      }),
+      image(),
+      babel({
+        babelHelpers: "bundled",
+        presets: ["@babel/preset-env", "@babel/preset-react"],
+        extensions: [".js"],
+        exclude: ["node_modules/**"],
+      }),
+      resolve(),
+      commonjs(),
+    ],
+    external: [...Object.keys(pkg.peerDependencies || {})],
+  },
 ];
 ```
+
 For the full source code, please refer to the following <a href="https://github.com/letrungdo/react-ui-component-lib" target="_blank" rel="noopener noreferrer">this repo</a>
 
 ## 3. How to use UI lib
+
 Local import for development
 In UI project run
+
 ```bash
 npm run build
 yarn link
 ```
+
 In Frontend project run
+
 ```bash
 yarn link <ui-name>
 ```
+
 Ex: yarn link @letrungdo/web-ui
 
 ## 4. Reduce size when importing
+
 If use VS Code you should install <a href="https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost" target="_blank" rel="nofollow noopener noreferrer">Import Cost</a> extension to view the size of the imported package:
 
 ```js

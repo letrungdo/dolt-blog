@@ -12,6 +12,7 @@ tags:
   - Office
   - Windows
 ---
+
 Để **kích hoạt bản quyền Windows và Office** vĩnh viễn, ta có nhiều cách như Active by phone, dùng key MAK còn lượt kích hoạt. Bài viết sẽ hướng dẫn các bạn <a href="/kich-hoat-windows-10-online/" target="_blank" rel="noopener">kích hoạt Windows 10</a>, Office 2016 bằng web nhanh nhất, đơn giản nhất. Các phiên bản khác làm tương tự.
 
 # Hướng dẫn kích hoạt bản quyền <a href="/tag/windows" target="_blank" rel="noopener">Windows</a> và <a href="/tag/office" target="_blank" rel="noopener">Office</a> qua Web
@@ -28,7 +29,7 @@ Công cụ kiểm tra số lượt kích hoạt còn lại của key MAK: [PIDK
 
 Cài <a href="https://chrome.google.com/webstore/detail/hotspot-shield-vpn-free-p/nlbejmccbhkncgokjcmghpfloaajcffj" target="_blank" rel="noopener">Hotspot Shield Free VPN Proxy for Chrome</a>: Đây là tiện ích mở rộng cho Chrome, mục đích để vào được link trang web kích hoạt bên dưới (do chặn IP Việt Nam).
 
-<img class="aligncenter size-full" src="/media/2017/09/hotspot-shield-chrome.png" alt="" /> 
+<img class="aligncenter size-full" src="/media/2017/09/hotspot-shield-chrome.png" alt="" />
 
 Cài xong các bạn chọn như hình để chạy tiện ích.
 
@@ -50,15 +51,15 @@ Chọn dòng **7 Digits** nếu là Windows 8/8.1/10, Office 2013/2016.
 
 Nói chung là ID ở Step 2 mấy số thì chọn tương ứng.
 
-<img class="aligncenter size-full" src="/media/2017/09/chon-7-digits.png" alt="Kích hoạt bản quyền Windows và Office" /> 
+<img class="aligncenter size-full" src="/media/2017/09/chon-7-digits.png" alt="Kích hoạt bản quyền Windows và Office" />
 
 Xong nhập 9 dãy số vào và nhấn **Submit**
 
-<img class="aligncenter size-full" src="/media/2017/09/dan-9-day-so.png" alt="" /> 
+<img class="aligncenter size-full" src="/media/2017/09/dan-9-day-so.png" alt="" />
 
 Và đây là kết quả dãy số Confirmation ID để bạn kích hoạt như hình dưới.
 
-<img class="aligncenter size-full" src="/media/2017/09/result-active-windows-office.png" alt="" /> 
+<img class="aligncenter size-full" src="/media/2017/09/result-active-windows-office.png" alt="" />
 
 Dán dãy số này vào các ô tương ứng ở Step 3 rồi nhấn Active là xong.
 

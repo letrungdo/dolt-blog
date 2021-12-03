@@ -8,8 +8,9 @@ cover: "../../images/2016/04/email-ao.jpg"
 categories:
   - Tricks
 ---
+
 <p style="text-align: justify;">
-  Bạn muốn&nbsp;tạo nhiều tài khoản email nhanh chóng? Nhưng tạo 1 email như gmail, outlook, yahoo phải thực hiện nhiều bước và phải&nbsp;xác nhận số điện thoại nên việc đăng ký lâu và khó khăn.&nbsp;Tất cả những phiền phức đó đều có thể được giải quyết bằng cách sử dụng các&nbsp;địa chỉ email ảo. Vậy địa chỉ email ảo là gì và cách tạo email ảo như thế nào?
+  Bạn muốn tạo nhiều tài khoản email nhanh chóng? Nhưng tạo 1 email như gmail, outlook, yahoo phải thực hiện nhiều bước và phải xác nhận số điện thoại nên việc đăng ký lâu và khó khăn. Tất cả những phiền phức đó đều có thể được giải quyết bằng cách sử dụng các địa chỉ email ảo. Vậy địa chỉ email ảo là gì và cách tạo email ảo như thế nào?
 </p>
 
 # Email ảo là gì?
@@ -22,9 +23,9 @@ categories:
 
 Giao diện chính của trang web có hỗ trợ tiếng việt rất dễ sử dụng, mình luôn dùng trang này để tạo mail.
 
-<img class="aligncenter size-full wp-image-1982" src="/media/2016/04/mail10minute-welcome.png" alt="" width="374" height="234" /> 
+<img class="aligncenter size-full wp-image-1982" src="/media/2016/04/mail10minute-welcome.png" alt="" width="374" height="234" />
 
-Sau khi truy cập vào&nbsp;<a href="https://10minutemail.net" target="_blank" rel="noopener">https://10minutemail.net</a> nó sẽ tự tạo cho bạn địa chỉ email ngẫu nhiên có dạng như trên. Bạn có thể sao chép nó và sử dụng ngay.
+Sau khi truy cập vào <a href="https://10minutemail.net" target="_blank" rel="noopener">https://10minutemail.net</a> nó sẽ tự tạo cho bạn địa chỉ email ngẫu nhiên có dạng như trên. Bạn có thể sao chép nó và sử dụng ngay.
 
 Địa chỉ email này có thời hạn 10 phút. Bạn có thể gia hạn thêm 10 phút nữa, hoặc lấy 1 email khác.
 
@@ -34,13 +35,13 @@ Sau khi truy cập vào&nbsp;<a href="https://10minutemail.net" target="_blank" 
 
 Cách dùng tương tự như email 10 phút
 
-  1. www.guerrillamail.com
-  2. www.yopmail.com &nbsp;(Nhiều web không chấp nhận tài khoản sử dụng email mày)
-  3. en.getairmail.com
-  4. mailinator.com
-  5. www.fakemailgenerator.com
+1. www.guerrillamail.com
+2. www.yopmail.com (Nhiều web không chấp nhận tài khoản sử dụng email mày)
+3. en.getairmail.com
+4. mailinator.com
+5. www.fakemailgenerator.com
 
-* * *
+---
 
 **Kết luận:**
 

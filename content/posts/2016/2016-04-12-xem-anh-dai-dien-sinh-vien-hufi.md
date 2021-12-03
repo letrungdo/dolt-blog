@@ -8,6 +8,7 @@ cover: "../../images/2016/04/anh-dai-dien-hufi.jpg"
 categories:
   - HUFI
 ---
+
 <p style="text-align: justify;">
   Cổng thông tin <strong>sinh viên HUFI</strong> mới có phần ảnh đại diện cho mỗi sinh viên, đây là cái mình thích nhất 😉 Sau đây là 2 cách để <strong>xem ảnh đại diện sinh viên HUFI</strong>.
 </p>
@@ -38,14 +39,14 @@ Sao chép link trên và dán vào trình duyệt web. Nhấn enter để hiển
 
 Lưu ý: Chỉ hỗ trợ trên **<a href="https://en.wikipedia.org/wiki/Internet_Explorer" target="_blank" rel="noopener">trình duyệt IE</a>**.
 
- **Chrome, Ms Edge** không hỗ trợ
+**Chrome, Ms Edge** không hỗ trợ
 
 ### Cách mở IE
 
-<img class="aligncenter size-full wp-image-2048" src="/media/2016/04/xem-anh-dai-dien-sinh-vien-hufi.png" alt="" width="840" height="125" srcset="/media/2016/04/xem-anh-dai-dien-sinh-vien-hufi.png 840w, /media/2016/04/xem-anh-dai-dien-sinh-vien-hufi-768x114.png 768w" sizes="(max-width: 840px) 100vw, 840px" /> 
+<img class="aligncenter size-full wp-image-2048" src="/media/2016/04/xem-anh-dai-dien-sinh-vien-hufi.png" alt="" width="840" height="125" srcset="/media/2016/04/xem-anh-dai-dien-sinh-vien-hufi.png 840w, /media/2016/04/xem-anh-dai-dien-sinh-vien-hufi-768x114.png 768w" sizes="(max-width: 840px) 100vw, 840px" />
 
-Bấm tổ hợp phím **Windows + R** vào S**tart -> Run** để mở hộp thoại **Run**. Nhập "**iexplore.exe**" vào ô và enter
+Bấm tổ hợp phím **Windows + R** vào **Start -> Run** để mở hộp thoại **Run**. Nhập "**iexplore.exe**" vào ô và enter
 
 Nhập liên kết bạn copy ở trên dán vào khung đường dẫn->enter
 
-**Và kết quả: **bạn bấm chuột phải lên hình chọn **save picture as..**. để lưu về máy
+**Và kết quả:** bạn bấm chuột phải lên hình chọn **save picture as..**. để lưu về máy

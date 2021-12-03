@@ -10,19 +10,18 @@ categories:
 tags:
   - Instagram
 ---
+
 Dạo qua <a href="/tag/instagram" target="_blank" rel="noopener">instagram</a> thấy nhiều ảnh đại diện của bạn bè rất đẹp. Nhưng nhìn nhỏ quá không đã mắt, mình đã thử sửa lại link và thành công. Sau đây là cách **tải ảnh đại diện** trên instagram **FULL SIZE**
-
-
 
 ## Hướng dẫn tải ảnh đại diện trên instagram FULL SIZE
 
-  1. Vào trang cá nhân cần lấy ảnh, **bấm chuột phải vào avata** chọn **kiểm tra**
+1. Vào trang cá nhân cần lấy ảnh, **bấm chuột phải vào avata** chọn **kiểm tra**
 
-<img class="aligncenter size-full wp-image-1904" src="/media/2016/07/avata_instagram.png" alt="" width="716" height="366" /> 
+<img class="aligncenter size-full wp-image-1904" src="/media/2016/07/avata_instagram.png" alt="" width="716" height="366" />
 
 2. Một khung hiện lên, bạn nhấp đúp chuột vào link sau **src="** và chọn **sao chép**
 
-<img class="aligncenter size-full wp-image-1905" src="/media/2016/07/avata_instagram1.png" alt="" width="748" height="352" /> 
+<img class="aligncenter size-full wp-image-1905" src="/media/2016/07/avata_instagram1.png" alt="" width="748" height="352" />
 
 Ta được link sau:
 

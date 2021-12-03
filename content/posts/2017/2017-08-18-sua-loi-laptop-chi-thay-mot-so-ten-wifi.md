@@ -8,15 +8,16 @@ cover: "../../images/2017/08/sua-loi-laptop-chi-thay-1-so-song-wifi.png"
 categories:
   - Bugs
 ---
+
 Sau khi cài lại win hay sau khi update, lỗi laptop chỉ thấy một số tên <a href="/tag/wifi/" target="_blank" rel="noopener">wifi</a> của nhà hàng xóm, còn wifi phòng mình thì không. Lỗi này thường do driver không phù hợp với máy, hoặc cấu hình chọn kênh thu wifi bị sai. Bài viết sẽ hướng dẫn các bạn **sửa lỗi Laptop chỉ thấy một số tên Wifi** theo các cách sau.
 
 # Hướng dẫn sửa lỗi Laptop chỉ thấy một số tên Wifi
 
 ## Cách 1: Cài lại driver Wifi tải từ trang chủ
 
-Nhấn phím **Windows** + **R** để mở hộp thoại **Run**. Gõ **devmgmt.msc **và nhấn **Enter** để mở trình quản lý thiết bị (**Device Manager**).
+Nhấn phím **Windows** + **R** để mở hộp thoại **Run**. Gõ **devmgmt.msc** và nhấn **Enter** để mở trình quản lý thiết bị (**Device Manager**).
 
-<img class="aligncenter size-full" src="/media/2017/08/wifi-chi-nhan-1-so-song.png" alt="Laptop chỉ thấy một số tên Wifi" /> 
+<img class="aligncenter size-full" src="/media/2017/08/wifi-chi-nhan-1-so-song.png" alt="Laptop chỉ thấy một số tên Wifi" />
 
 Chọn dòng **Network adapters**, Chọn tiếp dòng có chữ ...**Wireless Network Adapter** bấm chuột phải rồi chọn **Uninstall device** để gỡ driver wifi.
 
@@ -28,7 +29,7 @@ Nếu cài xong vẫn không được thì bạn làm theo cách 2.
 
 Cũng vào **Device Manager** như cách 1, nhấn chuột phải vào driver wifi chọn **Properties**, chọn tab **Advanced**.
 
-<img class="aligncenter size-full" src="/media/2017/08/wifi-chanel-mode.png" alt="Laptop chỉ thấy một số tên Wifi" /> 
+<img class="aligncenter size-full" src="/media/2017/08/wifi-chanel-mode.png" alt="Laptop chỉ thấy một số tên Wifi" />
 
 Dòng **Chanel Mode** chọn 2.4GHz (Có máy không có tùy chọn này).
 
@@ -45,5 +46,3 @@ Các bạn đăng nhập vào modem router và chọn lại chuẩn phát là b/
 Trên đây là 3 cách hầu như giải quyết được 100% vấn đề **Laptop chỉ thấy một số tên Wifi**.
 
 Từ khóa liên quan: **Laptop không bắt được wifi nhà mình.**
-
-&nbsp;

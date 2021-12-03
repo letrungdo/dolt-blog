@@ -9,6 +9,7 @@ keywords: "tạo chính sách bảo mật"
 categories:
   - Web
 ---
+
 <p style="text-align: justify;">
   Khi xây dựng một doanh nghiệp, bạn cần phải có chính sách bảo mật (privacy policy) riêng của doanh nghiệp, đại diện cho các khía cạnh pháp lý của thương hiệu. Nếu bạn là một Webmaster, bạn có thể nhận thấy rằng tất cả các website chuyên nghiệp đều có một trang privacy policy.
 </p>
@@ -45,7 +46,7 @@ categories:
   Rất đơn giản, bạn chỉ cần nhập một số thông tin cơ bản theo mẫu dưới đây:
 </p>
 
-<img class="aligncenter size-full" src="/media/2016/04/create-private-page.png" alt="" /> 
+<img class="aligncenter size-full" src="/media/2016/04/create-private-page.png" alt="" />
 
 <ol style="text-align: justify;">
   <li>

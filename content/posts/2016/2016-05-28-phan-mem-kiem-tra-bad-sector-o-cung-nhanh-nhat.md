@@ -8,6 +8,7 @@ cover: "../../images/2016/05/Bad-Sector.jpg"
 categories:
   - Softwares
 ---
+
 <p style="text-align: justify;">
   Làm thế nào để Kiểm tra<strong> Bad sector</strong> nhanh nhất? Có nhiều phần mềm giúp ta kiểm tra bad sector, nhưng để kiểm tra chính xác bị bad chỗ nào thì rất lâu. Nên nếu bạn đang nghi ngờ máy mình có bị bad sector hay không, hoặc bạn đi mua máy muốn test ổ cứng có bị bad một cách nhanh nhất thì sau đây là phần mềm kiểm tra Bad Sector ổ cứng nhanh nhất.
 </p>
@@ -28,14 +29,14 @@ categories:
   Đây là phần mềm kiểm tra Bad Sector và đánh giá tình trạng ổ cứng rất nhanh. Bạn chỉ cần mở phần mềm lên trong vòng 5s, chương trình sẽ cho biết ngay tình trạng ổ cứng tốt hay xấu
 </p>
 
-<img class="aligncenter size-full wp-image-2012" src="/media/2016/05/Crystal-Disk-Info-6.5.png" alt="" width="674" height="532" /> 
+<img class="aligncenter size-full wp-image-2012" src="/media/2016/05/Crystal-Disk-Info-6.5.png" alt="" width="674" height="532" />
 
 Crystal Disk Info có 4 kết quả trạng thái sau:
 
-  1. Good - màu xanh: Đĩa còn tốt không bị bad
-  2. Caution - màu vàng: Đĩa có lỗi, bị bad một vài chỗ có thể dùng phần mềm sửa được
-  3. Bad - màu đỏ : Ổ cứng bị bad sector nặng, nếu dùng phần mềm sửa sẽ không hết. Phải cắt bỏ bớt những phần bị bad đó đi.
-  4. Gray - màu xám : Không xác định được lỗi. Trường hợp này mình chưa gặp
+1. Good - màu xanh: Đĩa còn tốt không bị bad
+2. Caution - màu vàng: Đĩa có lỗi, bị bad một vài chỗ có thể dùng phần mềm sửa được
+3. Bad - màu đỏ : Ổ cứng bị bad sector nặng, nếu dùng phần mềm sửa sẽ không hết. Phải cắt bỏ bớt những phần bị bad đó đi.
+4. Gray - màu xám : Không xác định được lỗi. Trường hợp này mình chưa gặp
 
 <p style="text-align: justify;">
   Bài viết trên <span style="color: #008000;"><strong>rất có ích cho các bạn đi mua lại laptop cũ</strong></span>, kiểm tra ổ cứng bằng Crystal Disk Info chỉ mất 5s ta có thể biết được ổ cứng có còn tốt hay không.

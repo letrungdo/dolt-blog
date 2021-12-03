@@ -9,6 +9,7 @@ categories:
   - Documents
   - HUFI
 ---
+
 Ngân hàng câu hỏi và đáp án môn Phương pháp nghiên cứu khoa học (PP NCKH) của trường Đại học Công nghiệp Thực phẩm tp.HCM (HUFI). Hình thức thi tự luận 100% đề đóng. 2 câu lý thuyết(2 x 3đ) và 1 câu thực hành(4đ).
 
 # Nội dung ngân hàng câu hỏi và đáp án PPNCKH HUFI
@@ -91,42 +92,42 @@ Ngân hàng câu hỏi và đáp án môn Phương pháp nghiên cứu khoa họ
 
 ###### Câu 36: Anh/chi hãy cho biết nội dung một đề tài đã, đang hoặc sẽ nghiên cứu  với chủ đề về “**Phát triển kinh tế**”  ở nước ta hiện nay bao gồm các nội dung sau:
 
-+ Tên đề tài
+- Tên đề tài
 
-+ Chỉ rõ một vấn đề nghiên cứu.
+- Chỉ rõ một vấn đề nghiên cứu.
 
-+ Xác định mục tiêu nghiên cứu và đối tượng  nghiên cứu.
+- Xác định mục tiêu nghiên cứu và đối tượng  nghiên cứu.
 
-+ Dự kiến các phương pháp sẽ được sử dụng để thực hiện đề tài nghiên cứu đó.
+- Dự kiến các phương pháp sẽ được sử dụng để thực hiện đề tài nghiên cứu đó.
 
 ###### Câu 37: Anh/chi hãy cho biết nội dung một đề tài đã, đang hoặc sẽ nghiên cứu  với chủ đề về “BẢO VỆ MÔI TRƯỜNG”  ở nước ta hiện nay bao gồm các nội dung sau:
 
-+ Tên đề tài
+- Tên đề tài
 
-+ Chỉ rõ một vấn đề nghiên cứu.
+- Chỉ rõ một vấn đề nghiên cứu.
 
-+ Xác định mục tiêu nghiên cứu và đối tượng  nghiên cứu.
+- Xác định mục tiêu nghiên cứu và đối tượng  nghiên cứu.
 
-+ Dự kiến các phương pháp sẽ được sử dụng để thực hiện đề tài nghiên cứu đó.
+- Dự kiến các phương pháp sẽ được sử dụng để thực hiện đề tài nghiên cứu đó.
 
 ###### Câu 38: Anh/chi hãy cho biết nội dung một đề tài đã, đang hoặc sẽ nghiên cứu  với chủ đề về “AN TOÀN THỰC PHẨM”  ở nước ta hiện nay bao gồm các nội dung sau:
 
-+ Tên đề tài
+- Tên đề tài
 
-+ Chỉ rõ một vấn đề nghiên cứu.
+- Chỉ rõ một vấn đề nghiên cứu.
 
-+ Xác định mục tiêu nghiên cứu và đối tượng  nghiên cứu.
+- Xác định mục tiêu nghiên cứu và đối tượng  nghiên cứu.
 
-+ Dự kiến các phương pháp sẽ được sử dụng để thực hiện đề tài nghiên cứu đó.
+- Dự kiến các phương pháp sẽ được sử dụng để thực hiện đề tài nghiên cứu đó.
 
 ###### Câu 39: Anh/chi hãy cho biết nội dung một đề tài đã, đang hoặc sẽ nghiên cứu  với chủ đề về “CÔNG NGHỆ VÀ ỨNG DỤNG CÔNG NGHỆ”  ở nước ta hiện nay bao gồm các nội dung sau:
 
-+ Tên đề tài
+- Tên đề tài
 
-+ Chỉ rõ một vấn đề nghiên cứu.
+- Chỉ rõ một vấn đề nghiên cứu.
 
-+ Xác định mục tiêu nghiên cứu và đối tượng  nghiên cứu.
+- Xác định mục tiêu nghiên cứu và đối tượng  nghiên cứu.
 
-+ Dự kiến các phương pháp sẽ được sử dụng để thực hiện đề tài nghiên cứu đó.
+- Dự kiến các phương pháp sẽ được sử dụng để thực hiện đề tài nghiên cứu đó.
 
 <a href="https://drive.google.com/file/d/18qFqC9De9404w6wUyJyznXYYSzjdr3Fb/view?usp=sharing" target="_blank" rel="noopener"><span style="color: #ff0000;"><strong><span class="td_text_highlight_marker_green td_text_highlight_marker">Tải về FULL Ngân hàng câu hỏi và đáp án Phương pháp nghiên cứu khoa học HUFI</span></strong></span></a>

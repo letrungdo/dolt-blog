@@ -8,6 +8,7 @@ cover: "../../images/2017/08/cach-dung-the-nho-lam-bo-nho-trong.png"
 categories:
   - Phones
 ---
+
 Trong Android 6.0 (Marshmallow) có thêm chức năng dùng thẻ nhớ như là bộ nhớ trong (Internal Mode) để cài ứng dụng. Các ứng dụng được di chuyển 100% dung lượng qua phân vùng thẻ nhớ này. Đặc biệt máy bạn không cần root hay cài các ứng dụng Link2SD hay Apps2SD. Trong một số máy đã ẩn đi tính năng này. Bài viết sẽ hướng dẫn bạn cách để kích hoạt tính năng **dùng thẻ nhớ làm bộ nhớ trong** cho các máy đã ẩn đi tính năng này.
 
 ## Dùng ADB viết lệnh kích hoạt dùng thẻ nhớ làm bộ nhớ trong
@@ -39,9 +40,9 @@ Lệnh này sẽ hiện dòng **disk:179,64** là thẻ nhớ của bạn
 
 Số 50 có nghĩa là dùng 50% dung lượng thẻ nhớ làm bộ nhớ trong cài apps.
 
-<img class="aligncenter size-full" src="/media/2017/08/dung-the-nho-lam-bo-nho-trong.png" alt="" /> 
+<img class="aligncenter size-full" src="/media/2017/08/dung-the-nho-lam-bo-nho-trong.png" alt="" />
 
-<img class="aligncenter size-full" src="/media/2017/08/cach-dung-the-nho-lam-bo-nho-trong.png" alt="" /> 
+<img class="aligncenter size-full" src="/media/2017/08/cach-dung-the-nho-lam-bo-nho-trong.png" alt="" />
 
 Như trên là 1 thẻ nhớ 16GB được chia làm 2 phân vùng. Phân vùng Thẻ SD của bộ nhớ thiết bị có định dạng là ext4 nên bạn cắm vào máy tính Windows sẽ không thấy phân vùng này.
 

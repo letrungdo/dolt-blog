@@ -9,6 +9,7 @@ categories:
   - Documents
   - HUFI
 ---
+
 Đề thi trắc nghiệm **Quy hoạch tuyến tính HUFI** có đáp án các bạn tải về tham khảo. Đề cương ôn thi gồm 5 chương như sau:
 
 ### Chương 1: (1.5đ) Giới thiệu bài toán quy hoạch tuyến tính
@@ -29,8 +30,8 @@ Thuật toán quy 0 cước phí ô chọn
 
 ### Chương 5: (0.5đ) Sơ đồ mạng Pert
 
-* * *
+---
 
-**Download:** [TN\_QHTT\_HUFI\_DOLT\_UPDATE](https://drive.google.com/file/d/1RnnsGPr_YjtS1AkglD-2TYJvtjGcgiml/view?usp=sharing)
+**Download:** [TN_QHTT_HUFI_DOLT_UPDATE](https://drive.google.com/file/d/1RnnsGPr_YjtS1AkglD-2TYJvtjGcgiml/view?usp=sharing)
 
 Đề: Cô **Đào Thị Trang**

@@ -8,6 +8,7 @@ cover: "../../images/2016/05/chm.png"
 categories:
   - Bugs
 ---
+
 <p style="display: flex">
   <img src="/media/2016/05/chm-1.png" alt="chm icon" />
   Không đọc được file .chm? Bạn tìm được một cuốn tài liệu ebook hay trên mạng với định dạng (.chm) nhưng khi mở tài liệu ra chỉ có đề mục còn nội dụng thì không có.
@@ -28,7 +29,7 @@ categories:
 
 # 1. Không đọc được file .chm, file không có nội dung
 
-<img class="aligncenter size-full wp-image-2040" src="/media/2016/05/chm-file-about.png" alt="" width="752" height="544" srcset="/media/2016/05/chm-file-about.png 752w, /media/2016/05/chm-file-about-74x55.png 74w" sizes="(max-width: 752px) 100vw, 752px" /> 
+<img class="aligncenter size-full wp-image-2040" src="/media/2016/05/chm-file-about.png" alt="" width="752" height="544" srcset="/media/2016/05/chm-file-about.png 752w, /media/2016/05/chm-file-about-74x55.png 74w" sizes="(max-width: 752px) 100vw, 752px" />
 
 <p style="text-align: justify;">
   <em><strong>Nguyên nhân:</strong></em> Do tính năng bảo mật và bản chất của các file .chm. Một sồ file .chm có bản chất remote dữ liệu từ 1 số server hay 1 số máy chủ online hoặc 1 Database nào đó trên chính PC của bạn, và kể từ khi Windows XP chính thức đc Update hotfix KB896358 thì hiện tượng không thể xem được file .chm đã bắt đầu xuất hiện và các phiên bản windows mới cũng vậy.
@@ -54,7 +55,7 @@ categories:
   <strong>Cách 2:</strong> Các bạn Click phải vào 1 file .chm bất kỳ chọn Properties và click vào Unblock sau đó OK.
 </p>
 
-<img class="aligncenter size-full wp-image-2041" src="/media/2016/05/unlock-chm-file.png" alt="" width="363" height="509" /> 
+<img class="aligncenter size-full wp-image-2041" src="/media/2016/05/unlock-chm-file.png" alt="" width="363" height="509" />
 
 <h1 style="text-align: justify;">
   2. Một số lỗi khác:

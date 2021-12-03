@@ -8,6 +8,7 @@ cover: "../../images/2016/04/active-windows-10.jpg"
 categories:
   - Tricks
 ---
+
 <p style="text-align: justify;">
   Hiện nay <strong>key kích hoạt Windows 10 online</strong> đang rất hiếm, buộc bạn phải tìm <a href="/tag/key-mak/" target="_blank" rel="noopener noreferrer"><strong>key MAK</strong></a> còn 0 lượt kích hoạt để <strong>Active by phone</strong>. Nhưng quá trình kích hoạt rắc rối, phải <strong>fake ip</strong> gọi điện.. có nhiều khi key sống mà gọi không được.
 </p>
@@ -73,7 +74,7 @@ Bảng nhập key hiện ra, bạn điền key MAK Windows 7, 8, 8.1 còn lượ
 
 Chờ chút cho MS xác nhận, rồi bấm Next.
 
->> Nếu vẫn chưa xong thì thêm lệnh: **slmgr /ato** (enter) nhé.
+> > Nếu vẫn chưa xong thì thêm lệnh: **slmgr /ato** (enter) nhé.
 
 <div>
   <strong>Lưu ý:</strong> Cần có kết nối mạng mới Active Windows 10 được. Phiên bản Windows 10 phải là bản Pro và version từ version 1511 hoặc cao hơn.
@@ -91,7 +92,5 @@ Chờ chút cho MS xác nhận, rồi bấm Next.
 </div>
 
 ### _**Video hướng dẫn Kích hoạt Windows 10 online**_
-
-
 
 <span style="color: #ff0000; background-color: #00ff00;"><strong>Cập nhật</strong>: <a href="/kich-hoat-ban-quyen-windows-va-office-qua-web/" target="_blank" rel="noopener">Cách kích hoạt bản quyền Windows và Office qua web</a></span>

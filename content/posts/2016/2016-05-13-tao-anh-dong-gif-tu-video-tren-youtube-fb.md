@@ -1,5 +1,5 @@
 ---
-title: 'Tạo ảnh động GIF từ video trên youtube, instagram, facebook ngay trên web'
+title: "Tạo ảnh động GIF từ video trên youtube, instagram, facebook ngay trên web"
 date: 2016-05-13T14:57:43+07:00
 author: letrungdo
 template: "post"
@@ -10,6 +10,7 @@ categories:
 tags:
   - Facebook
 ---
+
 <p style="text-align: justify;">
   Gifyoutube.com nay đổi thành <strong>gifs.com</strong> là 1 trang <strong>tạo ảnh động GIF</strong> từ video trên youtube, instagram, vine... Trang này hỗ trợ bạn tạo ảnh động GIF từ video cực kì nhanh chóng chỉ vài thao tác đơn giản là bạn có ngay những bức ảnh đẹp, vui nhộn để chia sẽ với bạn bè.
 </p>
@@ -26,7 +27,7 @@ tags:
   <strong>Bước 2</strong>: Trên thanh địa chỉ trình duyệt web, thêm từ <strong>gif</strong> vào trước chữ <strong>youtube.com/</strong> và ấn phím Enter.
 </p>
 
-<img class="aligncenter size-full" src="/media/2016/05/gifiu-2.png" alt=""/> 
+<img class="aligncenter size-full" src="/media/2016/05/gifiu-2.png" alt=""/>
 
 <p style="text-align: justify;">
   <strong>Bước 3</strong>: Bạn sẽ được chuyển hướng tới trang web tạo ảnh GIF chính có giao diện như sau:
@@ -42,7 +43,7 @@ tags:
 
 **Bước 4**: Ảnh GIF bạn vừa tạo ra sẽ được đăng lên trang gifs.com(<a href="https://gifs.com/gif/n5o827" target="_blank" rel="noopener">xem thử</a>).
 
-<img class="aligncenter size-full" src="/media/2016/05/gif-save.png" alt="" /> 
+<img class="aligncenter size-full" src="/media/2016/05/gif-save.png" alt="" />
 
 <p style="text-align: justify;">
   Bạn có thể lấy đường link ảnh GIF của mình đi chia sẻ lên mạng xã hội, hoặc cũng có thể tải ảnh GIF về máy bằng cách bấm vào <strong>Download GIF</strong>

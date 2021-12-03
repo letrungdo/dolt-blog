@@ -8,6 +8,7 @@ cover: "../../images/2017/05/CDA-Customization-Number-SI-la-gi.png"
 categories:
   - Phones
 ---
+
 **CDA** (Cellular Digital Accessory) hay  **Customization Number** hoặc **SI** là thông tin số phiên bản phần mềm và nguồn gốc  cho một chiếc điện thoại di động. Thuật ngữ CDA, SI, Customization Number thường thấy trên các thiết bị điện thoại Sony Xperia. Các thuật ngữ này có ý nghĩa như nhau.
 
 ## CDA, SI, Customization Number trên Sony Xperia có ý nghĩa gì?
@@ -22,7 +23,7 @@ Bởi vì nếu 1 dòng điện thoại khi có bản firmware mới, mà tấc 
 
 Đây là giao diện phần mềm tìm firmware gốc cho điện thoại Sony Xperia.
 
-<img class="aligncenter size-full" src="/media/2017/05/CDA-la-gi.png" alt="" /> 
+<img class="aligncenter size-full" src="/media/2017/05/CDA-la-gi.png" alt="" />
 
 Như hình trên là firmware của Sony M4 Aqua Dual.
 
@@ -40,8 +41,8 @@ Tại sao lại có 2 bản: Vì nếu người dùng M4 Aqua Dual ở Việt Na
 
 Là 1 dãy số như sau: X thay cho các số
 
-  * XXXX-XXXX
-  * XXXX-XXXX-RXX
+- XXXX-XXXX
+- XXXX-XXXX-RXX
 
 ## <span class="mw-headline">Cách xem </span><span id="Format" class="mw-headline">Customization Number </span>của bạn
 
@@ -49,12 +50,12 @@ Là 1 dãy số như sau: X thay cho các số
 
 **<span id="Format" class="mw-headline">Customization Number</span>**<span id="Format" class="mw-headline">: bạn có thể xem trực tiếp trên điện thoại bằng cách </span>thực hiện các bước sau:
 
-  1. Nhập số **\*#\*#7378423#\*#\***
-  2. Chọn **Service Info**
-  3. Chọn **Software Info**
+1. Nhập số **\*#\*#7378423#\*#\***
+2. Chọn **Service Info**
+3. Chọn **Software Info**
 
 Thông tin kết quả ở dòng **<span id="Format" class="mw-headline">Customization Version:</span>**
 
-<img class="aligncenter wp-image-191" src="/media/2017/05/CDA-Customization-Number-SI-Sony-Xperia.png" alt="" width="400" height="711" /> 
+<img class="aligncenter wp-image-191" src="/media/2017/05/CDA-Customization-Number-SI-Sony-Xperia.png" alt="" width="400" height="711" />
 
 **Chú ý**: Có thể thông số mã **SI** trên hộp điện thoại bạn khác số **<span id="Format" class="mw-headline">Customization Version </span>**<span id="Format" class="mw-headline">khi bạn xem trực tiếp trên điện thoại. Vì do điện thoại bạn đã cập nhật lên bản Android mới hơn.</span>

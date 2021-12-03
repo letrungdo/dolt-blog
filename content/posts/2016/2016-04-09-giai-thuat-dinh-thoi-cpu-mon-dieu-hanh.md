@@ -8,6 +8,7 @@ cover: "../../images/2016/04/bai-tap-he-dieu-hanh.jpg"
 categories:
   - Documents
 ---
+
 <p id="id4559514" style="text-align: justify;">
   Để giải được các bài tập về giải thuật định thời CPU môn <a href="https://vi.wikipedia.org/wiki/H%E1%BB%87_%C4%91i%E1%BB%81u_h%C3%A0nh" target="_blank" rel="noopener">Hệ điều hành</a> thì trước tiên ta nên xem định nghĩa của <strong><span style="color: #ff6600;">điều phối độc quyền</span></strong> và <strong><span style="color: #99cc00;">điều phối không độc quyền</span></strong> (<span style="color: #ff6600;">nonpreemptive</span>/ <span style="color: #99cc00;">preemptive</span>)
 </p>

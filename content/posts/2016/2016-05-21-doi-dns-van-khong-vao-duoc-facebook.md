@@ -10,6 +10,7 @@ categories:
 tags:
   - Facebook
 ---
+
 <p style="text-align: justify;">
   Hiện nay một số nhà mạng Việt Nam chặn facebook nên ngay cả khi bạn dùng DNS của Google hay OpenDNS vẫn không vào được facebook. Sau đây là một số cách giúp bạn vào facebook dễ dàng
 </p>
@@ -66,9 +67,9 @@ Nếu bạn đã dùng các cách trên mà load facebook quá chậm thì bạ
 
 Bật tiện ích như hình:
 
-<img class="aligncenter size-full wp-image-2072" src="/media/2016/05/turn-on-hotspot-shield.png" alt="" width="298" height="213" /> 
+<img class="aligncenter size-full wp-image-2072" src="/media/2016/05/turn-on-hotspot-shield.png" alt="" width="298" height="213" />
 
-  * Phiên bản cho điện thoại: [Android](https://j.mp/ZB7EA5), [IOS](https://j.mp/16LKf37), [Windows Phone](https://www.microsoft.com/store/apps/hotspot-shield-free-vpn/9wzdncrdfng7)
+- Phiên bản cho điện thoại: [Android](https://j.mp/ZB7EA5), [IOS](https://j.mp/16LKf37), [Windows Phone](https://www.microsoft.com/store/apps/hotspot-shield-free-vpn/9wzdncrdfng7)
 
 <p style="text-align: justify;">
   Hotspot Shield Free VPN Proxy theo mình thấy dùng load facebook nhanh nhất trong các cách trên cho đến thời điểm viết bài này.

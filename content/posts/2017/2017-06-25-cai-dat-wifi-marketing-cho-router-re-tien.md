@@ -1,5 +1,5 @@
 ---
-title: 'Cài đặt Wifi Marketing cho Router rẻ tiền dùng Nodogsplash'
+title: "Cài đặt Wifi Marketing cho Router rẻ tiền dùng Nodogsplash"
 date: 2017-06-25T13:27:09+07:00
 author: letrungdo
 template: "post"
@@ -11,6 +11,7 @@ tags:
   - Nodogsplash
   - Wifi Marketing
 ---
+
 <a href="/tag/wifi-marketing/" target="_blank" rel="noopener"><strong>Wifi Marketing</strong></a> là hình thức quảng cáo thông qua Wifi. Khi kết nối vào WiFi thì bạn sẽ được dẫn tới 1 trang web có chứa hình ảnh, nội dung quảng cáo. Để dùng được wifi thì bạn cần bấm vào quảng cáo hoặc một số hình thức đăng nhập khác... Với các Router loại thường thì firmware gốc của nhà sản xuất không có tính năng Wifi Marketing. Vì vậy bài viết này sẽ giúp các bạn **cài đặt Wifi Marketing** cho modem router của mình.
 
 # Cài firmware OpenWRT cho router
@@ -49,11 +50,11 @@ Mở PuTTY và nhập hostname: Host name tùy vào bạn đặt IP của router
 
 Chọn loại kết nối là SSH > Open
 
-<img class="aligncenter size-full" src="/media/2017/06/putty-login-router-ssh.png" alt="" /> 
+<img class="aligncenter size-full" src="/media/2017/06/putty-login-router-ssh.png" alt="" />
 
 Bạn nhập pass xong sẽ ra giao diện như bên dưới.
 
-<img class="aligncenter size-full" src="/media/2017/06/root-openwrt.png" alt="" /> 
+<img class="aligncenter size-full" src="/media/2017/06/root-openwrt.png" alt="" />
 
 Để cài nodogsplash, bạn nhập lần lượt từng lệnh và nhấn Enter
 
@@ -63,27 +64,27 @@ Bạn nhập pass xong sẽ ra giao diện như bên dưới.
 
 **Một số lệnh cho nodogsplash**
 
-  * Cho phép nodogsplash chạy khi router khởi động:
+- Cho phép nodogsplash chạy khi router khởi động:
 
 <pre>/etc/init.d/nodogsplash enable</pre>
 
-  * Thay đổi một số thiết lập của Nodogsplash:
+- Thay đổi một số thiết lập của Nodogsplash:
 
 <pre>vim /etc/nodogsplash/nodogsplash.conf</pre>
 
-  * Khởi động nodogsplash:
+- Khởi động nodogsplash:
 
 <pre>/etc/init.d/nodogsplash start</pre>
 
-  * Dừng nodogsplash:
+- Dừng nodogsplash:
 
 <pre>/etc/init.d/nodogsplash stop</pre>
 
-  * Gỡ cài đặt nodogsplash:
+- Gỡ cài đặt nodogsplash:
 
 <pre>opkg remove nodogsplash</pre>
 
-  * Xem tình trạng của nodogsplash:
+- Xem tình trạng của nodogsplash:
 
 <pre><span class="crayon-e">ndsctl </span><span class="crayon-e">status</span></pre>
 
@@ -109,7 +110,7 @@ Bạn cần tải phần mềm <a href="https://winscp.net/eng/download.php" tar
 
 Chọn File Protocol là **SCP**, nhập hostname, user name và pass. Nhấn Save rồi Login.
 
-<img class="aligncenter size-full" src="/media/2017/06/login-router.png" alt="" /> 
+<img class="aligncenter size-full" src="/media/2017/06/login-router.png" alt="" />
 
 Tìm đến thư mục** /etc/config **mở file **nodogsplash** và tìm đến dòng sau:
 
@@ -128,7 +129,7 @@ Nên cần bỏ js và css trong thư mục **/www/nodogsplash-static**. Và ph
 
 **FirewallRuleSet preauthenticated-users**: là cho phép dùng các dịch vụ web nào khi chỉ mới kết nối vào wifi, chưa chưa đăng nhập vào wifi từ trang **splash.html.**
 
-  * FirewallRule allow tcp port 80 to **192.168.0.1**
+- FirewallRule allow tcp port 80 to **192.168.0.1**
 
 Thay 192.168.1.1 thành IP router của bạn.
 
