@@ -26,7 +26,7 @@ const config = {
   // Use for comment
   lazyLoadComments: true,
   disqusShortname: "doltblog", // Disqus shortname.
-  btnLoadComments: "Load comments",
+  btnLoadComments: "Disqus comments",
   // Use for home page
   numberLoadmore: 6,
   btnLoadmore: "Load more",

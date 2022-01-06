@@ -1,14 +1,14 @@
 import React from "react";
 import Helmet from "react-helmet";
 import Modal from "react-modal";
-import Navigation from "../components/Navigation/Navigation";
-import Footer from "../components/Footer/Footer";
-import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
-import siteConfig from "../../data/SiteConfig";
 import brand from "../../content/images/brand.webp";
-import "../components/Icons/FontAwesome";
-import "../styles/main.min.css";
 import "../../content/styles/customize.scss";
+import siteConfig from "../../data/SiteConfig";
+import Footer from "../components/Footer/Footer";
+import "../components/Icons/FontAwesome";
+import Navigation from "../components/Navigation/Navigation";
+import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
+import "../styles/main.min.css";
 import AdblockDetect from "../utils/AdblockDetect";
 
 // Modal.setAppElement("#___gatsby");
@@ -32,6 +32,14 @@ const MainLayout = ({ children, hasFooter = true }) => (
         data-ad-client={siteConfig.adsClientId}
         async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      />
+      <div id="fb-root" />
+      <script
+        async
+        defer
+        crossOrigin="anonymous"
+        src={`https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=${siteConfig.siteFBAppID}&autoLogAppEvents=1`}
+        nonce="HOOIv1rM"
       />
     </Helmet>
     <Navigation

@@ -1,13 +1,13 @@
 import React from "react";
+import "../../../content/styles/code-highlight.scss";
 import Comment from "../Comment/Comment";
-import PostTags from "./PostTags";
-import PostShare from "./PostShare";
+import GoogleAds from "../GoogleAds";
+import "./Post.scss";
+import PostCategories from "./PostCategories";
 import PostDate from "./PostDate";
 import PostDivider from "./PostDivider";
-import PostCategories from "./PostCategories";
-import "./Post.scss";
-import "../../../content/styles/code-highlight.scss";
-import GoogleAds from "../GoogleAds";
+import PostShare from "./PostShare";
+import PostTags from "./PostTags";
 
 const Post = ({ postNode, config, slug }) => {
   const post = postNode.frontmatter;
@@ -50,6 +50,12 @@ const Post = ({ postNode, config, slug }) => {
         <GoogleAds adFormat="link" adSlot="5431006373" />
       </div>
       <PostDivider />
+      <div
+        className="fb-comments"
+        data-href={`${config.siteUrl}${slug}`}
+        data-width="auto"
+        data-numposts="5"
+      />
       <Comment
         postNode={postNode}
         extraClass="padding-top"
