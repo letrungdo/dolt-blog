@@ -52,6 +52,7 @@ Open <a href="https://code.visualstudio.com/docs/getstarted/settings" target="_b
 and edit as below
 
 ```json
+"editor.defaultFormatter": "esbenp.prettier-vscode",
 "editor.codeActionsOnSave": {
    "source.fixAll.eslint": true,
    "source.organizeImports": true
