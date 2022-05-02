@@ -53,7 +53,7 @@ export const pageQuery = graphql`
         keywords
         cover {
           childImageSharp {
-            fixed(width: 660, quality: 100) {
+            fixed(width: 660) {
               ...GatsbyImageSharpFixed
             }
           }

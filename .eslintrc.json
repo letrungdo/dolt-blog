@@ -23,7 +23,8 @@
     "react/destructuring-assignment": "off",
     "no-plusplus": "off",
     "react/no-array-index-key": "off",
-    "no-alert": "off"
+    "no-alert": "off",
+    "prefer-template": "warn"
   },
   "settings": {
     "import/core-modules": []

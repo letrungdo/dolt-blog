@@ -1,19 +1,15 @@
-const urljoin = require("url-join");
 const config = require("./data/SiteConfig");
 
 module.exports = {
   pathPrefix: config.pathPrefix === "" ? "/" : config.pathPrefix,
   siteMetadata: {
-    siteUrl: urljoin(config.siteUrl, config.pathPrefix),
+    siteUrl: `${config.siteUrl}${config.pathPrefix}`,
     rssMetadata: {
-      site_url: urljoin(config.siteUrl, config.pathPrefix),
-      feed_url: urljoin(config.siteUrl, config.pathPrefix, config.siteRss),
+      site_url: `${config.siteUrl}${config.pathPrefix}`,
+      feed_url: `${config.siteUrl}${config.pathPrefix}${config.siteRss}`,
       title: config.siteTitle,
       description: config.siteDescription,
-      image_url: `${urljoin(
-        config.siteUrl,
-        config.pathPrefix
-      )}/logos/logo-512x512.png`,
+      image_url: `${config.siteUrl}${config.pathPrefix}/logos/logo-512x512.png`,
       copyright: config.copyright,
     },
   },
@@ -195,6 +191,7 @@ module.exports = {
             }
           `,
             output: config.siteRss,
+            title: "TĐ.VN RSS Feed",
           },
         ],
       },
