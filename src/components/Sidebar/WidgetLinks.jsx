@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled from "@emotion/styled";
 import config from "../../../data/SiteConfig";
 import { linkColors } from "../../styles/themeColors";
 import AutoLink from "../AutoLink/AutoLink";

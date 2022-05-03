@@ -1,5 +1,5 @@
+import styled from "@emotion/styled";
 import React from "react";
-import "./Pagination.scss";
 import PaginationItem from "./PaginationItem";
 
 // condition: totalPages >= 2
@@ -53,7 +53,7 @@ function Pagination(props) {
 
   return (
     totalPages >= 2 && (
-      <div className={`pagination-container ${extraClass}`}>
+      <PaginationContainer className={`pagination-container ${extraClass}`}>
         {respArr.map((value, index) => (
           <PaginationItem
             key={`${pathPrefix}-${index}`}
@@ -64,9 +64,45 @@ function Pagination(props) {
             pathPrefixPagination={pathPrefixPagination}
           />
         ))}
-      </div>
+      </PaginationContainer>
     )
   );
 }
+
+const PaginationContainer = styled.div`
+  --border-style: 1px solid #dcdcdc;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  .pagination-item {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    min-width: 4.8rem;
+    min-height: 4.5rem;
+    border-right: var(--border-style);
+    border-top: var(--border-style);
+    border-bottom: var(--border-style);
+    &:hover {
+      background-color: #f6f6f6;
+      cursor: pointer;
+    }
+    &:first-child {
+      border-left: var(--border-style);
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px;
+    }
+    &:last-child {
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+    }
+    &.active {
+      background-color: #f6f6f6;
+    }
+  }
+`;
 
 export default Pagination;

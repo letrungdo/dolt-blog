@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled from "@emotion/styled";
 import config from "../../../data/SiteConfig";
 import { themeColors } from "../../styles/themeColors";
 import { getCategoryPath } from "../../utils/helpers";
