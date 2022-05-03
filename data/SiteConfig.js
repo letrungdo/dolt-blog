@@ -151,7 +151,7 @@ const config = {
     { label: "Contact", url: "/contact" },
     { label: "Terms of Use", url: "/terms" },
     { label: "Privacy Policy", url: "/privacy" },
-    { label: "Sitemap", url: "https://xn--t-lia.vn/sitemap.xml" },
+    { label: "Sitemap", url: "https://xn--t-lia.vn/sitemap/sitemap-index.xml" },
   ],
   copyright:
     "Copyright © 2021 Le Trung Do. Unless otherwise noted, all code MIT license.",

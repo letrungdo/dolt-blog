@@ -24,7 +24,8 @@
     "no-plusplus": "off",
     "react/no-array-index-key": "off",
     "no-alert": "off",
-    "prefer-template": "warn"
+    "prefer-template": "warn",
+    "class-methods-use-this": "off"
   },
   "settings": {
     "import/core-modules": [],

@@ -4,7 +4,7 @@ $sidebar-desktop-width: 330px;
   display: flex;
   display: -webkit-flex;
   flex-direction: column;
-
+  overflow-x: hidden;
   .content-wrapper {
     width: 100%;
   }

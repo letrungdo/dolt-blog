@@ -16,7 +16,7 @@ class ScrollToTop extends React.Component {
     window.removeEventListener("scroll", this.handleScroll);
   }
 
-  static handleClick = () => {
+  handleClick = () => {
     window.scroll({ top: 0, left: 0, behavior: "smooth" });
   };
 
