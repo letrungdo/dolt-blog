@@ -5,8 +5,8 @@ import WidgetTitle from "./WidgetTitle";
 import config from "../../../data/SiteConfig";
 import { themeColors } from "../../styles/themeColors";
 
-const WidgetTag = ({ tagList }) => (
-  <WidgetContainer extraClass="categories-container">
+function WidgetTag({ tagList }) {
+  return <WidgetContainer extraClass="categories-container">
     <WidgetTitle title={config.tagWidgetTitle} color={themeColors[5]} />
     <div>
       {tagList.map((tag, index) => (
@@ -14,5 +14,5 @@ const WidgetTag = ({ tagList }) => (
       ))}
     </div>
   </WidgetContainer>
-);
+}
 export default WidgetTag;

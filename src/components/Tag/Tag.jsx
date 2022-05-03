@@ -11,8 +11,8 @@ const TagsWrapper = styled.div`
     color: ${(props) => props.color};
   }
 `;
-const Tag = ({ content, color }) => (
-  <AutoLink key={content} to={getTagPath(content)}>
+function Tag({ content, color }) {
+  return <AutoLink key={content} to={getTagPath(content)}>
     <TagsWrapper
       className="inline-block margin-right-half margin-bottom-half 
       border padding-left-half padding-right-half"
@@ -21,5 +21,5 @@ const Tag = ({ content, color }) => (
       <span>{content}</span>
     </TagsWrapper>
   </AutoLink>
-);
+}
 export default Tag;

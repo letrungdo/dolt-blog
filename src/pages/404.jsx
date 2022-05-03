@@ -6,8 +6,8 @@ import SEO from "../components/SEO/SEO";
 import AutoLink from "../components/AutoLink/AutoLink";
 import config from "../../data/SiteConfig";
 
-const PageNotFound = () => (
-  <Layout hasFooter={false}>
+function PageNotFound() {
+  return <Layout hasFooter={false}>
     <div className="page-not-found-container">
       <Helmet title={`${config.pageNotFoundTitle} - ${config.siteTitle}`} />
       <SEO />
@@ -20,6 +20,6 @@ const PageNotFound = () => (
       </div>
     </div>
   </Layout>
-);
+}
 
 export default PageNotFound;

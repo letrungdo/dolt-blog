@@ -23,8 +23,7 @@ class Navigation extends Component {
     const { openDropdown } = this.state;
 
     return (
-      <>
-        <nav className="navigation-container background-color-white">
+      <nav className="navigation-container background-color-white">
           <div className="navigation-main container flex align-items-center justify-content-space-between">
             <NavBrand brand={brand} title={title} />
             <NavLinks links={links} />
@@ -40,7 +39,6 @@ class Navigation extends Component {
             </div>
           ) : null}
         </nav>
-      </>
     );
   }
 }

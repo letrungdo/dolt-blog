@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AutoLink from "../AutoLink/AutoLink";
 
-const PaginationItem = (props) => {
+function PaginationItem(props) {
   const { value, index, currentPage, pathPrefix, pathPrefixPagination } = props;
   const isLeft = value === 0 && index < currentPage / 2;
   const isRight = value === 0 && index > currentPage / 2;
@@ -32,6 +32,6 @@ const PaginationItem = (props) => {
       )}
     </AutoLink>
   );
-};
+}
 
 export default PaginationItem;

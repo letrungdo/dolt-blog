@@ -1,13 +1,13 @@
 import React from "react";
 import "./Hamburger.scss";
 
-const Hamburger = ({ open }) => (
-  <div className={`hamburger ${open ? "open" : ""}`}>
+function Hamburger({ open }) {
+  return <div className={`hamburger ${open ? "open" : ""}`}>
     <span />
     <span />
     <span />
     <span />
   </div>
-);
+}
 
 export default Hamburger;

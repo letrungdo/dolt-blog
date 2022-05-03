@@ -6,7 +6,7 @@ import { getPostList } from "../../utils/helpers";
 import config from "../../../data/SiteConfig";
 import { themeColors } from "../../styles/themeColors";
 
-const WidgetLatesPosts = ({ latestPostEdges }) => {
+function WidgetLatesPosts({ latestPostEdges }) {
   const postList = getPostList(latestPostEdges);
   return (
     <WidgetContainer extraClass="latest-posts-container">
@@ -27,5 +27,5 @@ const WidgetLatesPosts = ({ latestPostEdges }) => {
       </div>
     </WidgetContainer>
   );
-};
+}
 export default WidgetLatesPosts;

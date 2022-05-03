@@ -1,8 +1,8 @@
 import React from "react";
 import "./MainContainer.scss";
 
-const MainContainer = ({ content, sidebar, children }) => (
-  <section className="main-container container">
+function MainContainer({ content, sidebar, children }) {
+  return <section className="main-container container">
     <div className="content-wrapper padding-top-half padding-bottom-2">
       {content || children}
     </div>
@@ -10,6 +10,6 @@ const MainContainer = ({ content, sidebar, children }) => (
       {sidebar}
     </div>
   </section>
-);
+}
 
 export default MainContainer;

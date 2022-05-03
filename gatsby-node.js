@@ -2,6 +2,7 @@ const path = require("path");
 const slug = require("slug");
 const moment = require("moment");
 const siteConfig = require("./data/SiteConfig");
+const Logger = require("./src/utils/logs");
 
 const slugify = (text) => slug(text).toLowerCase();
 
@@ -30,7 +31,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       if (Object.prototype.hasOwnProperty.call(node.frontmatter, "date")) {
         const date = moment(node.frontmatter.date, siteConfig.dateFromFormat);
         if (!date.isValid)
-          console.warn(`WARNING: Invalid date.`, node.frontmatter);
+          Logger.warn(`WARNING: Invalid date.`, node.frontmatter);
 
         createNodeField({
           node,
@@ -76,7 +77,7 @@ exports.createPages = async ({ graphql, actions }) => {
   );
 
   if (markdownQueryResult.errors) {
-    console.error(markdownQueryResult.errors);
+    Logger.error(markdownQueryResult.errors);
     throw markdownQueryResult.errors;
   }
 

@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+import config from "../../../data/SiteConfig";
+import { linkColors } from "../../styles/themeColors";
 import AutoLink from "../AutoLink/AutoLink";
 import WidgetContainer from "./WidgetContainer";
 import WidgetTitle from "./WidgetTitle";
-import config from "../../../data/SiteConfig";
-import { linkColors } from "../../styles/themeColors";
 
 const LinkWrapper = styled.div`
   background-color: ${(props) => props.color};
@@ -23,9 +23,10 @@ const LinkWrapper = styled.div`
   }
 `;
 
-const WidgetLinks = ({ links }) => (
-  <>
-    {links && links.length > 0 && (
+function WidgetLinks({ links }) {
+  return (
+    links &&
+    links.length > 0 && (
       <WidgetContainer extraClass="categories-container">
         <WidgetTitle title={config.linksWidgetTitle} color={linkColors[3]} />
         <div>
@@ -40,8 +41,8 @@ const WidgetLinks = ({ links }) => (
           ))}
         </div>
       </WidgetContainer>
-    )}
-  </>
-);
+    )
+  );
+}
 
 export default WidgetLinks;

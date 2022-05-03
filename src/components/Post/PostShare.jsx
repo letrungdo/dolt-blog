@@ -14,7 +14,7 @@ import {
 import urljoin from "url-join";
 import config from "../../../data/SiteConfig";
 
-const PostShare = ({ postNode, postPath, extraClass = "" }) => {
+function PostShare({ postNode, postPath, extraClass = "" }) {
   const post = postNode.frontmatter;
   const url = urljoin(config.siteUrl, config.pathPrefix, postPath);
   const iconSize = 26;
@@ -60,6 +60,6 @@ const PostShare = ({ postNode, postPath, extraClass = "" }) => {
       </TelegramShareButton>
     </div>
   );
-};
+}
 
 export default PostShare;

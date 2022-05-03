@@ -2,8 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AutoLink from "../AutoLink/AutoLink";
 
-const SocialLinks = ({ socials, color }) => (
-  <div className="social-links-container margin-half">
+function SocialLinks({ socials, color }) {
+  return <div className="social-links-container margin-half">
     {socials.map((social) => {
       if (social.url !== "")
         return (
@@ -24,6 +24,6 @@ const SocialLinks = ({ socials, color }) => (
       return null;
     })}
   </div>
-);
+}
 
 export default SocialLinks;

@@ -10,7 +10,7 @@ import Pagination from "../components/Pagination/Pagination";
 import { getPostList, getTagPath } from "../utils/helpers";
 import config from "../../data/SiteConfig";
 
-const TagTemplate = ({ data, pageContext }) => {
+function TagTemplate({ data, pageContext }) {
   const {
     tag,
     tagList,
@@ -55,7 +55,7 @@ const TagTemplate = ({ data, pageContext }) => {
       </div>
     </Layout>
   );
-};
+}
 
 export default TagTemplate;
 

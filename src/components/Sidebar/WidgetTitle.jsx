@@ -15,11 +15,11 @@ const TitleWrapper = styled.div`
   }
 `;
 
-const WidgetTitle = ({ title, color }) => (
-  <TitleWrapper color={color}>
+function WidgetTitle({ title, color }) {
+  return <TitleWrapper color={color}>
     <div className="widget-title" style={{ backgroundColor: color }}>
       {title}
     </div>
   </TitleWrapper>
-);
+}
 export default WidgetTitle;

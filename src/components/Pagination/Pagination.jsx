@@ -1,6 +1,6 @@
 import React from "react";
-import PaginationItem from "./PaginationItem";
 import "./Pagination.scss";
+import PaginationItem from "./PaginationItem";
 
 // condition: totalPages >= 2
 const MAX_PAGINATION_ITEMS = 7;
@@ -15,7 +15,7 @@ const MAX_PAGINATION_ITEMS = 7;
 // 1, 0, 5, 6, [7], 8, 9
 // 1, 0, 5, 6, 7, [8], 9
 // 1, 0, 5, 6, 7, 8, [9]
-const Pagination = (props) => {
+function Pagination(props) {
   const {
     currentPage,
     totalPages,
@@ -52,23 +52,21 @@ const Pagination = (props) => {
   }
 
   return (
-    <>
-      {totalPages >= 2 && (
-        <div className={`pagination-container ${extraClass}`}>
-          {respArr.map((value, index) => (
-            <PaginationItem
-              key={`${pathPrefix}-${index}`}
-              value={value}
-              index={index}
-              currentPage={currentPage}
-              pathPrefix={pathPrefix}
-              pathPrefixPagination={pathPrefixPagination}
-            />
-          ))}
-        </div>
-      )}
-    </>
+    totalPages >= 2 && (
+      <div className={`pagination-container ${extraClass}`}>
+        {respArr.map((value, index) => (
+          <PaginationItem
+            key={`${pathPrefix}-${index}`}
+            value={value}
+            index={index}
+            currentPage={currentPage}
+            pathPrefix={pathPrefix}
+            pathPrefixPagination={pathPrefixPagination}
+          />
+        ))}
+      </div>
+    )
   );
-};
+}
 
 export default Pagination;

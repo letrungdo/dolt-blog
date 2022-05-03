@@ -1,5 +1,5 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
 import "./ScrollToTop.css";
 
 class ScrollToTop extends React.Component {
@@ -16,7 +16,7 @@ class ScrollToTop extends React.Component {
     window.removeEventListener("scroll", this.handleScroll);
   }
 
-  handleClick = () => {
+  static handleClick = () => {
     window.scroll({ top: 0, left: 0, behavior: "smooth" });
   };
 

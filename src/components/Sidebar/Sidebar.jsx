@@ -8,13 +8,13 @@ import config from "../../../data/SiteConfig";
 import GoogleAds from "../GoogleAds";
 import WidgetContainer from "./WidgetContainer";
 
-const Sidebar = ({
+function Sidebar({
   tagList,
   categoryList,
   latestPostEdges,
   links,
   postInCategory,
-}) => {
+}) {
   return (
     <aside
       className={`sidebar-container width-full ${
@@ -45,6 +45,6 @@ const Sidebar = ({
       </div>
     </aside>
   );
-};
+}
 
 export default Sidebar;

@@ -9,7 +9,7 @@ import PostDivider from "./PostDivider";
 import PostShare from "./PostShare";
 import PostTags from "./PostTags";
 
-const Post = ({ postNode, config, slug }) => {
+function Post({ postNode, config, slug }) {
   const post = postNode.frontmatter;
   if (!post.id) {
     post.id = slug;
@@ -64,6 +64,6 @@ const Post = ({ postNode, config, slug }) => {
       />
     </div>
   );
-};
+}
 
 export default Post;

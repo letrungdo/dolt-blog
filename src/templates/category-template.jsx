@@ -10,7 +10,7 @@ import Pagination from "../components/Pagination/Pagination";
 import { getPostList, getCategoryPath } from "../utils/helpers";
 import config from "../../data/SiteConfig";
 
-const CategoryTemplate = ({ data, pageContext }) => {
+function CategoryTemplate({ data, pageContext }) {
   const {
     category,
     categoryList,
@@ -57,7 +57,7 @@ const CategoryTemplate = ({ data, pageContext }) => {
       </div>
     </Layout>
   );
-};
+}
 
 export default CategoryTemplate;
 

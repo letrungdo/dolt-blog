@@ -28,8 +28,8 @@ const IndexWrapper = styled.div`
   background-color: ${(props) => props.color};
 `;
 
-const WidgetCategory = ({ categoryList, postInCategory }) => (
-  <WidgetContainer extraClass="categories-container">
+function WidgetCategory({ categoryList, postInCategory }) {
+  return <WidgetContainer extraClass="categories-container">
     <WidgetTitle title={config.categoryWidgetTitle} color={themeColors[6]} />
     <div>
       {categoryList.map((category, index) => (
@@ -48,5 +48,5 @@ const WidgetCategory = ({ categoryList, postInCategory }) => (
       ))}
     </div>
   </WidgetContainer>
-);
+}
 export default WidgetCategory;

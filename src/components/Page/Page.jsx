@@ -1,6 +1,6 @@
 import React from "react";
 
-const Page = ({ postNode, slug }) => {
+function Page({ postNode, slug }) {
   const post = postNode.frontmatter;
   if (!post.id) {
     post.id = slug;
@@ -14,6 +14,6 @@ const Page = ({ postNode, slug }) => {
       />
     </div>
   );
-};
+}
 
 export default Page;

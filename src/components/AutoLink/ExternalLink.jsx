@@ -1,7 +1,7 @@
 import React from "react";
 
-const ExternalLink = ({ className, to, children, style }) => (
-  <a
+function ExternalLink({ className, to, children, style }) {
+  return <a
     className={className}
     href={to}
     target="_blank"
@@ -10,6 +10,6 @@ const ExternalLink = ({ className, to, children, style }) => (
   >
     {children}
   </a>
-);
+}
 
 export default ExternalLink;

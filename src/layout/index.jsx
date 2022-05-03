@@ -23,8 +23,8 @@ const adBlockStyles = {
   },
 };
 
-const MainLayout = ({ children, hasFooter = true }) => (
-  <div>
+function MainLayout({ children, hasFooter = true }) {
+  return <div>
     <Helmet htmlAttributes={{ lang: siteConfig.siteLang }}>
       <meta name="description" content={siteConfig.siteDescription} />
       <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
@@ -62,5 +62,5 @@ const MainLayout = ({ children, hasFooter = true }) => (
     )}
     <ScrollToTop color="#FFF" bgColor="grey-half" />
   </div>
-);
+}
 export default MainLayout;

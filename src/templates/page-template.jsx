@@ -9,7 +9,7 @@ import Page from "../components/Page/Page";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 
-const PageTemplate = ({ data, pageContext }) => {
+function PageTemplate({ data, pageContext }) {
   const { slug, tagList, categoryList, latestPostEdges } = pageContext;
   const postNode = data.markdownRemark;
   const { title } = postNode.frontmatter;
@@ -33,7 +33,7 @@ const PageTemplate = ({ data, pageContext }) => {
       <MainContainer content={content} sidebar={sidebar} />
     </Layout>
   );
-};
+}
 
 export default PageTemplate;
 

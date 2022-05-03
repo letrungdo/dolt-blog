@@ -1,8 +1,8 @@
 import React from "react";
 import AutoLink from "../AutoLink/AutoLink";
 
-const FooterLinks = ({ links }) => (
-  <div className="footer-links-container margin-half">
+function FooterLinks({ links }) {
+  return <div className="footer-links-container margin-half">
     {links.map((link) => (
       <AutoLink
         key={link.label}
@@ -13,6 +13,6 @@ const FooterLinks = ({ links }) => (
       </AutoLink>
     ))}
   </div>
-);
+}
 
 export default FooterLinks;

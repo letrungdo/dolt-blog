@@ -2,8 +2,8 @@ import React from "react";
 import AutoLink from "../AutoLink/AutoLink";
 import PostDate from "../Post/PostDate";
 
-const PostInfo = ({ post, extraClass = "" }) => (
-  <div className={`post-info-wrapper ${extraClass}`}>
+function PostInfo({ post, extraClass = "" }) {
+  return <div className={`post-info-wrapper ${extraClass}`}>
     <AutoLink to={post.slug} key={post.title}>
       <h2>
         <small>{post.title}</small>
@@ -14,6 +14,6 @@ const PostInfo = ({ post, extraClass = "" }) => (
       <PostDate date={post.date} />
     </small>
   </div>
-);
+}
 
 export default PostInfo;

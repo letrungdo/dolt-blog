@@ -1,8 +1,8 @@
 import React from "react";
 import AutoLink from "../AutoLink/AutoLink";
 
-const NavBrand = ({ brand, title }) => (
-  <div className="brand">
+function NavBrand({ brand, title }) {
+  return <div className="brand">
     <AutoLink className="flex align-items-center" to="/">
       <img
         className="image margin-right-half border-radius"
@@ -14,6 +14,6 @@ const NavBrand = ({ brand, title }) => (
       </span>
     </AutoLink>
   </div>
-);
+}
 
 export default NavBrand;

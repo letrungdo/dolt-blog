@@ -1,7 +1,7 @@
 import React from "react";
 import AutoLink from "../AutoLink/AutoLink";
 
-const NavLinks = ({ links, isDropdown = false }) => {
+function NavLinks({ links, isDropdown = false }) {
   const navLinksClassDropdown = "nav-links text-left";
   const navLinksClassNormal = "nav-links text-right";
   const navLinksClass = isDropdown
@@ -27,6 +27,6 @@ const NavLinks = ({ links, isDropdown = false }) => {
       ))}
     </div>
   );
-};
+}
 
 export default NavLinks;
