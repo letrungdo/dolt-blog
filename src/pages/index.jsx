@@ -59,33 +59,34 @@ class Index extends React.Component {
 export default Index;
 
 /* eslint no-undef: "off" */
-export const pageQuery = graphql`query IndexQuery {
-  allMarkdownRemark(
-    limit: 2000
-    sort: {fields: [fields___date], order: DESC}
-    filter: {frontmatter: {template: {eq: "post"}}}
-  ) {
-    edges {
-      node {
-        fields {
-          slug
-          date
-        }
-        excerpt
-        timeToRead
-        frontmatter {
-          title
-          tags
-          categories
-          date
-          cover {
-            childImageSharp {
-              gatsbyImageData(width: 660, quality: 100, layout: CONSTRAINED)
+export const pageQuery = graphql`
+  query IndexQuery {
+    allMarkdownRemark(
+      limit: 2000
+      sort: { fields: [fields___date], order: DESC }
+      filter: { frontmatter: { template: { eq: "post" } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+            date
+          }
+          excerpt
+          timeToRead
+          frontmatter {
+            title
+            tags
+            categories
+            date
+            cover {
+              childImageSharp {
+                gatsbyImageData(width: 660, quality: 100, layout: CONSTRAINED)
+              }
             }
           }
         }
       }
     }
   }
-}
 `;

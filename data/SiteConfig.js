@@ -154,7 +154,7 @@ const config = {
     { label: "Sitemap", url: "https://xn--t-lia.vn/sitemap/sitemap-index.xml" },
   ],
   copyright:
-    "Copyright © 2021 Le Trung Do. Unless otherwise noted, all code MIT license.",
+    "Copyright © 2022 Le Trung Do. Unless otherwise noted, all code MIT license.",
   // Use for manifest
   themeColor: "#4f4f4f", // Used for setting manifest and progress theme colors.
   backgroundColor: "#FFF", // Used for setting manifest background color.
