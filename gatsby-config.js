@@ -1,7 +1,7 @@
 const config = require("./data/SiteConfig");
 
 module.exports = {
-  trailingSlash: `never`,
+  // trailingSlash: `never`,
   pathPrefix: config.pathPrefix === "" ? "/" : config.pathPrefix,
   siteMetadata: {
     siteUrl: `${config.siteUrl}${config.pathPrefix}`,
@@ -15,6 +15,12 @@ module.exports = {
     },
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://xn--t-lia.vn`,
+      },
+    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-lodash",
     {
