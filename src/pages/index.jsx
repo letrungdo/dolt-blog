@@ -9,9 +9,9 @@ import SEO from "../components/SEO/SEO";
 import Sidebar from "../components/Sidebar/Sidebar";
 import Layout from "../layout";
 import {
+  getPostInCategory,
   getPostList,
   getTagCategoryList,
-  getPostInCategory,
 } from "../utils/helpers";
 
 class Index extends React.Component {
@@ -63,7 +63,7 @@ export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
       limit: 2000
-      sort: { fields: [fields___date], order: DESC }
+      sort: { fields: { date: DESC } }
       filter: { frontmatter: { template: { eq: "post" } } }
     ) {
       edges {

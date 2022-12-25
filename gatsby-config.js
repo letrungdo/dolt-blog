@@ -1,6 +1,7 @@
 const config = require("./data/SiteConfig");
 
 module.exports = {
+  trailingSlash: `never`,
   pathPrefix: config.pathPrefix === "" ? "/" : config.pathPrefix,
   siteMetadata: {
     siteUrl: `${config.siteUrl}${config.pathPrefix}`,
@@ -79,7 +80,24 @@ module.exports = {
       },
     },
     "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          formats: [`auto`, `webp`],
+          placeholder: `dominantColor`,
+          quality: 50,
+          breakpoints: [750, 1080, 1366, 1920],
+          backgroundColor: `transparent`,
+          tracedSVGOptions: {},
+          blurredOptions: {},
+          jpgOptions: {},
+          pngOptions: {},
+          webpOptions: {},
+          avifOptions: {},
+        },
+      },
+    },
     "gatsby-transformer-sharp",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-twitter",
@@ -156,13 +174,9 @@ module.exports = {
             query: `
             {
               allMarkdownRemark(
-                limit: 1000,
-                sort: { order: DESC, fields: [fields___date] },
-                filter: { 
-                  frontmatter: { 
-                    template: { eq: "post" } 
-                  } 
-                }
+              limit: 1000
+              sort: {fields: {date: DESC}}
+              filter: {frontmatter: {template: {eq: "post"}}}
               ) {
                 edges {
                   node {
@@ -185,8 +199,7 @@ module.exports = {
                   }
                 }
               }
-            }
-          `,
+            }`,
             output: config.siteRss,
             title: "TĐ.VN RSS Feed",
           },
