@@ -32,6 +32,6 @@ Thuật toán quy 0 cước phí ô chọn
 
 ---
 
-**Download:** [TN_QHTT_HUFI_DOLT_UPDATE](https://drive.google.com/file/d/1RnnsGPr_YjtS1AkglD-2TYJvtjGcgiml/view?usp=sharing)
+**Download:** <a href="https://drive.google.com/file/d/1RnnsGPr_YjtS1AkglD-2TYJvtjGcgiml/view?usp=sharing" target="_blank" rel="noopener">TN_QHTT_HUFI_DOLT_UPDATE</a>
 
 Đề: Cô **Đào Thị Trang**

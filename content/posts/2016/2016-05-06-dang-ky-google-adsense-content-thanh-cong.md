@@ -102,7 +102,7 @@ categories:
 ## 5. Đăng ký Google Adsense Content
 
 <p style="text-align: justify;">
-  Vào trang chủ Adsense: <a href="https://www.google.com/adsense/app#main/home" target="_blank" rel="noopener">https://www.google.com/adsense/app#main/home</a> đăng nhập bằng tài khoản gmail mà bạn đã tích hợp <strong>Google Analytic và <a class="goog-inline-block product-name-logo" href="https://www.google.com/webmasters/tools/home?hl=vi">Search Console</a></strong>
+  Vào trang chủ Adsense: <a href="https://www.google.com/adsense/app#main/home" target="_blank" rel="noopener">google.com/adsense/app#main/home</a> đăng nhập bằng tài khoản gmail mà bạn đã tích hợp <strong>Google Analytic và <a class="goog-inline-block product-name-logo" href="https://www.google.com/webmasters/tools/home?hl=vi">Search Console</a></strong>
 </p>
 
 <p style="text-align: justify;">

@@ -18,19 +18,23 @@ tags:
 
 ## Bước 1: Tạo project PHP với Git Repository Distro-Manager
 
-Ta sẽ dùng mã nguồn quản lý file của tác giả IzeroCs tại địa chỉ: <a href="https://github.com/IzeroCs/Distro-Manager" target="_blank" rel="noopener">https://github.com/IzeroCs/Distro-Manager</a>
+Ta sẽ dùng mã nguồn quản lý file của tác giả IzeroCs tại địa chỉ: <a href="https://github.com/IzeroCs/Distro-Manager" target="_blank" rel="noopener">github.com/IzeroCs/Distro-Manager</a>
 
 <img class="aligncenter wp-image-263 size-full" src="/media/2017/09/tao-project-php.png" alt="Cài quản lý file cho PHP trên Openshift v3" width="957" height="488" srcset="/media/2017/09/tao-project-php.png 957w, /media/2017/09/tao-project-php-768x392.png 768w" sizes="(max-width: 957px) 100vw, 957px" />
 
 Điền tên project, ở dòng \* Git Repository URL: nhập link sau:
 
-<pre>https://github.com/IzeroCs/Distro-Manager</pre>
+```bash
+https://github.com/IzeroCs/Distro-Manager
+```
 
 Xong nhấn Create.
 
 Chờ một lát cho quá trình build hoàn thành, bạn sẽ được cấp cho 1 url trỏ đến host của bạn như hình.
 
-<pre>http://php-do.193b.starter-ca-central-1.openshiftapps.com</pre>
+```bash
+http://php-do.193b.starter-ca-central-1.openshiftapps.com
+```
 
 <img class="aligncenter size-full" src="/media/2017/09/php-build-complete.png" alt="Cài quản lý file cho PHP trên Openshift v3" />
 

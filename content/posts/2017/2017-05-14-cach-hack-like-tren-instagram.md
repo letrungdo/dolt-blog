@@ -27,7 +27,7 @@ Bạn sẽ nhận được nhiều like trong vài giây.
 
 &nbsp;
 
-<span style="color: #ff0000;"><strong>Link tải phần mềm Hack like Instagram</strong></span>: [IG_Liker_v2](/media/2017/05/IG_Liker_v2.zip) [Bản v1.2]
+<span style="color: #ff0000;"><strong>Link tải phần mềm Hack like Instagram</strong></span>: [IG_Liker_v2]() [Bản v1.2]
 
 **Lưu ý**: Tài khoản Instagram của bạn phải để ở chế độ công khai thì mới có thể hack like được.
 

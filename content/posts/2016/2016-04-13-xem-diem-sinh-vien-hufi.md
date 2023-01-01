@@ -17,7 +17,7 @@ categories:
 
 Bấm vào link bên dưới, thay **<span style="color: #ff0000;">MSSV</span>** bạn muốn xem điểm rồi nhấn enter để xem.
 
-<a href="http://sinhvien.hufi.edu.vn/XemDiem.aspx?MSSV=2001140556" target="_blank" rel="noopener">http://sinhvien.hufi.edu.vn/XemDiem.aspx?MSSV=<span style="color: #ff0000;"><b>2001140556</b></span></a>
+<a href="http://sinhvien.hufi.edu.vn/XemDiem.aspx?MSSV=2001140556" target="_blank" rel="noopener">sinhvien.hufi.edu.vn/XemDiem.aspx?MSSV=<span style="color: #ff0000;"><b>2001140556</b></span></a>
 
 Không cần đăng nhập tài khoản. Nếu bạn đã đăng nhập thì đăng xuất ra trước khi vào link.
 

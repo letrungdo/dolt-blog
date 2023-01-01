@@ -14,8 +14,8 @@ categories:
 
 ## Tổng hợp Slide bài giảng HUFI
 
-- Toán cao cấp A3: <a href="https://drive.google.com/uc?export=download&id=0B1mDBJH6BWKlaHhnX0FkSTRhOVU" target="_blank" rel="noopener">Download</a>
-- Hệ điều hành: <a href="https://drive.google.com/uc?export=download&id=0B1mDBJH6BWKlNGJJUmZDVnF1MWc" target="_blank" rel="noopener">Download</a>
+- Toán cao cấp A3: <a href="https://github.com/letrungdo/hufi_docs/raw/main/a3_S%2014-15.zip" target="_blank" rel="noopener">Download</a>
+- Hệ điều hành: <a href="https://github.com/letrungdo/hufi_docs/raw/main/He_dieu_hanh.zip" target="_blank" rel="noopener">Download</a>
 - Lập trình hướng đối tượng - Cô Ngân: <a href="https://drive.google.com/uc?export=download&id=0B1mDBJH6BWKlS2ZsRS1hLWRXanc" target="_blank" rel="noopener">Download</a>
 - Lập trình hướng đối tượng - Thầy Vinh: <a href="https://drive.google.com/uc?export=download&id=0B1mDBJH6BWKlWnVoRDAzb1IyQ0U" target="_blank" rel="noopener">Download</a>
 - Thương mại điện tử: <a href="https://drive.google.com/uc?export=download&id=0B1mDBJH6BWKlajRaMmF1SUNXZGs" target="_blank" rel="noopener">Download</a>

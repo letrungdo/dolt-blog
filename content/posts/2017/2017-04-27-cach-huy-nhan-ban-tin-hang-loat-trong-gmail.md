@@ -33,7 +33,7 @@ Cho phép tập lệnh truy cập vào tài khoản Gmail của bạn.<figure id
 
 **Bước 3**: Vào Hộp thư đến trong Gmail của bạn, tạo mới nhãn Gmail với tên bạn đặt ở bước 2 (_mặc định_ là **Unsubscribe**)
 
-Cách tạo nhãn: Vào <a href="https://mail.google.com/mail/u/0/#settings/labels" target="_blank" rel="noopener noreferrer">https://mail.google.com/mail/u/0/#settings/labels</a>, chọn **Create new label**, đặt tên label là **Unsubscribe => Create**
+Cách tạo nhãn: Vào <a href="https://mail.google.com/mail/u/0/#settings/labels" target="_blank" rel="noopener noreferrer">mail.google.com/mail/u/0/#settings/labels</a>, chọn **Create new label**, đặt tên label là **Unsubscribe => Create**
 
 <img class="aligncenter size-full" src="/media/2017/04/Create-new-label.png" alt="" />
 

@@ -25,7 +25,7 @@ Giao diện chính của trang web có hỗ trợ tiếng việt rất dễ sử
 
 <img class="aligncenter size-full wp-image-1982" src="/media/2016/04/mail10minute-welcome.png" alt="" width="374" height="234" />
 
-Sau khi truy cập vào <a href="https://10minutemail.net" target="_blank" rel="noopener">https://10minutemail.net</a> nó sẽ tự tạo cho bạn địa chỉ email ngẫu nhiên có dạng như trên. Bạn có thể sao chép nó và sử dụng ngay.
+Sau khi truy cập vào <a href="https://10minutemail.net" target="_blank" rel="noopener">10minutemail.net</a> nó sẽ tự tạo cho bạn địa chỉ email ngẫu nhiên có dạng như trên. Bạn có thể sao chép nó và sử dụng ngay.
 
 Địa chỉ email này có thời hạn 10 phút. Bạn có thể gia hạn thêm 10 phút nữa, hoặc lấy 1 email khác.
 

@@ -24,10 +24,10 @@ Người sử dụng chỉ cần thêm ".html" vào sau ".jpg" trong địa ch�
 ## Các bước chuyển hình ảnh thành ASCII với Facebook và Instagram
 
 1. Trong trình duyệt (Chrome) của bạn, vào Instagram, Facebook bấm vào hình của bạn rồi chuột phải chọn xem nguồn trang(View Source)
-2. Bấm Ctrl + F rồi gõ .jpg để tìm địa chỉ (URL) hình ảnh. URL của bạn có dạng như này: <a href="https://scontent-hkg3-1.cdninstagram.com/t51.2885-15/e35/12716568_1554646574862270_552019220_n.jpg" target="_blank" rel="noopener">https://scontent-hkg3-1.cdninstagram.com/t51.2885-15/e35/12716568_1554646574862270_552019220_n.jpg</a>
+2. Bấm Ctrl + F rồi gõ .jpg để tìm địa chỉ (URL) hình ảnh. URL của bạn có dạng như này: <a href="https://scontent-hkg3-1.cdninstagram.com/t51.2885-15/e35/12716568_1554646574862270_552019220_n.jpg" target="_blank" rel="noopener">scontent-hkg3-1.cdninstagram.com/t51.2885-15/e35/12716568_1554646574862270_552019220_n.jpg</a>
 3. Sao chép và dán địa chỉ hình ảnh(URL) bạn vừa copy vào thanh tìm kiếm. Sau đó thêm .html vào sau jpg. Bấm Enter để hiện kết quả
 
-Kết quả: <a href="https://scontent-hkg3-1.cdninstagram.com/t51.2885-15/e35/12716568_1554646574862270_552019220_n.jpg.html" target="_blank" rel="noopener">https://scontent-hkg3-1.cdninstagram.com/t51.2885-15/e35/12716568_1554646574862270_552019220_n.jpg.html</a>
+Kết quả: <a href="https://scontent-hkg3-1.cdninstagram.com/t51.2885-15/e35/12716568_1554646574862270_552019220_n.jpg.html" target="_blank" rel="noopener">scontent-hkg3-1.cdninstagram.com/t51.2885-15/e35/12716568_1554646574862270_552019220_n.jpg.html</a>
 
 <img class="aligncenter size-full wp-image-2000" src="/media/2016/05/img-to-text.png" alt="" width="972" height="568" srcset="/media/2016/05/img-to-text.png 972w, /media/2016/05/img-to-text-768x449.png 768w" sizes="(max-width: 972px) 100vw, 972px" />
 

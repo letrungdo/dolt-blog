@@ -29,34 +29,42 @@ Sau đây là danh sách một số host có tích hợp Let's Encrypt Certif
 
 ## Cài đặt Lets Encrypt Certificate
 
-1. Mở terminal trong Ubuntu và gõ: <pre class="brush: plain; title: ; notranslate" title="">git clone https://github.com/letsencrypt/letsencrypt</pre>
+1. Mở terminal trong Ubuntu và gõ:
 
-2. Gõ lệnh <pre class="brush: plain; title: ; notranslate" title="">cd letsencrypt</pre>
+```bash
+git clone https://github.com/letsencrypt/letsencrypt
+```
 
+2. Gõ lệnh
 
-    để chuyển đến thư mục letsencrypt</li> </ol>
+```bash
+cd letsencrypt
+```
 
-    ## Tạo chứng chỉ Let's Encrypt
+để chuyển đến thư mục letsencrypt</li> </ol>
 
-    <li value="3">
-      Bên trong thư mục letsencrypt, gõ:
-    </li>
+## Tạo chứng chỉ Let's Encrypt
 
-    <pre class="brush: plain; title: ; notranslate" title="">./letsencrypt-auto certonly -a manual --rsa-key-size 4096 -d tđ.vn -d www.tđ.vn</pre>
+Bên trong thư mục letsencrypt, gõ:
 
-    **Lưu ý:** Thay thế tđ.vn thành tên trang web của bạn.
+```bash
+./letsencrypt-auto certonly -a manual --rsa-key-size 4096 -d tđ.vn -d www.tđ.vn
+```
 
-    Khi chạy lệnh trên có yêu cầu nhập pass.
+**Lưu ý:** Thay thế tđ.vn thành tên trang web của bạn.
 
-    <li value="4">
-      Để đăng nhập IP của bạn. Chọn Yes.
-    </li>
+Khi chạy lệnh trên có yêu cầu nhập pass.
+
+   <li value="4">
+     Để đăng nhập IP của bạn. Chọn Yes.
+   </li>
 
 <img class="aligncenter size-full" src="/media/2016/07/ip-being-logged.png" alt="" /> 
     
-    Chọn xong sẽ hiện các dòng sau:
-    
-    <pre class="brush: plain; title: ; notranslate" title="">Make sure your web server displays the following content at
+Chọn xong sẽ hiện các dòng sau:
+
+```bash
+Make sure your web server displays the following content at
 /.well-known/acme-challenge/VVGHpfFleFEuueHABqr9OcD2ZGfH4L4jRFWOSncsi90 before continuing:
 
 VVGHpfFleFEuueHABqr9OcD2ZGfH4L4jRFWOSncsi90.OIJ_M0M1cYuFvxiH27g0JChuKjdZmxsV3g97nTZFUOw
@@ -66,7 +74,8 @@ command on the target server (as root):
 
 mkdir -p /tmp/certbot/public_html/.well-known/acme-challenge
 cd /tmp/certbot/public_html
-printf "%s" VVGHpfFleFEuueHABqr9OcD2ZGfH4L4jRFWOSncsi90.OIJ_M0M1cYuFvxiH27g0JChuKjdZmxsV3g97nTZFUOw &amp;amp;amp;amp;amp;amp;amp;gt; .well-known/acme-challenge/tto8T43hHvnZCk3pcPFcUNhp7-z3B07aoeWZmExO-nI
+printf "%s" VVGHpfFleFEuueHABqr9OcD2ZGfH4L4jRFWOSncsi90.OIJ_M0M1cYuFvxiH27g0JChuKjdZmxsV3g97nTZFUOw
+.well-known/acme-challenge/tto8T43hHvnZCk3pcPFcUNhp7-z3B07aoeWZmExO-nI
 
 # run only once per server:
 
@@ -74,7 +83,8 @@ printf "%s" VVGHpfFleFEuueHABqr9OcD2ZGfH4L4jRFWOSncsi90.OIJ_M0M1cYuFvxiH27g0JChu
 "import BaseHTTPServer, SimpleHTTPServer; \
 s = BaseHTTPServer.HTTPServer(('', 80), SimpleHTTPServer.SimpleHTTPRequestHandler); \
 s.serve_forever()"
-Press ENTER to continue</pre>
+Press ENTER to continue
+```
 
 Bây giờ bạn không được nhấn Enter. Nó yêu cầu up lên host các thư mục và file theo yêu cầu trên để xác nhận quền sở hữu tên miền.
 
@@ -86,7 +96,9 @@ Bây giờ bạn không được nhấn Enter. Nó yêu cầu up lên host các 
 
 Và nội dung trong file là:
 
- <pre class="brush: plain; title: ; notranslate" title="">VVGHpfFleFEuueHABqr9OcD2ZGfH4L4jRFWOSncsi90.OIJ_M0M1cYuFvxiH27g0JChuKjdZmxsV3g97nTZFUOw</pre>
+```bash
+VVGHpfFleFEuueHABqr9OcD2ZGfH4L4jRFWOSncsi90.OIJ_M0M1cYuFvxiH27g0JChuKjdZmxsV3g97nTZFUOw
+```
 
 Kết quả: <a href="/.well-known/acme-challenge/VVGHpfFleFEuueHABqr9OcD2ZGfH4L4jRFWOSncsi90" target="_blank" rel="noopener">/.well-known/acme-challenge/VVGHpfFleFEuueHABqr9OcD2ZGfH4L4jRFWOSncsi90</a>
 
@@ -100,7 +112,9 @@ Kết quả: <a href="/.well-known/acme-challenge/VVGHpfFleFEuueHABqr9OcD2ZGfH4
 
 Nhập
 
- <pre class="brush: plain; title: ; notranslate" title="">sudo nautilus</pre>
+```bash
+sudo nautilus
+```
 
 Dùng trình quản lý file truy cập vào đường dẫn sau:  /etc/letsencrypt/live/tđ.vn
 
@@ -121,16 +135,18 @@ Có thể dùng gedit để mở và sao chép nội dung của các tập tin 
 
 Thêm các dòng sau vào .htaccess của bạn:
 
-<pre class="brush: plain; title: ; notranslate" title=""># BEGIN Force SSL
+```bash
+# BEGIN Force SSL
 # This should be the first rule before other rules
-&lt;IfModule mod_rewrite.c&gt;
+<IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^/?(.\*) https://%{SERVER_NAME}/$1 [R,L]
-&lt;/IfModule&gt;
+</IfModule>
 
-# END Force SSL</pre>
+# END Force SSL
+```
 
 <span style="color: #ff0000;"><strong>Update</strong>: </span>Hiện nay có một số tool online giúp lấy chứng chỉ Let's Encrypt cực kì đơn giản.
 
-Link: https://www.sslforfree.com/
+Link: <a href="https://www.sslforfree.com/" target="_blank" rel="noopener">sslforfree.com</a>

@@ -19,7 +19,7 @@ categories:
 
 ### Cách 1: Vào tra cứu thông tin sinh viên
 
-Vào trang tra cứu thông tin sinh viên: <a href="http://sinhvien.hufi.edu.vn/TraCuuThongTin.aspx" target="_blank" rel="noopener">http://sinhvien.hufi.edu.vn/TraCuuThongTin.aspx</a>
+Vào trang tra cứu thông tin sinh viên: <a href="http://sinhvien.hufi.edu.vn/TraCuuThongTin.aspx" target="_blank" rel="noopener">sinhvien.hufi.edu.vn/TraCuuThongTin.aspx</a>
 
 Nhập Họ đệm, Tên và Mã bảo vệ rồi nhấn tra cứu. Hoặc nhập Mã số sinh viên và Mã bảo vệ đểu được.
 

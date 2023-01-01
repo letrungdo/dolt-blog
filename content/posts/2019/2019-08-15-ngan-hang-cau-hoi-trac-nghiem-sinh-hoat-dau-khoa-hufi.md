@@ -28,5 +28,5 @@ Nội dung Ngân hàng câu hỏi trắc nghiệm sinh hoạt đầu khoá HUFI 
 - **Phần 14:** Học tập tấm gương đạo đức Hồ Chí Minh
 
 <div class="wp-block-file">
-  <a href="/media/2019/08/Ngan_hang_cau_hoi_SHDK_HUFI_DOLT.pdf" target="_blank" rel="noreferrer noopener">Ngan_hang_cau_hoi_SHDK_HUFI.pdf</a>
+  <a href="https://github.com/letrungdo/hufi_docs/raw/main/Ngan_hang_cau_hoi_SHDK_HUFI_DOLT.pdf" target="_blank" rel="noreferrer noopener">Ngan_hang_cau_hoi_SHDK_HUFI.pdf</a>
 </div>

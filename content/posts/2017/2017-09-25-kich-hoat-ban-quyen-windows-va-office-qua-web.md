@@ -25,7 +25,7 @@ Danh sách các key MAK Windows 7, 8, 8.1, 10, Key Office 2010, 2013, 2016 đư�
   <span style="color: #ff0000;"><strong><a href="https://goo.gl/y5VcCX" target="_blank" rel="noopener">Key MAK Windows & Office</a></strong></span>
 </p>
 
-Công cụ kiểm tra số lượt kích hoạt còn lại của key MAK: [PIDKey_v2.1.2.1015.zip](https://goo.gl/XxpqUX)
+Công cụ kiểm tra số lượt kích hoạt còn lại của key MAK: <a href="https://goo.gl/XxpqUX" target="_blank" rel="noopener">PIDKey_v2.1.2.1015.zip</a>
 
 Cài <a href="https://chrome.google.com/webstore/detail/hotspot-shield-vpn-free-p/nlbejmccbhkncgokjcmghpfloaajcffj" target="_blank" rel="noopener">Hotspot Shield Free VPN Proxy for Chrome</a>: Đây là tiện ích mở rộng cho Chrome, mục đích để vào được link trang web kích hoạt bên dưới (do chặn IP Việt Nam).
 
@@ -33,7 +33,7 @@ Cài <a href="https://chrome.google.com/webstore/detail/hotspot-shield-vpn-free-
 
 Cài xong các bạn chọn như hình để chạy tiện ích.
 
-<span style="color: #800080;"><strong>Link web kích hoạt</strong></span>: https://goo.gl/Trw4VB
+<span style="color: #800080;"><strong>Link web kích hoạt</strong></span>: <a href="https://goo.gl/Trw4VB" target="_blank" rel="noopener">goo.gl/Trw4VB</a>
 
 ## Kích hoạt Windows qua web
 

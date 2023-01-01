@@ -7,7 +7,7 @@ slug: "kich-hoat-windows-va-office-online"
 cover: "../../images/2023/01/HWID_KMS38_Online_KMS_activation.jpg"
 keywords: "kích hoạt windows, active windows, kích hoạt office, active office"
 categories:
-  - Softwares
+  - Tricks
 tags:
   - Windows
   - Office

@@ -18,7 +18,7 @@ Theo kinh nghiệm của mình, hầu hết các tài liệu trên mạng đều
 
 Khi đó nếu may mắn, bạn sẽ vào được trang cho tải về miễn phí. Còn nếu không thì có cách khác **dành cho các bạn sinh viên**.
 
-Một số trường Đại học có **thư viện số** liên kết với trang TaiLieu.vn. Như website thư viện số trường Đại học Công nghiệp Thực phẩm là: <a href="http://thuvienso.cntp.edu.vn/" target="_blank" rel="noopener">http://thuvienso.cntp.edu.vn</a>
+Một số trường Đại học có **thư viện số** liên kết với trang TaiLieu.vn. Như website thư viện số trường Đại học Công nghiệp Thực phẩm là: <a href="http://thuvienso.cntp.edu.vn/" target="_blank" rel="noopener">thuvienso.cntp.edu.vn</a>
 
 Trường sẽ cấp cho mỗi bạn 1 tài khoản theo mã số sinh viên: **Acc** và **pass mặc định** là _**MSSV**_(tùy trường).
 

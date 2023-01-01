@@ -67,7 +67,9 @@ Có nhiều công cụ giúp bạn chuyển text sang md5. Bạn vào <a href="
   Có thể dùng mã dưới đây cho nhanh: [pass là: "matkhau"]
 </p>
 
-<pre><pre class="brush: plain; title: ; notranslate" title="">a788f6d55914857d4b97c1de99cb896b</pre>
+```code
+a788f6d55914857d4b97c1de99cb896b
+```
 
 <p style="text-align: justify;">
   Sau đó quay lại database chọn edit và nhập mã bạn mới chuyển đổi vào <strong>user_pass</strong> rồi nhấn <strong>Go</strong> để cập nhật.

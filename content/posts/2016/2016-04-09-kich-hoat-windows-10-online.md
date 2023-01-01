@@ -7,6 +7,8 @@ slug: "kich-hoat-windows-10-online"
 cover: "../../images/2016/04/active-windows-10.jpg"
 categories:
   - Tricks
+tags:
+  - Windows
 ---
 
 <p style="text-align: justify;">
@@ -64,17 +66,19 @@ Kết nối internet – Mở CMD(Admin)
 
 Gõ lần lượt từng lệnh sau và nhấn enter (copy và dán cho nhanh để khỏi bị sai).
 
-<pre><strong>slmgr.vbs -upk</strong></pre>
+```bash
+slmgr.vbs -upk
 
-<pre><strong>slmgr.vbs /ipk KNXB4-F82M9-TB3X9-P9PQ6-RRG6Y</strong></pre>
+slmgr.vbs /ipk KNXB4-F82M9-TB3X9-P9PQ6-RRG6Y
 
-<pre><strong>slui 3</strong></pre>
+slui 3
+```
 
 Bảng nhập key hiện ra, bạn điền key MAK Windows 7, 8, 8.1 còn lượt kích hoạt hoặc còn 0 lượt kích hoạt.
 
 Chờ chút cho MS xác nhận, rồi bấm Next.
 
-> > Nếu vẫn chưa xong thì thêm lệnh: **slmgr /ato** (enter) nhé.
+> Nếu vẫn chưa xong thì thêm lệnh: **slmgr /ato** (enter) nhé.
 
 <div>
   <strong>Lưu ý:</strong> Cần có kết nối mạng mới Active Windows 10 được. Phiên bản Windows 10 phải là bản Pro và version từ version 1511 hoặc cao hơn.

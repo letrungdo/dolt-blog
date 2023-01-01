@@ -33,13 +33,13 @@ Cũng vào **Device Manager** như cách 1, nhấn chuột phải vào driver w
 
 Dòng **Chanel Mode** chọn 2.4GHz (Có máy không có tùy chọn này).
 
-Dòng **County Region **chọn #x (**1-13**). Trong đó 1-13 là kênh để laptop thu các sóng wifi có kênh phát từ 1 đến 13.
+Dòng **County Region** chọn #x (**1-13**). Trong đó 1-13 là kênh để laptop thu các sóng wifi có kênh phát từ 1 đến 13.
 
 Chọn xong nhấn **OK** rồi mở lại wifi thử nhé.
 
 ## Cách 3: Cài lại cấu hình modem router wifi nhà bạn.
 
-Một số laptop đời cũ có card wifi chỉ hỗ trợ chuẩn **b/g**. Mà bộ phát wifi nhà bạn chỉ cài chuẩn phát là **n **thì máy sẽ không thấy được wifi.
+Một số laptop đời cũ có card wifi chỉ hỗ trợ chuẩn **b/g**. Mà bộ phát wifi nhà bạn chỉ cài chuẩn phát là **n** thì máy sẽ không thấy được wifi.
 
 Các bạn đăng nhập vào modem router và chọn lại chuẩn phát là b/g/n là được.
 

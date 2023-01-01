@@ -27,16 +27,22 @@ Bạn phải kích tính năng nhà phát triển bằng cách vào phần **gi�
 
 ### Bước 3: Dùng ADB chạy lần lượt các lệnh sau
 
-<pre>adb devices</pre>
+```batch
+adb devices
+```
 
 Chạy lệnh này trên điện thoại nhấn cho phép gỡ lỗi USB. Trên máy tính sẽ hiện tên thiết bị.
 
-<pre>adb shell
-sm list-disks</pre>
+```batch
+adb shell
+sm list-disks
+```
 
 Lệnh này sẽ hiện dòng **disk:179,64** là thẻ nhớ của bạn
 
-<pre>sm partition disk:179,64 mixed 50</pre>
+```batch
+sm partition disk:179,64 mixed 50
+```
 
 Số 50 có nghĩa là dùng 50% dung lượng thẻ nhớ làm bộ nhớ trong cài apps.
 

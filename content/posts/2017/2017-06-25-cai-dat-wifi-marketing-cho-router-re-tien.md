@@ -18,9 +18,9 @@ tags:
 
 Firmware **OpenWRT** hiểu đơn giản là một hệ điều hành quản lý router, có nhiều tính năng hơn firmware gốc của nhà sản xuất.
 
-Trang chủ: <a href="https://openwrt.org/" target="_blank" rel="noopener">https://openwrt.org/</a>
+Trang chủ: <a href="https://openwrt.org/" target="_blank" rel="noopener">openwrt.org/</a>
 
-Danh sách các thiết bị hỗ trợ: <a href="https://wiki.openwrt.org/toh/start" target="_blank" rel="noopener">https://wiki.openwrt.org/toh/start</a>
+Danh sách các thiết bị hỗ trợ: <a href="https://wiki.openwrt.org/toh/start" target="_blank" rel="noopener">wiki.openwrt.org/toh/start</a>
 
 Các bạn phải xác đúng tên và phiên bản của router.
 
@@ -44,7 +44,7 @@ _Ví dụ_: **openwrt-15.05.1-ar71xx-generic-tl-wr941nd-v5-squashfs-factory.bin
 
 Cài nodogsplash qua SSH như sau:
 
-Tải **PuTTY** để chạy lện SSH ở đây: <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank" rel="noopener">https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html</a>
+Tải **PuTTY** để chạy lện SSH ở đây: <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank" rel="noopener">chiark.greenend.org.uk/~sgtatham/putty/latest.html</a>
 
 Mở PuTTY và nhập hostname: Host name tùy vào bạn đặt IP của router, thường là 192.168.1.1
 
@@ -58,35 +58,48 @@ Bạn nhập pass xong sẽ ra giao diện như bên dưới.
 
 Để cài nodogsplash, bạn nhập lần lượt từng lệnh và nhấn Enter
 
-<pre>opkg update</pre>
-
-<pre>opkg install nodogsplash</pre>
+```batch
+opkg update
+opkg install nodogsplash
+```
 
 **Một số lệnh cho nodogsplash**
 
 - Cho phép nodogsplash chạy khi router khởi động:
 
-<pre>/etc/init.d/nodogsplash enable</pre>
+```sh
+/etc/init.d/nodogsplash enable
+```
 
 - Thay đổi một số thiết lập của Nodogsplash:
 
-<pre>vim /etc/nodogsplash/nodogsplash.conf</pre>
+```batch
+vim /etc/nodogsplash/nodogsplash.conf
+```
 
 - Khởi động nodogsplash:
 
-<pre>/etc/init.d/nodogsplash start</pre>
+```batch
+/etc/init.d/nodogsplash start
+```
 
 - Dừng nodogsplash:
 
-<pre>/etc/init.d/nodogsplash stop</pre>
+```batch
+/etc/init.d/nodogsplash stop
+```
 
 - Gỡ cài đặt nodogsplash:
 
-<pre>opkg remove nodogsplash</pre>
+```batch
+opkg remove nodogsplash
+```
 
 - Xem tình trạng của nodogsplash:
 
-<pre><span class="crayon-e">ndsctl </span><span class="crayon-e">status</span></pre>
+```batch
+ndsctl status
+```
 
 ### Cấu hình Nodogsplash {#nodogsplash_configuration_file}
 
@@ -114,8 +127,10 @@ Chọn File Protocol là **SCP**, nhập hostname, user name và pass. Nhấn Sa
 
 Tìm đến thư mục** /etc/config **mở file **nodogsplash** và tìm đến dòng sau:
 
-<pre># Set to 1 to enable nodogsplash
- option enabled 0</pre>
+```batch
+# Set to 1 to enable nodogsplash
+option enabled 0
+```
 
 Sửa **option enabled 0** thành **option enabled 1** rồi lưu lại.
 

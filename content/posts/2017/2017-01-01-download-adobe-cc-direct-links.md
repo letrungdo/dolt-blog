@@ -13,9 +13,9 @@ Adobe has officially updated version in 2017 for almost all of Adobe.
 
 ## Creative Cloud 2017 Downloads: Adobe CC 2017 Direct Links[Trials]
 
-<a href="https://helpx.adobe.com/creative-cloud/kb/creative-cloud-apps-download.html" target="_blank">https://helpx.adobe.com/creative-cloud/kb/creative-cloud-apps-download.html</a>
+<a href="https://helpx.adobe.com/creative-cloud/kb/creative-cloud-apps-download.html" target="_blank">helpx.adobe.com/creative-cloud/kb/creative-cloud-apps-download.html</a>
 
-<table border="1" width="100%" cellspacing="0" cellpadding="1">
+<table width="100%" cellspacing="0" cellpadding="1">
   <tr>
     <td>
       Product
@@ -131,6 +131,6 @@ Adobe has officially updated version in 2017 for almost all of Adobe.
 
 ## Download Adobe CC Setup Online
 
-<a href="https://www.adobe.com/creativecloud/catalog/desktop.html?promoid=KRUVM" target="_blank">https://www.adobe.com/creativecloud/catalog/desktop.html?promoid=KRUVM</a>
+<a href="https://www.adobe.com/creativecloud/catalog/desktop.html?promoid=KRUVM" target="_blank">adobe.com/creativecloud/catalog/desktop.html?promoid=KRUVM</a>
 
 <img class="size-full wp-image-101 aligncenter" src="/media/2017/01/Download-Adobe-Creative-Cloud.png" alt="" width="412" height="733" />

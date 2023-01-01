@@ -25,16 +25,12 @@ Dạo qua <a href="/tag/instagram" target="_blank" rel="noopener">instagram</a>�
 
 Ta được link sau:
 
-<pre class="brush: plain; title: ; notranslate" title="">https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xtp1/t51.2885-19/s150x150/13549338_966247793492846_725150544_a.jpg</pre>
+```bash
+https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xtp1/t51.2885-19/s150x150/13549338_966247793492846_725150544_a.jpg
+```
 
 Bạn xóa chuỗi "**s150x150/" **trong đường link trên. Và lấy phần còn lại dán vào trình duyệt để xem và tải về ảnh đại diện với kích thước gốc.
 
-**Kết quả**: <a href="https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xtp1/t51.2885-19/13549338_966247793492846_725150544_a.jpg" target="_blank" rel="noopener">https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xtp1/t51.2885-19/13549338_966247793492846_725150544_a.jpg</a>
+**Kết quả**: <a href="https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xtp1/t51.2885-19/13549338_966247793492846_725150544_a.jpg" target="_blank" rel="noopener">igcdn-photos-g-a.akamaihd.net/hphotos-ak-xtp1/t51.2885-19/13549338_966247793492846_725150544_a.jpg</a>
 
-Update: Trang web lấy ảnh full size nhanh
-
-http://insta-downloader.net/profile-picture
-
-<!--more-->
-
-Xem thêm: <a href="/cach-hack-like-tren-instagram/" target="_blank" rel="noopener">Cách hack like trên instagram</a>
+> Xem thêm: <a href="/cach-hack-like-tren-instagram/" target="_blank" rel="noopener">Cách hack like trên instagram</a>

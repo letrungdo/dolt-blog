@@ -15,7 +15,7 @@ Từ tối hôm qua 11/01/2016 người dùng **internet mạng Viettel** không
 
 ### Bước 1: Đăng ký tài khoản ở VietPN
 
-Truy cập vào liên kết sau: <a href="http://vietpn.com/register?ref=d41d8cd98f00b204e9800998ecf8427e" target="_blank">https://vietpn.com/register</a> và đăng ký một tài khoản mới.
+Truy cập vào liên kết sau: <a href="http://vietpn.com/register?ref=d41d8cd98f00b204e9800998ecf8427e" target="_blank">vietpn.com/register</a> và đăng ký một tài khoản mới.
 
 Sau khi đăng ký xong, bạn sẽ được 10GB truy cập mạng miễn phí.
 
@@ -23,7 +23,7 @@ Sau khi đăng ký xong, bạn sẽ được 10GB truy cập mạng miễn phí.
 
 ### Bước 2: Cài VietPN để truy cập Internet quốc tế khi đứt cáp quang
 
-Vào link đây: <a href="https://vietpn.com/tutorial/" target="_blank">https://vietpn.com/tutorial/</a> tải phiên bản tương ứng với hệ điều hành bạn dùng.
+Vào link đây: <a href="https://vietpn.com/tutorial/" target="_blank">vietpn.com/tutorial/</a> tải phiên bản tương ứng với hệ điều hành bạn dùng.
 
 #Cách cài trên máy tính (**Windows)**:
 

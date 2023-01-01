@@ -35,7 +35,7 @@ categories:
 </p>
 
 <p style="text-align: justify;">
-  Sau đó vào link sau: <a href="http://www.serprank.com/privacy-policy-generator/" target="_blank" rel="noopener">http://www.serprank.com/privacy-policy-generator/</a>
+  Sau đó vào link sau: <a href="http://www.serprank.com/privacy-policy-generator/" target="_blank" rel="noopener">serprank.com/privacy-policy-generator/</a>
 </p>
 
 <p style="text-align: justify;">

@@ -22,7 +22,7 @@ categories:
 </h3>
 
 <p style="text-align: justify;">
-  <strong>Tải về:</strong> <a href="https://drive.google.com/file/d/0B1mDBJH6BWKlRUhnMk9iVzZ6Wm8/view?usp=sharing">CrystalDiskInfo</a>
+  <strong>Tải về:</strong> <a href="https://crystalmark.info/redirect.php?product=CrystalDiskInfoInstaller" target="_blank">CrystalDiskInfo</a>
 </p>
 
 <p style="text-align: justify;">

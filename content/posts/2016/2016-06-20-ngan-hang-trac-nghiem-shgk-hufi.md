@@ -25,7 +25,7 @@ Bộ tài liệu gồm **6 chuyên đề**:
 
 **Tải về:** <a href="https://drive.google.com/file/d/1UgNafMNr3cxDa10pL6UoazE0qu__45RF/view?usp=sharing" target="_blank" rel="noopener">Ngân hàng trắc nghiệm Sinh hoạt giữa khóa HUFI + Đáp án</a>
 
-Một số bạn dùng điện thoại nếu không xem được đáp án thì tải về phần mềm **WPS Office **cho điện thoại:
+Một số bạn dùng điện thoại nếu không xem được đáp án thì tải về phần mềm **WPS Office** cho điện thoại:
 
 - Android: <a href="https://play.google.com/store/apps/details?id=cn.wps.moffice_eng&hl=vi" target="_blank" rel="noopener">WPS Office + PDF</a>
 - IOS: <a href="https://itunes.apple.com/us/app/wps-office-free-mobile-office/id762263023?mt=8" target="_blank" rel="noopener">WPS Office: FREE Mobile Office + PDF</a>

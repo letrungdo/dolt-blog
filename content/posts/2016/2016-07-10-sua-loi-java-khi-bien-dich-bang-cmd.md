@@ -17,12 +17,12 @@ Mới bắt đầu học <a href="/hoc-lap-trinh/java" target="_blank" rel="noop
 
 Khi chạy 2 lệnh javac thì không báo lỗi, chạy tiếp java thì xuất hiện lỗi như sau:
 
-<pre class="brush: plain; title: ; notranslate" title="">C:\Users\DoAh\Desktop\Java_Workspace&gt;javac HelloWorld.java
-
-C:\Users\DoAh\Desktop\Java_Workspace&gt;java HelloWorld
+```bash
+C:\Users\DoAh\Desktop\Java_Workspace>javac HelloWorld.java
+C:\Users\DoAh\Desktop\Java_Workspace>java HelloWorld
 Error: Could not find or load main class HelloWorld
-
-C:\Users\DoAh\Desktop\Java_Workspace&gt;</pre>
+C:\Users\DoAh\Desktop\Java_Workspace>
+```
 
 Bạn **sửa lại tên class** trùng với **tên file**.java
 
@@ -30,13 +30,15 @@ Bạn **sửa lại tên class** trùng với **tên file**.java
 
 Trong file HelloWorld.java có nội dụng sau:
 
-<pre class="brush: java; title: ; notranslate" title="">class HelloWorldApp {
-public static void main(String[] args) {
-System.out.println("Hello World!"); // Display the string.
+```java
+class HelloWorldApp {
+  public static void main(String[] args) {
+    System.out.println("Hello World!"); // Display the string.
+  }
 }
-}</pre>
+```
 
-Khi bạn chạy lệnh javac HelloWorld.java thì nó sẽ tạo ra file tên **HelloWorldApp**.class(Lấy tên của class làm tên file).
+Khi bạn chạy lệnh javac HelloWorld.java thì nó sẽ tạo ra file tên **HelloWorldApp** .class(Lấy tên của class làm tên file).
 
 Vì vậy khi bạn chạy tiếp lệnh **java HelloWorld** thì chắc chắn sẽ báo lỗi "Error: Could not find or load main class HelloWorld" vì không tìm thấy **HelloWorld.class**
 

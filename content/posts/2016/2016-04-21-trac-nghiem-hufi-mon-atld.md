@@ -39,6 +39,6 @@ categories:
 - Chương 11: KỸ THUẬT AN TOÀN KHI HÀN VÀ CẮT KIM LOẠI
 - Chương 12: KỸ THUẬT AN TOÀN ĐỐI VỚI MÁY CÔNG CỤ
 
-<a href="/media/2016/04/de-thi-an-toan-lao-dong.pdf" target="_blank" rel="noopener">Download</a>
+<a href="https://github.com/letrungdo/hufi_docs/raw/main/de-thi-an-toan-lao-dong.pdf" target="_blank" rel="noopener">Download</a>
 
 **_P/s:_** Các chương trong tài liệu này khác trong sách ở trường nhưng nội dung như nhau.
