@@ -7,7 +7,7 @@ const config = {
   siteUrl: "https://xn--t-lia.vn", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription:
-    "Blog học lập trình Xamarin Forms, ReactJs, Chia sẻ tài liệu học tập.", // Website description used for RSS feeds/meta description tag.
+    "Blog học lập trình Flutter, ReactJs, Xamarin Forms. Chia sẻ tài liệu học tập.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteLang: "en",
   siteFBAppID: "2944501422238707", // FB Application ID for using app insights
@@ -80,7 +80,7 @@ const config = {
   userLocation: "Ho Chi Minh City, Vietnam", // User location to display in the author segment.
   userAvatar:
     "https://gravatar.com/avatar/cc508a89f5901e9f8e39a6ffee6f7319?size=300", // User avatar to display in the author segment.
-  userDescription: "Software Engineer, Xamarin Forms, React Developer", // User description to display in the author segment.
+  userDescription: "Software Engineer (React, Flutter, Xamarin Forms)", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
@@ -154,7 +154,7 @@ const config = {
     { label: "Sitemap", url: "/sitemap-index.xml" },
   ],
   copyright:
-    "Copyright © 2022 Le Trung Do. Unless otherwise noted, all code MIT license.",
+    "Copyright © 2023 Le Trung Do. Unless otherwise noted, all code MIT license.",
   // Use for manifest
   themeColor: "#4f4f4f", // Used for setting manifest and progress theme colors.
   backgroundColor: "#FFF", // Used for setting manifest background color.
