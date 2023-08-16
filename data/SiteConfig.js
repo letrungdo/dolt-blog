@@ -62,11 +62,11 @@ const config = {
   sidebarLinks: [
     {
       label: "My CV",
-      url: "https://cv.letrungdo.com",
+      url: "https://cv.xn--t-lia.vn",
     },
     {
       label: "My App",
-      url: "https://app.letrungdo.com",
+      url: "https://app.xn--t-lia.vn",
     },
     {
       label: "My Blog",
@@ -112,8 +112,8 @@ const config = {
   // Use for navigation
   navTitle: "TĐ.VN",
   navLinks: [
-    { label: "CV", url: "https://cv.letrungdo.com" },
-    { label: "App", url: "https://app.letrungdo.com" },
+    { label: "CV", url: "https://cv.xn--t-lia.vn" },
+    { label: "App", url: "https://app.xn--t-lia.vn" },
     { label: "About", url: "/about" },
     { label: "Contact", url: "/contact" },
   ],
