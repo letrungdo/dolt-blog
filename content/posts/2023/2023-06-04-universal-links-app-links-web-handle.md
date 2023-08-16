@@ -4,7 +4,7 @@ title: Universal links App links - Web handle
 date: 2023-06-04T10:11:20+07:00
 author: letrungdo
 slug: "universal-links-app-links-web-handle"
-cover: "../../images/2023/04/universal_links_app_links.jpg"
+cover: "../../images/2023/06/universal_links_app_links.jpg"
 keywords: "Universal links, App links"
 categories:
   - Web
