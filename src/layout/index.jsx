@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Helmet from "react-helmet";
 import Modal from "react-modal";
 import brand from "../../content/images/brand.webp";
@@ -9,7 +9,6 @@ import "../components/Icons/FontAwesome";
 import Navigation from "../components/Navigation/Navigation";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 import "../styles/main.min.css";
-import AdblockDetect from "../utils/AdblockDetect";
 
 // Modal.setAppElement("#___gatsby");
 const adBlockStyles = {
@@ -24,6 +23,8 @@ const adBlockStyles = {
 };
 
 function MainLayout({ children, hasFooter = true }) {
+  const [hasAdBlock, setHasAdBlock] = useState(false);
+
   return (
     <div>
       <Helmet htmlAttributes={{ lang: siteConfig.siteLang }}>
@@ -33,6 +34,9 @@ function MainLayout({ children, hasFooter = true }) {
           data-ad-client={siteConfig.adsClientId}
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          onError={() => {
+            setHasAdBlock(true);
+          }}
         />
         <script
           async
@@ -47,11 +51,11 @@ function MainLayout({ children, hasFooter = true }) {
         title={siteConfig.navTitle}
         links={siteConfig.navLinks}
       />
-      <AdblockDetect>
-        <Modal isOpen style={adBlockStyles} contentLabel="Example Modal">
+      {hasAdBlock && (
+        <Modal isOpen style={adBlockStyles} contentLabel="Ad block notice">
           <div>Please turn off AdBlock</div>
         </Modal>
-      </AdblockDetect>
+      )}
       {children}
       {hasFooter && (
         <Footer
