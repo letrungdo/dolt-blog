@@ -7,7 +7,7 @@ slug: "cau-hoi-trac-nghiem-quan-tri-hoc-hufi"
 cover: "../../images/2016/04/HUFI-trac-nghiem-quan-tri-hoc.jpg"
 categories:
   - Documents
-  - HUFI
+  - HUIT
 ---
 
 Ngân hàng câu hỏi trắc nghiệm môn **Quản trị học** HUFI

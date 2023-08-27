@@ -7,7 +7,7 @@ slug: "ngan-hang-trac-nghiem-shgk-hufi"
 cover: "../../images/2016/06/SHGK.png"
 categories:
   - Documents
-  - HUFI
+  - HUIT
 ---
 
 Đáp án ngân hàng trắc nghiệm sinh hoạt giữa khóa HUFI, đây là bộ câu hỏi trường đưa ra, các bạn chỉ cần ôn trong tài liệu này là đủ. Do không tính tín chỉ tích lũy nên không cần học hết, đủ 5 điểm qua môn.

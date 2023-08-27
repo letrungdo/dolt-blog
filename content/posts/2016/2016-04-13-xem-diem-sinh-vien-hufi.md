@@ -1,34 +1,33 @@
 ---
-title: Xem điểm sinh viên HUFI trên sinhvien.hufi.edu.vn
+title: Xem điểm sinh viên HUIT trên sinhvien.hufi.edu.vn
 date: 2016-04-13T23:23:54+07:00
 author: letrungdo
 template: "post"
 slug: "xem-diem-sinh-vien-hufi"
 cover: "../../images/2016/04/xem-diem-hufi.png"
 categories:
-  - HUFI
+  - HUIT
 ---
 
 <p style="text-align: justify;">
-  Hôm mình đi học môn<strong> sinh hoạt giữa khóa </strong>tới phần giới thiệu về trường, có một cô nói về những ưu điểm của cổng thông tin mới. Trong đó có nói về tính bảo mật cao, điểm số sinh viên được giấu kín, không coi được thông tin của nhau... Vậy có thể <strong>xem điểm sinh viên hufi</strong> được không các bạn thử xem!
+  Cách xem thông tin sinh viên HUIT không cần đăng nhập. Ở đây bạn có thể tra cứu thông tin họ tên, ngày sinh, số CMND, xem điểm, lịch học, xem công nợ...
 </p>
 
-## Cách xem điểm sinh viên HUFI không cần đăng nhập
+## Tra cứu thông tin sinh viên HUIT
+Truy cập vào link này: <a href="https://sinhvien.hufi.edu.vn/tra-cuu-thong-tin.html" target="_blank" rel="noopener">Tra cứu thông tin sinh viên HUIT</a>
 
-Bấm vào link bên dưới, thay **<span style="color: #ff0000;">MSSV</span>** bạn muốn xem điểm rồi nhấn enter để xem.
+<img class="aligncenter size-full" src="/media/2016/04/xem-diem-huit.jpg" alt="Xem điểm HUIT" />
 
-<a href="http://sinhvien.hufi.edu.vn/XemDiem.aspx?MSSV=2001140556" target="_blank" rel="noopener">sinhvien.hufi.edu.vn/XemDiem.aspx?MSSV=<span style="color: #ff0000;"><b>2001140556</b></span></a>
+Bạn có thể xem thông tin sinh viên bằng cách nhập 1 trong các thông tin bên dưới kèm **Mã bảo vệ**:
+- Tra cứu bằng Mã số sinh viên
+- Tra cứu bằng Họ tên + Ngày sinh
+- Tra cứu bằng Số CMND
 
-Không cần đăng nhập tài khoản. Nếu bạn đã đăng nhập thì đăng xuất ra trước khi vào link.
+Sau đó nhấn **Tra cứu**, nếu thông tin nhập đúng sẽ hiện tra bảng **Kết quả tra cứu**.
 
-<img class="aligncenter size-full wp-image-2044" src="/media/2016/04/xem-diem-hufi.png" alt="" width="555" height="275" />
-
-**Kết luận:**
-
-Trang web này không bảo mật về điểm số, xem công nợ,... Thực ra nó chỉ không đưa ra link trực tiếp để mình xem.
-
-_**Mẹo:**_ Có chỗ phần <a href="http://sinhvien.hufi.edu.vn/TraCuuThongTin.aspx" target="_blank" rel="noopener">dành cho phụ huynh</a> bạn có thể vào đó để tra cứu thông tin như: xem điểm, lịch học, lịch thi, ... Chỉ cần **nhập MSSV** với **mã bảo vệ** hoặc nhập **họ đệm**, **tên** với **mã bảo vệ**, mấy cái kia để trống rồi nhấn **Tra cứu** là ra.
+## Cách xem điểm sinh viên HUIT
+Sau khi có kết quả tra cứu ở trên thì bạn nhấn vào link **Xem điểm** để xem kết quả học tập.
 
 <!--more-->
 
-_Xem thêm_:  **<a href="/thu-thuat/xem-anh-dai-dien-sinh-vien-hufi" target="_blank" rel="noopener">Xem ảnh</a>**
+> Xem thêm: **<a href="/xem-anh-dai-dien-sinh-vien-hufi">Xem ảnh</a>**

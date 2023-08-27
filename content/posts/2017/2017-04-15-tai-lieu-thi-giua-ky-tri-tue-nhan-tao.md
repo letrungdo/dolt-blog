@@ -7,7 +7,7 @@ slug: "tai-lieu-thi-giua-ky-tri-tue-nhan-tao"
 cover: "../../images/2017/04/tri-tue-nhan-tao.png"
 categories:
   - Documents
-  - HUFI
+  - HUIT
 ---
 
 Bài viết này là **tài liệu thi giữa kỳ trí tuệ nhân tạo** cho các bạn sinh viên. Nội dung được tóm tắt ngắn gọn và minh họa các giải thuật chi tiết.

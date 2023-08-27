@@ -7,7 +7,7 @@ slug: "tong-hop-slide-bai-giang-hufi"
 cover: "../../images/2016/04/slide-bai-giang-hufi.jpg"
 categories:
   - Documents
-  - HUFI
+  - HUIT
 ---
 
 Đây là một số Slide bài giảng HUFI, đa số là thuộc nghành công nghệ thông tin. Nguồn tài liệu được lấy từ các giáo viên hoặc các anh chị khóa trước.

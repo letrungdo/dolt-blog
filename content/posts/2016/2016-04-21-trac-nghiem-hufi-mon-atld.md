@@ -7,7 +7,7 @@ slug: "trac-nghiem-hufi-mon-atld"
 cover: "../../images/2016/04/atld.jpg"
 categories:
   - Documents
-  - HUFI
+  - HUIT
 ---
 
 <p style="text-align: left;">

@@ -7,7 +7,7 @@ slug: "ngan-hang-cau-hoi-trac-nghiem-sinh-hoat-dau-khoa-hufi"
 cover: "../../images/2019/08/ngan-hang-cau-hoi-shdk.png"
 keywords: "trắc nghiệm sinh hoạt đầu khóa"
 categories:
-  - HUFI
+  - HUIT
 ---
 
 Nội dung Ngân hàng câu hỏi trắc nghiệm sinh hoạt đầu khoá HUFI bao gồm 14 chương chứa gần 400 câu hỏi trắc nghiệm cho sinh viên HUFI ôn thi kết môn sinh hoạt đầu khoá.

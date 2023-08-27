@@ -7,7 +7,7 @@ slug: "quy-hoach-tuyen-tinh-hufi-trac-nghiem"
 cover: "../../images/2016/06/lp-graph.jpg"
 categories:
   - Documents
-  - HUFI
+  - HUIT
 ---
 
 Đề thi trắc nghiệm **Quy hoạch tuyến tính HUFI** có đáp án các bạn tải về tham khảo. Đề cương ôn thi gồm 5 chương như sau:
