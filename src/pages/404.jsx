@@ -1,25 +1,32 @@
 import React from "react";
-import Helmet from "react-helmet";
-import Layout from "../layout";
+import config from "../../data/SiteConfig";
+import AutoLink from "../components/AutoLink/AutoLink";
 import Header from "../components/Header/Header";
 import SEO from "../components/SEO/SEO";
-import AutoLink from "../components/AutoLink/AutoLink";
-import config from "../../data/SiteConfig";
+import Layout from "../layout";
 
 function PageNotFound() {
-  return <Layout hasFooter={false}>
-    <div className="page-not-found-container">
-      <Helmet title={`${config.pageNotFoundTitle} - ${config.siteTitle}`} />
-      <SEO />
-      <Header title={`${config.pageNotFoundTitle}`} />
-      <div className="main-content container padding-top-3 padding-bottom-3 margin-top-3 margin-bottom-3">
-        <p>{config.pageNotFoundContent}</p>
-        <AutoLink to="/" className="btn btn-primary">
-          {config.pageNotFoundBtn}
-        </AutoLink>
+  return (
+    <Layout hasFooter={false}>
+      <div className="page-not-found-container">
+        <Header title={`${config.pageNotFoundTitle}`} />
+        <div className="main-content container padding-top-3 padding-bottom-3 margin-top-3 margin-bottom-3">
+          <p>{config.pageNotFoundContent}</p>
+          <AutoLink to="/" className="btn btn-primary">
+            {config.pageNotFoundBtn}
+          </AutoLink>
+        </div>
       </div>
-    </div>
-  </Layout>
+    </Layout>
+  );
 }
 
 export default PageNotFound;
+
+export function Head() {
+  return (
+    <SEO>
+      <title>{`${config.pageNotFoundTitle} - ${config.siteTitle}`}</title>
+    </SEO>
+  );
+}

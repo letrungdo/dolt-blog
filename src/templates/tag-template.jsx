@@ -1,6 +1,5 @@
 import { graphql } from "gatsby";
 import React from "react";
-import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
 import Header from "../components/Header/Header";
 import MainContainer from "../components/MainContainer/MainContainer";
@@ -49,7 +48,6 @@ function TagTemplate({ data, pageContext }) {
   return (
     <Layout>
       <div className="tag-container">
-        <Helmet title={`${config.tagHeader} ${tag} - ${config.siteTitle}`} />
         <Header title={`${config.tagHeader} ${tag}`} />
         <MainContainer content={content} sidebar={sidebar} />
       </div>
@@ -58,6 +56,12 @@ function TagTemplate({ data, pageContext }) {
 }
 
 export default TagTemplate;
+
+export function Head({ pageContext }) {
+  const { tag } = pageContext;
+
+  return <title>{`${config.tagHeader} ${tag} - ${config.siteTitle}`}</title>;
+}
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`

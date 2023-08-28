@@ -21,7 +21,6 @@ module.exports = {
         siteUrl: `https://xn--t-lia.vn`,
       },
     },
-    "gatsby-plugin-react-helmet",
     "gatsby-plugin-lodash",
     {
       resolve: "gatsby-source-filesystem",

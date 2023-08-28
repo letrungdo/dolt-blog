@@ -1,12 +1,11 @@
 import { getImage } from "gatsby-plugin-image";
 import React, { Component } from "react";
-import Helmet from "react-helmet";
 import urljoin from "url-join";
 import config from "../../../data/SiteConfig";
 
 class SEO extends Component {
   render() {
-    const { postNode, postPath, postSEO } = this.props;
+    const { postNode, postPath, postSEO, children } = this.props;
     let title;
     let description;
     let keywords;
@@ -76,7 +75,7 @@ class SEO extends Component {
       );
     }
     return (
-      <Helmet>
+      <>
         {/* General tags */}
         <meta name="description" content={description} />
         <meta name="image" content={image} />
@@ -107,7 +106,24 @@ class SEO extends Component {
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
-      </Helmet>
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <script
+          data-ad-client={config.adsClientId}
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          onError={() => {
+            window.postMessage({ hasAd: true });
+          }}
+        />
+        <script
+          async
+          defer
+          crossOrigin="anonymous"
+          src={`https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=${config.siteFBAppID}&autoLogAppEvents=1`}
+          nonce="HOOIv1rM"
+        />
+        {children}
+      </>
     );
   }
 }
