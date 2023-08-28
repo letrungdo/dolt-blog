@@ -1,6 +1,5 @@
 import { graphql } from "gatsby";
 import React from "react";
-import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
 import Header from "../components/Header/Header";
 import MainContainer from "../components/MainContainer/MainContainer";
@@ -49,9 +48,6 @@ function CategoryTemplate({ data, pageContext }) {
   return (
     <Layout>
       <div className="category-container">
-        <Helmet
-          title={`${config.categoryHeader} ${category} - ${config.siteTitle}`}
-        />
         <Header title={`${config.categoryHeader} ${category}`} />
         <MainContainer content={content} sidebar={sidebar} />
       </div>
@@ -60,6 +56,13 @@ function CategoryTemplate({ data, pageContext }) {
 }
 
 export default CategoryTemplate;
+
+export function Head({ pageContext }) {
+  const { category } = pageContext;
+  return (
+    <title>{`${config.categoryHeader} ${category} - ${config.siteTitle}`}</title>
+  );
+}
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`

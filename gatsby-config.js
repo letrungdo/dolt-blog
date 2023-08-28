@@ -21,7 +21,6 @@ module.exports = {
         siteUrl: `https://xn--t-lia.vn`,
       },
     },
-    "gatsby-plugin-react-helmet",
     "gatsby-plugin-lodash",
     {
       resolve: "gatsby-source-filesystem",
@@ -65,12 +64,6 @@ module.exports = {
           "gatsby-remark-copy-linked-files",
           "gatsby-remark-autolink-headers",
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-netlify`,
-      options: {
-        headers: {},
       },
     },
     {

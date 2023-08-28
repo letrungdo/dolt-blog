@@ -8,21 +8,6 @@
   1. Eslint
   2. Prettier - Code formatter
 - Yarn: npm i yarn -g
-- VSCode setting.json:
-
-```json
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true,
-        "source.organizeImports": true
-    },
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "typescript",
-        "typescriptreact"
-    ],
-    "editor.formatOnSave": true
-```
 
 ## Features
 

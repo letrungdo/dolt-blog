@@ -1,6 +1,5 @@
 import { graphql } from "gatsby";
 import React from "react";
-import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
 import Header from "../components/Header/Header";
 import MainContainer from "../components/MainContainer/MainContainer";
@@ -46,8 +45,6 @@ class Index extends React.Component {
     return (
       <Layout>
         <div className="index-container">
-          <Helmet title={config.siteTitle} />
-          <SEO />
           <Header title={headerTitle} />
           <MainContainer content={content} sidebar={sidebar} />
         </div>
@@ -57,6 +54,14 @@ class Index extends React.Component {
 }
 
 export default Index;
+
+export function Head() {
+  return (
+    <SEO>
+      <title>{config.siteTitle}</title>
+    </SEO>
+  );
+}
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
