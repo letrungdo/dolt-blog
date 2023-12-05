@@ -22,12 +22,14 @@ tags:
 
 Có thể không làm theo #1 #2 mà tự tìm nguồn tải về rồi select version Xcode qua terminal bằng lệnh sau:
 
+Ví dụ Xcode của bạn có version Xcode-14.1.0
+
 ```bash
-sudo xcode-select -s /Applications/Xcode_xxx.app
+sudo xcode-select -s /Applications/Xcode-14.1.0.app
 ```
 
 Do macOS mới chặn mở Xcode trực tiếp khi open qua app icon, nên để mở Xcode phải chạy qua terminal bằng lệnh sau:
 
 ```bash
-/Applications/Xcode_14.app/Contents/MacOS/Xcode
+/Applications/Xcode-14.1.0.app/Contents/MacOS/Xcode
 ```
