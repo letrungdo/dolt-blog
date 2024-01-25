@@ -173,8 +173,13 @@ body {
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font: normal normal normal 1.7rem/1.7 -apple-system, BlinkMacSystemFont,
-    Nunito Sans, Helvetica, Arial, sans-serif;
+  font:
+    normal normal normal 1.7rem/1.7 -apple-system,
+    BlinkMacSystemFont,
+    Nunito Sans,
+    Helvetica,
+    Arial,
+    sans-serif;
 }
 h1,
 h2,
@@ -1129,6 +1134,7 @@ legend {
 }
 .margin-bottom-half {
   margin-bottom: 1rem !important;
+  word-break: break-all;
 }
 .margin-bottom-2 {
   margin-bottom: 4rem !important;
