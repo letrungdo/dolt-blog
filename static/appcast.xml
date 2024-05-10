@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>SBIFX Auto updater</title>
+        <description>Most recent updates to SBIFX</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.0.1</title>
+            <!-- For the macOS item, it is recommended to add 'sparkle:version' and 'sparkle:shortVersionString' to the item node, rather than as part of the enclosure. -->
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:releaseNotesLink>
+                https://xn--t-lia.vn/release_notes.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Sun, 12 May 2024 12:00:00 +0800</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/letrungdo/update/main/sbi_fx_pc-1.0.1%2B2-macos.zip"
+                       sparkle:edSignature="udOUqaBXkYNshOvqJLANv06HwkanEUtl4kGAtxBBYpMTrnCeaXqbzJiS3J/gCgXrU1VOAqwATfeSlTFCa4ngBQ=="
+                       length="36500822"
+                       sparkle:os="macos"
+                       type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 1.0.1</title>
+            <sparkle:releaseNotesLink>
+                https://xn--t-lia.vn/release_notes.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Sun, 12 May 2024 12:00:00 +0800</pubDate>
+            <enclosure url="https://github.com/letrungdo/update/raw/main/sbi_fx_pc-1.0.1+2-windows-setup.exe"
+                       sparkle:dsaSignature="MEQCIFBCWIF7yTT+wso6LfQVdzqYhbpMlnI215+uBYBlYURDAiAIJPwQJ479IgbSFdBpCAgEz/1yClgl2YEM9/EyNPGGyw=="
+                       length="0"
+                       sparkle:version="1.0.1+2"
+                       sparkle:os="windows"
+                       type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>
