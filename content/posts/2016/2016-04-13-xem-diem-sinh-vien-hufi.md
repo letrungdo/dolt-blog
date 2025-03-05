@@ -1,6 +1,6 @@
 ---
-title: Xem điểm sinh viên HUIT trên sinhvien.hufi.edu.vn
-date: 2016-04-13T23:23:54+07:00
+title: Xem điểm sinh viên HUIT trên sinhvien.huit.edu.vn
+date: 2016-04-13T14:23:54+07:00
 author: letrungdo
 template: "post"
 slug: "xem-diem-sinh-vien-hufi"
@@ -14,7 +14,7 @@ categories:
 </p>
 
 ## Tra cứu thông tin sinh viên HUIT
-Truy cập vào link này: <a href="https://sinhvien.hufi.edu.vn/tra-cuu-thong-tin.html" target="_blank" rel="noopener">Tra cứu thông tin sinh viên HUIT</a>
+Truy cập vào link này: <a href="https://sinhvien.huit.edu.vn/tra-cuu-thong-tin.html" target="_blank" rel="noopener">Tra cứu thông tin sinh viên HUIT</a>
 
 <img class="aligncenter size-full" src="/media/2016/04/xem-diem-huit.jpg" alt="Xem điểm HUIT" />
 
