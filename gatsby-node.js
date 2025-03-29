@@ -1,13 +1,15 @@
 const path = require("path");
-const slug = require("slug");
 const dayjs = require("dayjs");
 const siteConfig = require("./data/SiteConfig");
 const Logger = require("./src/utils/logs");
 
-const slugify = (text) => slug(text).toLowerCase();
 
-exports.onCreateNode = ({ node, actions, getNode }) => {
+
+exports.onCreateNode = async ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
+  const { default: slug } = await import('slug');
+  const slugify = (text) => slug(text).toLowerCase();
+
   if (node.internal.type === "MarkdownRemark") {
     const fileNode = getNode(node.parent);
     const parsedFilePath = path.parse(fileNode.relativePath);
@@ -161,6 +163,8 @@ exports.createPages = async ({ graphql, actions }) => {
   // common config for pagination
   const { postsPerPage } = siteConfig;
   const { pathPrefixPagination } = siteConfig;
+  const { default: slug } = await import('slug');
+  const slugify = (text) => slug(text).toLowerCase();
 
   // create tag page
   tagList.forEach((tag) => {
