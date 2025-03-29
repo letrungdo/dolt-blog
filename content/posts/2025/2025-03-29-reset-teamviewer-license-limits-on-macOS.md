@@ -8,6 +8,7 @@ cover: "../../images/2025/03/teamviewer_license-limit.jpg"
 keywords: "teamviewer license limits"
 categories:
   - Softwares
+  - Tricks
 ---
 
 Have you encountered the frustrating "**Your license limits the maximum session duration to a partner, immediate reconnects are blocked. Please try later or upgrade your license.**" 1 error while using the free version of TeamViewer on your macOS device? This is a common issue for users who rely on the free license for personal use, as it imposes limitations on session duration and prohibits immediate reconnections
