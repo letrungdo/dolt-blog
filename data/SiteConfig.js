@@ -19,7 +19,7 @@ const config = {
   postsPerPage: 6,
   // Use for post
   dateFromFormat: "YYYY-MM-DDTHH:mm:ssZ", // Date format used in the frontmatter.
-  dateFormat: "MMMM Do, YYYY", // Date format for display.
+  dateFormat: "DD MMM YYYY HH:mm", // Date format for display.
   postTagged: "",
   postInCategories: "",
   postOnDate: "Posted on",
@@ -154,7 +154,7 @@ const config = {
     { label: "Sitemap", url: "/sitemap-index.xml" },
   ],
   copyright:
-    "Copyright © 2023 Le Trung Do. Unless otherwise noted, all code MIT license.",
+    "Copyright © 2025 Le Trung Do. Unless otherwise noted, all code MIT license.",
   // Use for manifest
   themeColor: "#4f4f4f", // Used for setting manifest and progress theme colors.
   backgroundColor: "#FFF", // Used for setting manifest background color.

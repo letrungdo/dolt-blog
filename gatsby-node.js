@@ -1,6 +1,6 @@
 const path = require("path");
 const slug = require("slug");
-const moment = require("moment");
+const dayjs = require("dayjs");
 const siteConfig = require("./data/SiteConfig");
 const Logger = require("./src/utils/logs");
 
@@ -29,8 +29,8 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       if (Object.prototype.hasOwnProperty.call(node.frontmatter, "slug"))
         slugValue = `/${slugify(node.frontmatter.slug)}`;
       if (Object.prototype.hasOwnProperty.call(node.frontmatter, "date")) {
-        const date = moment(node.frontmatter.date, siteConfig.dateFromFormat);
-        if (!date.isValid)
+        const date = dayjs(node.frontmatter.date, siteConfig.dateFromFormat);
+        if (!date.isValid())
           Logger.warn(`WARNING: Invalid date.`, node.frontmatter);
 
         createNodeField({

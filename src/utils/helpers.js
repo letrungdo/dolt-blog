@@ -1,10 +1,10 @@
-import moment from "moment";
+import dayjs from "dayjs";
 import slug from "slug";
 import config from "../../data/SiteConfig";
 
 export const slugify = (text) => slug(text).toLowerCase();
 export const isInteralLink = (link) => link && link[0] === "/";
-export const formatDate = (date) => moment(date).format(config.dateFormat);
+export const formatDate = (date) => dayjs(date).format(config.dateFormat);
 export const getTagPath = (tag) => `${config.pathPrefixTag}/${slugify(tag)}`;
 export const getCategoryPath = (category) =>
   `${config.pathPrefixCategory}/${slugify(category)}`;
