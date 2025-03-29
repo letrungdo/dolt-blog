@@ -1,7 +1,6 @@
 import { graphql } from "gatsby";
 import React from "react";
 import config from "../../data/SiteConfig";
-import Header from "../components/Header/Header";
 import MainContainer from "../components/MainContainer/MainContainer";
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
@@ -38,14 +37,9 @@ class Index extends React.Component {
       />
     );
 
-    const headerTitle = config.homeHeader
-      ? `${config.siteTitle} - ${config.homeHeader}`
-      : `${config.siteTitle}`;
-
     return (
       <Layout>
         <div className="index-container">
-          <Header title={headerTitle} />
           <MainContainer content={content} sidebar={sidebar} />
         </div>
       </Layout>

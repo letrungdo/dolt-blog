@@ -1,12 +1,12 @@
 import React from "react";
+import config from "../../../data/SiteConfig";
+import GoogleAds from "../GoogleAds";
 import WidgetCategory from "./WidgetCategory";
-import WidgetTag from "./WidgetTag";
+import WidgetContainer from "./WidgetContainer";
 import WidgetLatestPosts from "./WidgetLatestPosts";
 import WidgetLinks from "./WidgetLinks";
 import WidgetSearch from "./WidgetSearch";
-import config from "../../../data/SiteConfig";
-import GoogleAds from "../GoogleAds";
-import WidgetContainer from "./WidgetContainer";
+import WidgetTag from "./WidgetTag";
 
 function Sidebar({
   tagList,
@@ -34,11 +34,11 @@ function Sidebar({
         <WidgetLatestPosts latestPostEdges={latestPostEdges} />
       )}
 
-      {tagList && <WidgetTag tagList={tagList} />}
-
       <WidgetContainer extraClass="categories-container">
         <GoogleAds adFormat="auto" adSlot="8582663769" />
       </WidgetContainer>
+
+      {tagList && <WidgetTag tagList={tagList} />}
 
       <div className="position-sticky top-zero">
         {links && <WidgetLinks links={links} />}

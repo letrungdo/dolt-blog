@@ -119,8 +119,7 @@ class SEO extends Component {
           async
           defer
           crossOrigin="anonymous"
-          src={`https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=${config.siteFBAppID}&autoLogAppEvents=1`}
-          nonce="HOOIv1rM"
+          src={`https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v22.0&appId=${config.siteFBAppID}`}
         />
         {children}
       </>
