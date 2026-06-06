@@ -20,7 +20,7 @@ Hướng dẫn tự kích hoạt Windows 10,11, kích hoạt Office online cực
 - Bước 2: Copy và paste đoạn sau và nhấn Enter
 
 ```bash
-irm https://massgrave.dev/get | iex
+irm https://get.activated.win | iex
 ```
 
 - Bước 3: Nhấn vào thanh tiêu đề của cửa sổ Microsoft Activation Script và chọn các option tương ứng như dưới.
