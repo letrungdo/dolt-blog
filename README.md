@@ -3,11 +3,20 @@
 ## Request
 
 - IDE: [VSCode](https://code.visualstudio.com/download)
-- NodeJs: 18.x or newer (https://nodejs.org/en/download)
+- NodeJs: 24.x (https://nodejs.org/en/download). With [nvm](https://github.com/nvm-sh/nvm), run `nvm use` to switch to the version in `.nvmrc`
 - VsCode Extensions:
   1. Eslint
   2. Prettier - Code formatter
 - Yarn: npm i yarn -g
+
+## Development
+
+```bash
+nvm use
+yarn install
+yarn dev    # http://localhost:8000
+yarn build  # production build into public/
+```
 
 ## Features
 
