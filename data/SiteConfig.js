@@ -9,11 +9,20 @@ const config = {
   siteDescription:
     "Blog học lập trình Flutter, ReactJs, Xamarin Forms. Chia sẻ tài liệu học tập.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteLang: "en",
+  siteLang: "vi", // Default <html lang>; posts without Vietnamese characters use "en".
   siteFBAppID: "1126991573987631", // FB Application ID for using app insights
   googleAnalyticsID: "G-N72EJPLDS8", // GA tracking ID.
   postDefaultCategoryID: "", // Default category for posts.
   adsClientId: "ca-pub-1932696824172910",
+  // AdSense ad unit slots. Replace postMiddle with an "In-article" unit slot
+  // and set postMiddleLayout to "in-article" once it is created.
+  adSlots: {
+    sidebar: "8582663769",
+    postTop: "7491435562",
+    postMiddle: "3493762067",
+    postBottom: "6151714996",
+  },
+  postMiddleLayout: "in-article",
   // Common for tag, category pages and widget
   numberLatestPost: 6,
   postsPerPage: 6,

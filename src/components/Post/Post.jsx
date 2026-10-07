@@ -9,6 +9,14 @@ import PostDivider from "./PostDivider";
 import PostShare from "./PostShare";
 import PostTags from "./PostTags";
 
+// Split post HTML at the middle h2/h3 heading so an ad can sit mid-article.
+const splitAtMiddleHeading = (html) => {
+  const headings = [...html.matchAll(/<h[23][\s>]/g)];
+  if (headings.length < 2) return [html, ""];
+  const { index } = headings[Math.floor(headings.length / 2)];
+  return [html.slice(0, index), html.slice(index)];
+};
+
 function Post({ postNode, config, slug }) {
   const post = postNode.frontmatter;
   if (!post.id) {
@@ -17,6 +25,9 @@ function Post({ postNode, config, slug }) {
   if (!post.category_id) {
     post.category_id = config.postDefaultCategoryID;
   }
+
+  const { adSlots, postMiddleLayout } = config;
+  const [firstHalf, secondHalf] = splitAtMiddleHeading(postNode.html);
 
   return (
     <div className="post-container">
@@ -29,10 +40,21 @@ function Post({ postNode, config, slug }) {
         />
       </div>
       <PostDivider />
-      <div
-        className="padding-top padding-bottom"
-        dangerouslySetInnerHTML={{ __html: postNode.html }}
-      />
+      <GoogleAds adSlot={adSlots.postTop} extraClass="padding-top" />
+      <div className="padding-top padding-bottom">
+        <div dangerouslySetInnerHTML={{ __html: firstHalf }} />
+        {secondHalf && (
+          <>
+            <GoogleAds
+              adSlot={adSlots.postMiddle}
+              adLayout={postMiddleLayout}
+              extraClass="padding-top-half padding-bottom-half"
+            />
+            <div dangerouslySetInnerHTML={{ __html: secondHalf }} />
+          </>
+        )}
+      </div>
+      <GoogleAds adSlot={adSlots.postBottom} extraClass="padding-bottom" />
       <PostDivider />
       <div className="padding-top padding-bottom">
         <small>
@@ -47,7 +69,6 @@ function Post({ postNode, config, slug }) {
             iconColor="#555"
           />
         </small>
-        <GoogleAds adFormat="link" adSlot="5431006373" />
       </div>
       <PostDivider />
       <div

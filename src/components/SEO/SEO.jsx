@@ -3,6 +3,9 @@ import React, { Component } from "react";
 import urljoin from "url-join";
 import config from "../../../data/SiteConfig";
 
+const VIETNAMESE_CHARS =
+  /[ăâđêôơưạảấầẩẫậắằẳẵặẹẻẽếềểễệỉịọỏốồổỗộớờởỡợụủứừửữựỳỵỷỹ]/i;
+
 class SEO extends Component {
   render() {
     const { postNode, postPath, postSEO, children } = this.props;
@@ -11,6 +14,7 @@ class SEO extends Component {
     let keywords;
     let image = "";
     let postURL;
+    let lang = config.siteLang;
     if (postSEO) {
       const postMeta = postNode.frontmatter;
       ({ title } = postMeta);
@@ -19,6 +23,7 @@ class SEO extends Component {
         : postNode.excerpt;
 
       keywords = postMeta.keywords;
+      lang = VIETNAMESE_CHARS.test(`${title} ${description}`) ? "vi" : "en";
 
       if (postMeta.cover) {
         image = getImage(postMeta.cover).images.fallback.src;
@@ -76,6 +81,7 @@ class SEO extends Component {
     }
     return (
       <>
+        <html lang={lang} />
         {/* General tags */}
         <meta name="description" content={description} />
         <meta name="image" content={image} />
@@ -111,9 +117,6 @@ class SEO extends Component {
           data-ad-client={config.adsClientId}
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-          onError={() => {
-            window.postMessage({ hasAd: true });
-          }}
         />
         <script
           async

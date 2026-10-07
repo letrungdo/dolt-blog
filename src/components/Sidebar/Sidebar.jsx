@@ -35,7 +35,7 @@ function Sidebar({
       )}
 
       <WidgetContainer extraClass="categories-container">
-        <GoogleAds adFormat="auto" adSlot="8582663769" />
+        <GoogleAds adSlot={config.adSlots.sidebar} />
       </WidgetContainer>
 
       {tagList && <WidgetTag tagList={tagList} />}
