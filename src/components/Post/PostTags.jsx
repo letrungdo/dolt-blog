@@ -2,11 +2,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import config from "../../../data/SiteConfig";
 import { getTagPath } from "../../utils/helpers";
+import { useLanguage } from "../../i18n/LanguageContext";
 import AutoLink from "../AutoLink/AutoLink";
 
 function PostTags({ tags, extraClass = "", iconColor = "#444" }) {
+  const { lang } = useLanguage();
   const tagLink = (tag) => (
-    <AutoLink className="text-uppercase" to={getTagPath(tag)} label={tag}>
+    <AutoLink className="text-uppercase" to={getTagPath(tag, lang)} label={tag}>
       {tag}
     </AutoLink>
   );

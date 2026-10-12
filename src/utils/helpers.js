@@ -1,13 +1,18 @@
 import dayjs from "dayjs";
 import slug from "slug";
 import config from "../../data/SiteConfig";
+import { getLocalizedPath } from "../i18n/config";
 
-export const slugify = (text) => slug(text).toLowerCase();
+export const slugify = (text) => slug(text || "").toLowerCase();
 export const isInteralLink = (link) => link && link[0] === "/";
 export const formatDate = (date) => dayjs(date).format(config.dateFormat);
-export const getTagPath = (tag) => `${config.pathPrefixTag}/${slugify(tag)}`;
-export const getCategoryPath = (category) =>
-  `${config.pathPrefixCategory}/${slugify(category)}`;
+
+export const getTagPath = (tag, lang = "vi") =>
+  getLocalizedPath(`${config.pathPrefixTag}/${slugify(tag)}`, lang);
+
+export const getCategoryPath = (category, lang = "vi") =>
+  getLocalizedPath(`${config.pathPrefixCategory}/${slugify(category)}`, lang);
+
 export const getPostList = (postEdges) =>
   postEdges.map((postEdge) => ({
     path: postEdge.node.fields.slug,
@@ -19,6 +24,7 @@ export const getPostList = (postEdges) =>
     slug: postEdge.node.fields.slug,
     excerpt: postEdge.node.excerpt,
     timeToRead: postEdge.node.timeToRead,
+    lang: postEdge.node.fields.lang,
   }));
 
 export const getTagCategoryList = (postList) => {

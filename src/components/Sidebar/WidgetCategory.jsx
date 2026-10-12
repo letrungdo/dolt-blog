@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import config from "../../../data/SiteConfig";
+import { useLanguage } from "../../i18n/LanguageContext";
 import { themeColors } from "../../styles/themeColors";
 import { getCategoryPath } from "../../utils/helpers";
 import AutoLink from "../AutoLink/AutoLink";
@@ -29,24 +29,27 @@ const IndexWrapper = styled.div`
 `;
 
 function WidgetCategory({ categoryList, postInCategory }) {
-  return <WidgetContainer extraClass="categories-container">
-    <WidgetTitle title={config.categoryWidgetTitle} color={themeColors[6]} />
-    <div>
-      {categoryList.map((category, index) => (
-        <AutoLink
-          key={category}
-          to={getCategoryPath(category)}
-          className="flex align-items-center border-bottom border-color-light-grey padding-top-half padding-bottom-half widget_categories"
-        >
-          <IndexWrapper color={themeColors[index]}>
-            {postInCategory?.[category]}
-          </IndexWrapper>
-          <CategoryWrapper color={themeColors[index]}>
-            <span className="category-text">{category}</span>
-          </CategoryWrapper>
-        </AutoLink>
-      ))}
-    </div>
-  </WidgetContainer>
+  const { t, lang } = useLanguage();
+  return (
+    <WidgetContainer extraClass="categories-container">
+      <WidgetTitle title={t("categoriesWidgetTitle")} color={themeColors[6]} />
+      <div>
+        {categoryList.map((category, index) => (
+          <AutoLink
+            key={category}
+            to={getCategoryPath(category, lang)}
+            className="flex align-items-center border-bottom border-color-light-grey padding-top-half padding-bottom-half widget_categories"
+          >
+            <IndexWrapper color={themeColors[index]}>
+              {postInCategory?.[category]}
+            </IndexWrapper>
+            <CategoryWrapper color={themeColors[index]}>
+              <span className="category-text">{category}</span>
+            </CategoryWrapper>
+          </AutoLink>
+        ))}
+      </div>
+    </WidgetContainer>
+  );
 }
 export default WidgetCategory;

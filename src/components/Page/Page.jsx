@@ -1,4 +1,5 @@
 import React from "react";
+import SearchContent from "./SearchContent";
 
 function Page({ postNode, slug }) {
   const post = postNode.frontmatter;
@@ -6,12 +7,19 @@ function Page({ postNode, slug }) {
     post.id = slug;
   }
 
+  const isSearchPage =
+    slug && (slug.includes("search") || postNode.fields?.translationKey === "search");
+
   return (
     <div className="page-container">
-      <div
-        className="padding-top padding-bottom"
-        dangerouslySetInnerHTML={{ __html: postNode.html }}
-      />
+      {isSearchPage ? (
+        <SearchContent />
+      ) : (
+        <div
+          className="padding-top padding-bottom"
+          dangerouslySetInnerHTML={{ __html: postNode.html }}
+        />
+      )}
     </div>
   );
 }

@@ -1,61 +1,56 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import Article from "./Article";
+import { useLanguage } from "../../i18n/LanguageContext";
 
-class PostListing extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      maxPosts:
-        this.props.hasLoadmore && this.props.postsPerPage
-          ? this.props.postsPerPage
-          : this.props.postList.length,
-    };
-  }
+function PostListing({
+  postList,
+  hasThumbnail = true,
+  hasLoadmore = false,
+  postsPerPage,
+  numberLoadmore,
+  btnLoadmore,
+}) {
+  const { t } = useLanguage();
+  const [maxPosts, setMaxPosts] = useState(
+    hasLoadmore && postsPerPage ? postsPerPage : postList.length
+  );
 
-  handleLoadmore = () => {
-    const { hasLoadmore = false, numberLoadmore } = this.props;
-
-    if (!hasLoadmore) return;
-
-    this.setState((prevState) => ({
-      maxPosts: prevState.maxPosts + numberLoadmore,
-    }));
+  const handleLoadmore = () => {
+    if (!hasLoadmore || !numberLoadmore) return;
+    setMaxPosts((prev) => prev + numberLoadmore);
   };
 
-  render() {
-    const { postList, hasThumbnail = true, hasLoadmore = false } = this.props;
-    const { maxPosts } = this.state;
+  const loadMoreText = btnLoadmore || t("btnLoadmore");
 
-    return (
-      <>
-        <div className="post-listing-container">
-          {postList.map((post, index) => {
-            if (index < maxPosts)
-              return (
-                <Article
-                  key={post.title}
-                  post={post}
-                  hasThumbnail={hasThumbnail}
-                />
-              );
-
-            return null;
-          })}
+  return (
+    <>
+      <div className="post-listing-container">
+        {postList.map((post, index) => {
+          if (index < maxPosts) {
+            return (
+              <Article
+                key={`${post.slug}-${index}`}
+                post={post}
+                hasThumbnail={hasThumbnail}
+              />
+            );
+          }
+          return null;
+        })}
+      </div>
+      {hasLoadmore && maxPosts < postList.length && (
+        <div className="loadmore-wrapper margin-top padding-top-half text-center">
+          <button
+            type="button"
+            className="btn-primary"
+            onClick={handleLoadmore}
+          >
+            {loadMoreText}
+          </button>
         </div>
-        {hasLoadmore && maxPosts < postList.length && (
-          <div className="loadmore-wrapper margin-top padding-top-half text-center">
-            <button
-              type="button"
-              className="btn-primary"
-              onClick={this.handleLoadmore}
-            >
-              {this.props.btnLoadmore}
-            </button>
-          </div>
-        )}
-      </>
-    );
-  }
+      )}
+    </>
+  );
 }
 
 export default PostListing;

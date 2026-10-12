@@ -176,7 +176,7 @@ module.exports = {
                 custom_elements: [
                   { "content:encoded": edge.node.html },
                   { author: config.userEmail },
-                  { cover: edge.node.frontmatter.cover.publicURL },
+                  { cover: edge.node.frontmatter.cover?.publicURL || "" },
                 ],
               }));
             },

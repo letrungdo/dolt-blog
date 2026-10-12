@@ -67,7 +67,7 @@ Có nhiều công cụ giúp bạn chuyển text sang md5. Bạn vào <a href="
   Có thể dùng mã dưới đây cho nhanh: [pass là: "matkhau"]
 </p>
 
-```code
+```text
 a788f6d55914857d4b97c1de99cb896b
 ```
 

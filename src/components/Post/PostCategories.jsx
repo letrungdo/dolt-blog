@@ -2,13 +2,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import config from "../../../data/SiteConfig";
 import { getCategoryPath } from "../../utils/helpers";
+import { useLanguage } from "../../i18n/LanguageContext";
 import AutoLink from "../AutoLink/AutoLink";
 
 function PostCategories({ categories, extraClass = "", iconColor = "#444" }) {
+  const { lang } = useLanguage();
   const categoryLink = (category) => (
     <AutoLink
       className="text-uppercase"
-      to={getCategoryPath(category)}
+      to={getCategoryPath(category, lang)}
       label={category}
     >
       {category}

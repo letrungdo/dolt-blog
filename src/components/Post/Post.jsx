@@ -8,8 +8,8 @@ import PostDate from "./PostDate";
 import PostDivider from "./PostDivider";
 import PostShare from "./PostShare";
 import PostTags from "./PostTags";
+import { useLanguage } from "../../i18n/LanguageContext";
 
-// Split post HTML at the middle h2/h3 heading so an ad can sit mid-article.
 const splitAtMiddleHeading = (html) => {
   const headings = [...html.matchAll(/<h[23][\s>]/g)];
   if (headings.length < 2) return [html, ""];
@@ -18,6 +18,7 @@ const splitAtMiddleHeading = (html) => {
 };
 
 function Post({ postNode, config, slug }) {
+  const { t } = useLanguage();
   const post = postNode.frontmatter;
   if (!post.id) {
     post.id = slug;
@@ -81,7 +82,7 @@ function Post({ postNode, config, slug }) {
         postNode={postNode}
         extraClass="padding-top"
         lazyload={config.lazyLoadComments}
-        btnLoadComments={config.btnLoadComments}
+        btnLoadComments={t("btnLoadComments")}
       />
     </div>
   );

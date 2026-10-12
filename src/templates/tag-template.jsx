@@ -8,10 +8,14 @@ import PostListing from "../components/PostListing/PostListing";
 import Sidebar from "../components/Sidebar/Sidebar";
 import Layout from "../layout";
 import { getPostList, getTagPath } from "../utils/helpers";
+import { DEFAULT_LANGUAGE, LANGUAGES } from "../i18n/config";
+import { t } from "../i18n/translations";
+import SEO from "../components/SEO/SEO";
 
-function TagTemplate({ data, pageContext }) {
+function TagTemplate({ data, pageContext, location }) {
   const {
     tag,
+    lang = DEFAULT_LANGUAGE,
     tagList,
     categoryList,
     latestPostEdges,
@@ -31,7 +35,7 @@ function TagTemplate({ data, pageContext }) {
         extraClass="margin-top padding-top-half"
         currentPage={currentPage}
         totalPages={totalPages}
-        pathPrefix={getTagPath(tag)}
+        pathPrefix={getTagPath(tag, lang)}
         pathPrefixPagination={config.pathPrefixPagination}
       />
     </>
@@ -45,10 +49,12 @@ function TagTemplate({ data, pageContext }) {
     />
   );
 
+  const headerTitle = `${t("tagHeader", lang)} ${tag}`;
+
   return (
-    <Layout>
+    <Layout lang={lang} pathname={location?.pathname || "/"}>
       <div className="tag-container">
-        <Header title={`${config.tagHeader} ${tag}`} />
+        <Header title={headerTitle} />
         <MainContainer content={content} sidebar={sidebar} />
       </div>
     </Layout>
@@ -57,21 +63,29 @@ function TagTemplate({ data, pageContext }) {
 
 export default TagTemplate;
 
-export function Head({ pageContext }) {
-  const { tag } = pageContext;
+export function Head({ pageContext, location }) {
+  const { tag, lang = DEFAULT_LANGUAGE } = pageContext;
+  const langConfig = LANGUAGES[lang] || LANGUAGES[DEFAULT_LANGUAGE];
+  const siteTitle = langConfig.siteTitle || config.siteTitle;
+  const headerTitle = `${t("tagHeader", lang)} ${tag}`;
 
-  return <title>{`${config.tagHeader} ${tag} - ${config.siteTitle}`}</title>;
+  return (
+    <SEO lang={lang} postPath={location?.pathname || "/"}>
+      <title>{`${headerTitle} - ${siteTitle}`}</title>
+    </SEO>
+  );
 }
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
-  query TagPage($tag: String, $skip: Int!, $limit: Int!) {
+  query TagPage($tag: String, $lang: String = "vi", $skip: Int!, $limit: Int!) {
     allMarkdownRemark(
       limit: $limit
       skip: $skip
       sort: { fields: { date: DESC } }
       filter: {
         frontmatter: { tags: { in: [$tag] }, template: { eq: "post" } }
+        fields: { lang: { eq: $lang } }
       }
     ) {
       totalCount
@@ -80,6 +94,7 @@ export const pageQuery = graphql`
           fields {
             slug
             date
+            lang
           }
           excerpt
           timeToRead

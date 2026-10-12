@@ -8,10 +8,14 @@ import PostListing from "../components/PostListing/PostListing";
 import Sidebar from "../components/Sidebar/Sidebar";
 import Layout from "../layout";
 import { getCategoryPath, getPostList } from "../utils/helpers";
+import { DEFAULT_LANGUAGE, LANGUAGES } from "../i18n/config";
+import { t } from "../i18n/translations";
+import SEO from "../components/SEO/SEO";
 
-function CategoryTemplate({ data, pageContext }) {
+function CategoryTemplate({ data, pageContext, location }) {
   const {
     category,
+    lang = DEFAULT_LANGUAGE,
     categoryList,
     tagList,
     latestPostEdges,
@@ -31,7 +35,7 @@ function CategoryTemplate({ data, pageContext }) {
         extraClass="margin-top padding-top-half"
         currentPage={currentPage}
         totalPages={totalPages}
-        pathPrefix={getCategoryPath(category)}
+        pathPrefix={getCategoryPath(category, lang)}
         pathPrefixPagination={config.pathPrefixPagination}
       />
     </>
@@ -45,10 +49,12 @@ function CategoryTemplate({ data, pageContext }) {
     />
   );
 
+  const headerTitle = `${t("categoryHeader", lang)} ${category}`;
+
   return (
-    <Layout>
+    <Layout lang={lang} pathname={location?.pathname || "/"}>
       <div className="category-container">
-        <Header title={`${config.categoryHeader} ${category}`} />
+        <Header title={headerTitle} />
         <MainContainer content={content} sidebar={sidebar} />
       </div>
     </Layout>
@@ -57,16 +63,22 @@ function CategoryTemplate({ data, pageContext }) {
 
 export default CategoryTemplate;
 
-export function Head({ pageContext }) {
-  const { category } = pageContext;
+export function Head({ pageContext, location }) {
+  const { category, lang = DEFAULT_LANGUAGE } = pageContext;
+  const langConfig = LANGUAGES[lang] || LANGUAGES[DEFAULT_LANGUAGE];
+  const siteTitle = langConfig.siteTitle || config.siteTitle;
+  const headerTitle = `${t("categoryHeader", lang)} ${category}`;
+
   return (
-    <title>{`${config.categoryHeader} ${category} - ${config.siteTitle}`}</title>
+    <SEO lang={lang} postPath={location?.pathname || "/"}>
+      <title>{`${headerTitle} - ${siteTitle}`}</title>
+    </SEO>
   );
 }
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
-  query CategoryPage($category: String, $skip: Int!, $limit: Int!) {
+  query CategoryPage($category: String, $lang: String = "vi", $skip: Int!, $limit: Int!) {
     allMarkdownRemark(
       limit: $limit
       skip: $skip
@@ -76,6 +88,7 @@ export const pageQuery = graphql`
           categories: { in: [$category] }
           template: { eq: "post" }
         }
+        fields: { lang: { eq: $lang } }
       }
     ) {
       totalCount
@@ -84,6 +97,7 @@ export const pageQuery = graphql`
           fields {
             slug
             date
+            lang
           }
           excerpt
           timeToRead

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
-import config from "../../../data/SiteConfig";
 import { linkColors } from "../../styles/themeColors";
+import { useLanguage } from "../../i18n/LanguageContext";
 import AutoLink from "../AutoLink/AutoLink";
 import WidgetContainer from "./WidgetContainer";
 import WidgetTitle from "./WidgetTitle";
@@ -24,24 +24,25 @@ const LinkWrapper = styled.div`
 `;
 
 function WidgetLinks({ links }) {
+  const { t } = useLanguage();
+
+  if (!links || links.length === 0) return null;
+
   return (
-    links &&
-    links.length > 0 && (
-      <WidgetContainer extraClass="categories-container">
-        <WidgetTitle title={config.linksWidgetTitle} color={linkColors[3]} />
-        <div>
-          {links.map((link, index) => (
-            <AutoLink
-              key={link.label}
-              to={link.url}
-              className="block padding-top-half padding-bottom-half"
-            >
-              <LinkWrapper color={linkColors[index]}>{link.label}</LinkWrapper>
-            </AutoLink>
-          ))}
-        </div>
-      </WidgetContainer>
-    )
+    <WidgetContainer extraClass="categories-container">
+      <WidgetTitle title={t("linksWidgetTitle")} color={linkColors[3]} />
+      <div>
+        {links.map((link, index) => (
+          <AutoLink
+            key={link.label}
+            to={link.url}
+            className="block padding-top-half padding-bottom-half"
+          >
+            <LinkWrapper color={linkColors[index]}>{link.label}</LinkWrapper>
+          </AutoLink>
+        ))}
+      </div>
+    </WidgetContainer>
   );
 }
 

@@ -1,11 +1,14 @@
 import React from "react";
 import { formatDate } from "../../utils/helpers";
-import config from "../../../data/SiteConfig";
+import { useLanguage } from "../../i18n/LanguageContext";
 
 function PostDate({ date, extraClass = "" }) {
-  return <div className={`text-description ${extraClass}`}>
-    {config.postOnDate} {formatDate(date)}
-  </div>
+  const { t } = useLanguage();
+  return (
+    <div className={`text-description ${extraClass}`}>
+      {t("postedOn")} {formatDate(date)}
+    </div>
+  );
 }
 
 export default PostDate;

@@ -3,15 +3,16 @@ import AutoLink from "../AutoLink/AutoLink";
 import WidgetContainer from "./WidgetContainer";
 import WidgetTitle from "./WidgetTitle";
 import { getPostList } from "../../utils/helpers";
-import config from "../../../data/SiteConfig";
 import { themeColors } from "../../styles/themeColors";
+import { useLanguage } from "../../i18n/LanguageContext";
 
-function WidgetLatesPosts({ latestPostEdges }) {
+function WidgetLatestPosts({ latestPostEdges }) {
+  const { t } = useLanguage();
   const postList = getPostList(latestPostEdges);
   return (
     <WidgetContainer extraClass="latest-posts-container">
       <WidgetTitle
-        title={config.latestPostsWidgetTitle}
+        title={t("latestPostsWidgetTitle")}
         color={themeColors[0]}
       />
       <div>
@@ -28,4 +29,4 @@ function WidgetLatesPosts({ latestPostEdges }) {
     </WidgetContainer>
   );
 }
-export default WidgetLatesPosts;
+export default WidgetLatestPosts;

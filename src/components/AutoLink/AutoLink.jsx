@@ -3,20 +3,37 @@ import React from "react";
 import { isInteralLink } from "../../utils/helpers";
 import ExternalLink from "./ExternalLink";
 
-function AutoLink(props) {
-  return isInteralLink(props.to) ? (
+function AutoLink({
+  to,
+  label,
+  activeClassName,
+  className,
+  style,
+  onClick,
+  children,
+  ...rest
+}) {
+  return isInteralLink(to) ? (
     <Link
-      key={props.label}
-      to={props.to}
-      activeClassName={props.activeClassName}
-      className={props.className}
-      style={{ ...props.style }}
+      key={label}
+      to={to}
+      activeClassName={activeClassName}
+      className={className}
+      style={{ ...style }}
+      onClick={onClick}
+      {...rest}
     >
-      {props.children}
+      {children}
     </Link>
   ) : (
-    <ExternalLink className={props.className} to={props.to} style={props.style}>
-      {props.children}
+    <ExternalLink
+      className={className}
+      to={to}
+      style={style}
+      onClick={onClick}
+      {...rest}
+    >
+      {children}
     </ExternalLink>
   );
 }
