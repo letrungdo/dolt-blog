@@ -1,4 +1,5 @@
 ---
+noAds: true
 title: Activate Windows 10 Online Using Windows 7, 8, 8.1 MAK Keys
 date: 2016-04-09T17:41:01+07:00
 author: letrungdo

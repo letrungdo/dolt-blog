@@ -1,4 +1,5 @@
 ---
+noAds: true
 title: Activate Windows and Office Licenses via Web
 date: 2017-09-25T00:42:33+07:00
 author: letrungdo

@@ -1,4 +1,5 @@
 ---
+noAds: true
 template: "post"
 title: Kích hoạt Windows và Office online
 date: 2023-01-01T19:32:00+07:00

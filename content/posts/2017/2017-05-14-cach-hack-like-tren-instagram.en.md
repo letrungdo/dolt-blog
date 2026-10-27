@@ -1,4 +1,5 @@
 ---
+noAds: true
 title: How to Get Free Likes on Instagram
 date: 2017-05-14T11:59:26+07:00
 author: letrungdo

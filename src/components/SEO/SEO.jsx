@@ -21,6 +21,7 @@ function SEO({
   let keywords;
   let image = "";
   let postURL;
+  const noAds = Boolean(postSEO && postNode?.fields?.noAds);
 
   const currentLang =
     lang || postNode?.fields?.lang || DEFAULT_LANGUAGE;
@@ -150,11 +151,15 @@ function SEO({
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
       <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-      <script
-        data-ad-client={config.adsClientId}
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-      />
+      {noAds ? (
+        <meta name="robots" content="noindex, follow" />
+      ) : (
+        <script
+          data-ad-client={config.adsClientId}
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        />
+      )}
       <script
         async
         defer

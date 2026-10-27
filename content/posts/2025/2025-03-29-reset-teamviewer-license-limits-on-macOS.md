@@ -1,4 +1,5 @@
 ---
+noAds: true
 template: "post"
 title: Reset Teamviewer license limits on macOS
 date: 2025-03-29T10:00:00+08:00

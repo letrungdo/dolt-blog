@@ -1,4 +1,5 @@
 ---
+noAds: true
 template: "post"
 title: "Activate Windows and Office Online"
 date: 2023-01-01T19:32:00+07:00

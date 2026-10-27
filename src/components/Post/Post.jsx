@@ -28,7 +28,10 @@ function Post({ postNode, config, slug }) {
   }
 
   const { adSlots, postMiddleLayout } = config;
-  const [firstHalf, secondHalf] = splitAtMiddleHeading(postNode.html);
+  const showAds = !postNode.fields?.noAds;
+  const [firstHalf, secondHalf] = showAds
+    ? splitAtMiddleHeading(postNode.html)
+    : [postNode.html, ""];
 
   return (
     <div className="post-container">
@@ -41,7 +44,9 @@ function Post({ postNode, config, slug }) {
         />
       </div>
       <PostDivider />
-      <GoogleAds adSlot={adSlots.postTop} extraClass="padding-top" />
+      {showAds && (
+        <GoogleAds adSlot={adSlots.postTop} extraClass="padding-top" />
+      )}
       <div className="padding-top padding-bottom">
         <div dangerouslySetInnerHTML={{ __html: firstHalf }} />
         {secondHalf && (
@@ -55,7 +60,9 @@ function Post({ postNode, config, slug }) {
           </>
         )}
       </div>
-      <GoogleAds adSlot={adSlots.postBottom} extraClass="padding-bottom" />
+      {showAds && (
+        <GoogleAds adSlot={adSlots.postBottom} extraClass="padding-bottom" />
+      )}
       <PostDivider />
       <div className="padding-top padding-bottom">
         <small>

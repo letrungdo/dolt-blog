@@ -14,6 +14,7 @@ function Sidebar({
   latestPostEdges,
   links,
   postInCategory,
+  noAds = false,
 }) {
   return (
     <aside
@@ -34,9 +35,11 @@ function Sidebar({
         <WidgetLatestPosts latestPostEdges={latestPostEdges} />
       )}
 
-      <WidgetContainer extraClass="categories-container">
-        <GoogleAds adSlot={config.adSlots.sidebar} />
-      </WidgetContainer>
+      {!noAds && (
+        <WidgetContainer extraClass="categories-container">
+          <GoogleAds adSlot={config.adSlots.sidebar} />
+        </WidgetContainer>
+      )}
 
       {tagList && <WidgetTag tagList={tagList} />}
 

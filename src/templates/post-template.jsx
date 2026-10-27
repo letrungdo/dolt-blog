@@ -27,6 +27,7 @@ function PostTemplate({ data, pageContext, location }) {
       categoryList={categoryList}
       latestPostEdges={latestPostEdges}
       links={config.sidebarLinks}
+      noAds={postNode.fields.noAds}
     />
   );
 
@@ -89,6 +90,7 @@ export const pageQuery = graphql`
         date
         lang
         translationKey
+        noAds
       }
     }
   }

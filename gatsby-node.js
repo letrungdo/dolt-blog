@@ -72,6 +72,12 @@ exports.onCreateNode = async ({ node, actions, getNode }) => {
     createNodeField({ node, name: "slug", value: slugValue });
     createNodeField({ node, name: "lang", value: lang });
     createNodeField({ node, name: "translationKey", value: translationKey });
+    // Posts flagged noAds render without AdSense and are noindexed (policy-risky content)
+    createNodeField({
+      node,
+      name: "noAds",
+      value: Boolean(node.frontmatter && node.frontmatter.noAds),
+    });
   }
 };
 

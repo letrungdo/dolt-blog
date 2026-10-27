@@ -1,4 +1,5 @@
 ---
+noAds: true
 template: "post"
 title: "Sửa lỗi giới hạn thời gian TeamViewer trên macOS"
 date: 2025-03-29T10:00:00+08:00

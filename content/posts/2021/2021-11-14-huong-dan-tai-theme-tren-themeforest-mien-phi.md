@@ -1,4 +1,5 @@
 ---
+noAds: true
 template: "post"
 title: Hướng dẫn tải theme trên themeforest miễn phí
 description: Themeforest là nơi mua bán themes và templates website phong phú. Hướng dẫn tải theme miễn phí trên themeforest bằng github.

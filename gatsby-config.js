@@ -111,7 +111,26 @@ module.exports = {
         },
       },
     },
-    "gatsby-plugin-sitemap",
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        query: `
+          {
+            site { siteMetadata { siteUrl } }
+            allSitePage { nodes { path } }
+            allMarkdownRemark(filter: { fields: { noAds: { eq: true } } }) {
+              nodes { fields { slug } }
+            }
+          }
+        `,
+        resolvePages: ({ allSitePage, allMarkdownRemark }) => {
+          const hidden = new Set(
+            allMarkdownRemark.nodes.map((node) => node.fields.slug)
+          );
+          return allSitePage.nodes.filter((page) => !hidden.has(page.path));
+        },
+      },
+    },
     {
       resolve: "gatsby-plugin-manifest",
       options: {

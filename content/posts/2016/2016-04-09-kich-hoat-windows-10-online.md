@@ -1,4 +1,5 @@
 ---
+noAds: true
 title: Kích hoạt Windows 10 online bằng key mak windows 7, 8, 8.1
 date: 2016-04-09T17:41:01+07:00
 author: letrungdo

@@ -1,4 +1,5 @@
 ---
+noAds: true
 template: "post"
 title: How to Download Themes on ThemeForest for Free
 description: ThemeForest is a rich marketplace for buying and selling website themes and templates. Guide to downloading free themes on ThemeForest via GitHub.
