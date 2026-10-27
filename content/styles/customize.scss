@@ -36,3 +36,75 @@ img.size-full {
   font-weight: bold;
 }
 
+
+/* Horizontal bar chart for posts: <figure class="bar-chart"> ... (see CLAUDE.md) */
+.bar-chart {
+  --chart-surface: #fcfcfb;
+  --chart-bar: #2a78d6;
+  --chart-track: #eceae4;
+  --chart-text: #0b0b0b;
+  --chart-muted: #52514e;
+  margin: 1.5rem 0;
+  padding: 1.25rem 1.25rem 1rem;
+  background: var(--chart-surface);
+  border: 1px solid #e3e1da;
+  border-radius: 8px;
+  color: var(--chart-text);
+
+  .bar-chart-title {
+    margin: 0 0 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .bar-chart-row {
+    display: grid;
+    grid-template-columns: minmax(7.5rem, 11rem) 1fr 4.5rem;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.35rem 0;
+    border-radius: 4px;
+    &:hover {
+      background: #f1efe9;
+    }
+  }
+  .bar-chart-label {
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+  .bar-chart-label small {
+    display: block;
+    color: var(--chart-muted);
+    font-size: 0.75rem;
+  }
+  .bar-chart-track {
+    position: relative;
+    height: 1.1rem;
+  }
+  .bar-chart-bar {
+    display: block;
+    height: 100%;
+    min-width: 2px;
+    background: var(--chart-bar);
+    border-radius: 0 4px 4px 0;
+  }
+  .bar-chart-value {
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .bar-chart-note {
+    margin: 0.75rem 0 0;
+    color: var(--chart-muted);
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .bar-chart .bar-chart-row {
+    grid-template-columns: 1fr 4rem;
+    row-gap: 0.25rem;
+  }
+  .bar-chart .bar-chart-label {
+    grid-column: 1 / -1;
+  }
+}
