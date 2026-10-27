@@ -17,6 +17,12 @@ const splitAtMiddleHeading = (html) => {
   return [html.slice(0, index), html.slice(index)];
 };
 
+// Wide tables scroll inside their own box instead of overflowing the page
+const wrapTables = (html) =>
+  html
+    .replace(/<table/g, '<div class="table-scroll"><table')
+    .replace(/<\/table>/g, "</table></div>");
+
 function Post({ postNode, config, slug }) {
   const { t } = useLanguage();
   const post = postNode.frontmatter;
@@ -29,9 +35,10 @@ function Post({ postNode, config, slug }) {
 
   const { adSlots, postMiddleLayout } = config;
   const showAds = !postNode.fields?.noAds;
+  const html = wrapTables(postNode.html);
   const [firstHalf, secondHalf] = showAds
-    ? splitAtMiddleHeading(postNode.html)
-    : [postNode.html, ""];
+    ? splitAtMiddleHeading(html)
+    : [html, ""];
 
   return (
     <div className="post-container">

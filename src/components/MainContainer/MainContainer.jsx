@@ -22,6 +22,7 @@ const Container = styled.section`
   overflow-x: hidden;
   .content-wrapper {
     width: 100%;
+    min-width: 0;
   }
   .sidebar-wrapper {
     width: 100%;

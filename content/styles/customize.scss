@@ -37,6 +37,43 @@ img.size-full {
 }
 
 
+/* Wrapper added around post tables (Post.jsx) so wide tables scroll horizontally */
+.table-scroll {
+  max-width: 100%;
+  margin: 0 0 2rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+  table {
+    margin-bottom: 0;
+  }
+
+  /* Header row and first column get a background; the first column
+     stays pinned while the table scrolls sideways */
+  /* table th beats the theme's th:first-child { padding-left: 0 } */
+  table th,
+  table td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  thead th {
+    background: #eceae4;
+    font-weight: 700;
+  }
+  tbody td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background: #f6f5f1;
+    font-weight: 600;
+  }
+  thead th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+  }
+}
+
 /* Horizontal bar chart for posts: <figure class="bar-chart"> ... (see CLAUDE.md) */
 .bar-chart {
   --chart-surface: #fcfcfb;
