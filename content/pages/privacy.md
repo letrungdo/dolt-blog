@@ -1,50 +1,66 @@
 ---
 template: "page"
 title: "Privacy Policy"
-description: "This Privacy Policy of TĐ.VN Blog."
+description: "Privacy Policy of TĐ.VN Blog: what data is collected, cookies, Google AdSense, Google Analytics, Disqus, and how the tools on this site handle what you type."
 slug: "privacy"
+lang: "en"
 ---
 
-<p style="text-align: justify;">
-  <b>Privacy Policy for <a href="/">tđ.vn</a></b>
-</p>
+_Last updated: November 6, 2026_
 
-<p style="text-align: justify;">
-  If you require any more information or have any questions about our privacy policy, please feel free to contact us by email at letrungdo@outlook.com.
-</p>
+This policy explains what data **tđ.vn** (the personal blog of Le Trung Do) collects, what it is used for and what choices you have.
 
-<p style="text-align: justify;">
-  At tđ.vn, the privacy of our visitors is of extreme importance to us. This privacy policy document outlines the types of personal information is received and collected by tđ.vn and how it is used.
-</p>
+## 1. No accounts
 
-<p style="text-align: justify;">
-  <b>Log Files</b><br /> Like many other Web sites, tđ.vn makes use of log files. The information inside the log files includes internet protocol ( IP ) addresses, type of browser, Internet Service Provider ( ISP ), date/time stamp, referring/exit pages, and number of clicks to analyze trends, administer the site, track user’s movement around the site, and gather demographic information. IP addresses, and other such information are not linked to any information that is personally identifiable.
-</p>
+The blog has no sign-up, login or forms that collect personal information. I only receive information you choose to send, for example when you email me.
 
-<p style="text-align: justify;">
-  <b>Cookies and Web Beacons</b><br /> tđ.vn does use cookies to store information about visitors preferences, record user-specific information on which pages the user access or visit, customize Web page content based on visitors browser type or other information that the visitor sends via their browser.
-</p>
+## 2. Tools on this site
 
-<p style="text-align: justify;">
-  <b>DoubleClick DART Cookie</b><br /> .:: Google, as a third party vendor, uses cookies to serve ads on tđ.vn.<br /> .:: Google's use of the DART cookie enables it to serve ads to users based on their visit to tđ.vn and other sites on the Internet.<br /> .:: Users may opt out of the use of the DART cookie by visiting the Google ad and content network privacy policy at the following URL - http://www.google.com/privacy_ads.html
-</p>
+Tools such as the <a href="/en/cong-cu-dien-don-nenkin-lan-2/">pension tax refund form filler</a> **process everything you type in your own browser**:
 
-<p style="text-align: justify;">
-  Some of our advertising partners may use cookies and web beacons on our site. Our advertising partners include ....<br /> Google Adsense
-</p>
+- Your information (name, address, bank account, amounts…) is **not sent to tđ.vn or any other server**, and **is not stored**. Reloading the page clears it.
+- The PDF is created on your device.
+- To draw Japanese text, the tool loads the **Noto Sans JP font from Google Fonts**. Your browser only downloads font parts by character group and **does not send what you type** to Google. Google may log the IP address of the font request, as with any site that uses Google Fonts.
 
-<p style="text-align: justify;">
-  These third-party ad servers or ad networks use technology to the advertisements and links that appear on tđ.vn send directly to your browsers. They automatically receive your IP address when this occurs. Other technologies ( such as cookies, JavaScript, or Web Beacons ) may also be used by the third-party ad networks to measure the effectiveness of their advertisements and / or to personalize the advertising content that you see.
-</p>
+## 3. Data collected automatically
 
-<p style="text-align: justify;">
-  tđ.vn has no access to or control over these cookies that are used by third-party advertisers.
-</p>
+When you visit the site, the services below may collect technical data such as your IP address, browser, device, pages viewed, referring page and time of visit.
 
-<p style="text-align: justify;">
-  You should consult the respective privacy policies of these third-party ad servers for more detailed information on their practices as well as for instructions about how to opt-out of certain practices. tđ.vn's privacy policy does not apply to, and we cannot control the activities of, such other advertisers or web sites.
-</p>
+| Service | Purpose | Policy |
+|---|---|---|
+| **Netlify** | Web hosting, access logs | <a href="https://www.netlify.com/privacy/" target="_blank" rel="noopener noreferrer">Netlify Privacy</a> |
+| **Google Analytics** | Visit statistics to improve the content | <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy</a> |
+| **Google AdSense** | Advertising | <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google uses data</a> |
+| **Disqus** | Comments under articles (loaded only when you open the comments) | <a href="https://help.disqus.com/en/articles/1717103-disqus-privacy-policy" target="_blank" rel="noopener noreferrer">Disqus Privacy</a> |
+| **Facebook** | Share buttons, Facebook SDK | <a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener noreferrer">Meta Privacy</a> |
 
-<p style="text-align: justify;">
-  If you wish to disable cookies, you may do so through your individual browser options. More detailed information about cookie management with specific web browsers can be found at the browsers' respective websites.
-</p>
+I only look at aggregate statistics and do not use this data to identify individuals.
+
+## 4. Cookies and advertising
+
+- The third-party services above, including Google, use **cookies** to work, measure usage and show ads.
+- **Google AdSense** uses cookies to serve ads based on your visits to tđ.vn and other websites. You can turn off personalized ads in <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">Google Ad Settings</a>, or opt out of other vendors' advertising cookies at <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener noreferrer">aboutads.info</a>.
+- Visitors in the European Economic Area, the United Kingdom and Switzerland see a cookie consent message provided by Google where required.
+- tđ.vn has no access to or control over cookies set by third-party advertisers.
+- You can block or delete cookies in your browser settings. Some features (such as comments) may not work without cookies.
+
+## 5. Email and comments
+
+- If you email me, I only use your address to reply and do not share it.
+- Comments made through Disqus are stored by Disqus. You can edit or delete them in your Disqus account, or email me to ask for removal.
+
+## 6. Children
+
+This blog is not directed at children under 13 and does not knowingly collect their data.
+
+## 7. Your rights
+
+You can ask me to remove comments or content that contain your information. For data collected by third parties (Google, Disqus, Facebook), please use that service's own data controls.
+
+## 8. Changes to this policy
+
+This policy may be updated when the services used by the blog change. The date of the last update is shown at the top of this page.
+
+## 9. Contact
+
+For privacy questions, email **letrdo@gmail.com** or use the <a href="/en/contact/">Contact</a> page. See also the <a href="/en/terms/">Terms of use</a>.

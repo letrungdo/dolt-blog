@@ -1,51 +1,66 @@
 ---
 template: "page"
 title: "Chính sách bảo mật"
-description: "Chính sách bảo mật của TĐ.VN Blog."
+description: "Chính sách bảo mật của TĐ.VN Blog: dữ liệu được thu thập, cookie, Google AdSense, Google Analytics, Disqus và cách công cụ trên trang xử lý thông tin bạn nhập."
 slug: "privacy"
 lang: "vi"
 ---
 
-<p style="text-align: justify;">
-  <b>Chính sách bảo mật cho <a href="/">tđ.vn</a></b>
-</p>
+_Cập nhật lần cuối: 06/11/2026_
 
-<p style="text-align: justify;">
-  Nếu bạn cần thêm thông tin hoặc có bất kỳ câu hỏi nào về chính sách bảo mật của chúng tôi, vui lòng liên hệ với chúng tôi qua email letrungdo@outlook.com.
-</p>
+Chính sách này giải thích **tđ.vn** (blog cá nhân của Lê Trung Đô) thu thập những dữ liệu gì, dùng vào việc gì và bạn có những lựa chọn nào.
 
-<p style="text-align: justify;">
-  Tại tđ.vn, quyền riêng tư của độc giả là vô cùng quan trọng đối với chúng tôi. Tài liệu chính sách bảo mật này mô tả các loại thông tin cá nhân được tiếp nhận và thu thập bởi tđ.vn và cách thông tin đó được sử dụng.
-</p>
+## 1. Không yêu cầu tạo tài khoản
 
-<p style="text-align: justify;">
-  <b>Tệp nhật ký (Log Files)</b><br /> Giống như nhiều trang web khác, tđ.vn sử dụng các tệp nhật ký. Thông tin bên trong các tệp nhật ký bao gồm địa chỉ IP, loại trình duyệt, Nhà cung cấp dịch vụ Internet (ISP), dấu thời gian/ngày tháng, trang giới thiệu/trang thoát và số lượng nhấp chuột để phân tích xu hướng, quản trị trang web, theo dõi chuyển động của người dùng và thu thập thông tin nhân khẩu học. Địa chỉ IP và các thông tin tương tự không được liên kết với bất kỳ thông tin nào có thể nhận dạng cá nhân.
-</p>
+Blog không có đăng ký, đăng nhập hay form thu thập thông tin cá nhân. Tôi chỉ nhận thông tin bạn chủ động gửi, ví dụ khi bạn email cho tôi.
 
-<p style="text-align: justify;">
-  <b>Cookie và Web Beacon</b><br /> tđ.vn sử dụng cookie để lưu trữ thông tin về sở thích của khách truy cập, ghi lại thông tin cụ thể của người dùng về các trang họ truy cập và tùy chỉnh nội dung trang web dựa trên loại trình duyệt của khách truy cập.
-</p>
+## 2. Công cụ trên trang
 
-<p style="text-align: justify;">
-  <b>Cookie DART DoubleClick</b><br /> .:: Google, với tư cách là nhà cung cấp bên thứ ba, sử dụng cookie để phục vụ quảng cáo trên tđ.vn.<br /> .:: Việc Google sử dụng cookie DART cho phép Google phục vụ quảng cáo cho người dùng dựa trên việc họ truy cập tđ.vn và các trang web khác trên Internet.<br /> .:: Người dùng có thể hủy sử dụng cookie DART bằng cách truy cập chính sách bảo mật của mạng quảng cáo và nội dung Google tại URL - http://www.google.com/privacy_ads.html
-</p>
+Các công cụ như <a href="/cong-cu-dien-don-nenkin-lan-2/">công cụ điền đơn nenkin lần 2</a> **xử lý mọi thông tin bạn nhập ngay trên trình duyệt của bạn**:
 
-<p style="text-align: justify;">
-  Một số đối tác quảng cáo của chúng tôi có thể sử dụng cookie và web beacon trên trang web của chúng tôi. Các đối tác quảng cáo bao gồm Google AdSense.
-</p>
+- Thông tin (tên, địa chỉ, số tài khoản, số tiền…) **không được gửi lên máy chủ** của tđ.vn hay bên nào khác, và **không được lưu lại**. Tải lại trang là thông tin biến mất.
+- File PDF được tạo trên máy của bạn.
+- Để vẽ chữ tiếng Nhật, công cụ tải font **Noto Sans JP từ Google Fonts**. Trình duyệt chỉ tải các phần font theo nhóm ký tự, **không gửi nội dung bạn nhập** tới Google. Google có thể ghi nhận địa chỉ IP của yêu cầu tải font như mọi trang dùng Google Fonts.
 
-<p style="text-align: justify;">
-  Các máy chủ quảng cáo hoặc mạng quảng cáo của bên thứ ba này sử dụng công nghệ để các quảng cáo và liên kết xuất hiện trên tđ.vn gửi trực tiếp đến trình duyệt của bạn. Họ tự động nhận địa chỉ IP của bạn khi điều này xảy ra. Các công nghệ khác (như cookie, JavaScript hoặc Web Beacon) cũng có thể được sử dụng bởi các mạng quảng cáo bên thứ ba để đo lường hiệu quả quảng cáo của họ và/hoặc cá nhân hóa nội dung quảng cáo mà bạn thấy.
-</p>
+## 3. Dữ liệu được thu thập tự động
 
-<p style="text-align: justify;">
-  tđ.vn không có quyền truy cập hoặc kiểm soát các cookie được sử dụng bởi các nhà quảng cáo bên thứ ba.
-</p>
+Khi bạn truy cập trang, các dịch vụ dưới đây có thể thu thập dữ liệu kỹ thuật như địa chỉ IP, loại trình duyệt, thiết bị, trang đã xem, trang giới thiệu và thời gian truy cập.
 
-<p style="text-align: justify;">
-  Bạn nên tham khảo chính sách bảo mật tương ứng của các máy chủ quảng cáo bên thứ ba này để biết thêm thông tin chi tiết về các hoạt động của họ cũng như hướng dẫn về cách hủy tham gia một số hoạt động. Chính sách bảo mật của tđ.vn không áp dụng cho và chúng tôi không thể kiểm soát các hoạt động của các nhà quảng cáo hoặc trang web khác.
-</p>
+| Dịch vụ | Mục đích | Chính sách |
+|---|---|---|
+| **Netlify** | Lưu trữ web (hosting), ghi log truy cập | <a href="https://www.netlify.com/privacy/" target="_blank" rel="noopener noreferrer">Netlify Privacy</a> |
+| **Google Analytics** | Thống kê lượt truy cập để cải thiện nội dung | <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy</a> |
+| **Google AdSense** | Hiển thị quảng cáo | <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Cách Google sử dụng dữ liệu</a> |
+| **Disqus** | Bình luận dưới bài viết (chỉ tải khi bạn bấm xem bình luận) | <a href="https://help.disqus.com/en/articles/1717103-disqus-privacy-policy" target="_blank" rel="noopener noreferrer">Disqus Privacy</a> |
+| **Facebook** | Nút chia sẻ, SDK của Facebook | <a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener noreferrer">Meta Privacy</a> |
 
-<p style="text-align: justify;">
-  Nếu bạn muốn tắt cookie, bạn có thể thực hiện thông qua các tùy chọn trình duyệt cá nhân của mình. Thông tin chi tiết hơn về quản lý cookie với các trình duyệt web cụ thể có thể được tìm thấy tại các trang web tương ứng của trình duyệt.
-</p>
+Tôi chỉ xem số liệu thống kê tổng hợp, không dùng dữ liệu này để nhận dạng từng người.
+
+## 4. Cookie và quảng cáo
+
+- Các dịch vụ bên thứ ba ở trên, bao gồm Google, sử dụng **cookie** để hoạt động, đo lường và hiển thị quảng cáo.
+- **Google AdSense** dùng cookie để hiển thị quảng cáo dựa trên các lần bạn truy cập tđ.vn và các trang web khác. Bạn có thể tắt quảng cáo cá nhân hóa tại <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">Cài đặt quảng cáo của Google</a>, hoặc tắt cookie quảng cáo của các nhà cung cấp khác tại <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener noreferrer">aboutads.info</a>.
+- Người dùng ở Khu vực kinh tế châu Âu (EEA), Vương quốc Anh và Thụy Sĩ sẽ thấy thông báo đồng ý cookie do Google cung cấp khi được yêu cầu.
+- tđ.vn không truy cập và không kiểm soát cookie của nhà quảng cáo bên thứ ba.
+- Bạn có thể chặn hoặc xóa cookie trong cài đặt trình duyệt. Một số chức năng (ví dụ bình luận) có thể không hoạt động khi chặn cookie.
+
+## 5. Email và bình luận
+
+- Nếu bạn email cho tôi, tôi chỉ dùng email đó để trả lời, không chia sẻ cho bên khác.
+- Bình luận qua Disqus do Disqus lưu trữ. Bạn có thể sửa hoặc xóa bình luận trong tài khoản Disqus, hoặc email cho tôi để yêu cầu gỡ.
+
+## 6. Trẻ em
+
+Blog không nhắm tới trẻ em dưới 13 tuổi và không cố ý thu thập dữ liệu của trẻ em.
+
+## 7. Quyền của bạn
+
+Bạn có thể yêu cầu tôi gỡ bình luận hoặc nội dung có chứa thông tin của bạn. Với dữ liệu do bên thứ ba thu thập (Google, Disqus, Facebook), vui lòng dùng công cụ quản lý dữ liệu của chính dịch vụ đó.
+
+## 8. Thay đổi chính sách
+
+Chính sách có thể được cập nhật khi blog thay đổi dịch vụ sử dụng. Ngày cập nhật được ghi ở đầu trang.
+
+## 9. Liên hệ
+
+Câu hỏi về quyền riêng tư, vui lòng gửi email tới **letrdo@gmail.com** hoặc qua trang <a href="/contact/">Liên hệ</a>. Xem thêm <a href="/terms/">Điều khoản sử dụng</a>.

@@ -52,7 +52,7 @@ function NenkinToolAbout({ lang }) {
             <li>Based on official documents from the Japan Pension Service (日本年金機構) and the National Tax Agency (国税庁), current as of November 6, 2026. Rules and forms may change.</li>
             <li>This tool only helps you fill in the forms. It is <strong>not tax or legal advice</strong>, and your situation may differ. Check the forms with the tax office (税務署) or a tax accountant (税理士) before you submit them.</li>
             <li>This blog is <strong>not affiliated</strong> with the Japan Pension Service or the National Tax Agency and <strong>accepts no liability</strong> for any loss arising from use of this tool.</li>
-            <li>See also: <AutoLink to="/terms/">Terms of use</AutoLink>.</li>
+            <li>See also: <AutoLink to="/en/terms/">Terms of use</AutoLink>.</li>
           </ul>
         </div>
       </section>

@@ -1,37 +1,50 @@
 ---
 template: "page"
 title: "Điều khoản sử dụng"
-description: "Các điều khoản và quy định sử dụng TĐ.VN Blog."
+description: "Điều khoản sử dụng TĐ.VN Blog: nội dung chỉ để tham khảo, miễn trừ trách nhiệm cho bài viết và công cụ, bản quyền, bình luận và liên kết."
 slug: "terms"
 lang: "vi"
 ---
 
-<p>Chào mừng bạn đến với tđ.vn!</p>
+_Cập nhật lần cuối: 06/11/2026_
 
-<p>Các điều khoản và điều kiện này nêu rõ các quy tắc và quy định cho việc sử dụng Trang web của TĐ.VN tại https://tđ.vn.</p>
+Chào mừng bạn đến với **tđ.vn**, blog cá nhân của Lê Trung Đô. Khi truy cập và sử dụng trang web, bạn đồng ý với các điều khoản dưới đây. Nếu không đồng ý, vui lòng ngừng sử dụng trang.
 
-<p>Bằng cách truy cập trang web này, chúng tôi giả định bạn chấp nhận các điều khoản và điều kiện này. Không tiếp tục sử dụng tđ.vn nếu bạn không đồng ý với tất cả các điều khoản và điều kiện được ghi trên trang này.</p>
+## 1. Nội dung chỉ để tham khảo
 
-<p>Thuật ngữ sau đây áp dụng cho các Điều khoản và Điều kiện này, Tuyên bố Quyền riêng tư và Thông báo Miễn trừ Trách nhiệm cùng tất cả các Thỏa thuận: "Khách hàng", "Bạn" và "Của bạn" đề cập đến bạn, người đăng nhập vào trang web này và tuân thủ các điều khoản và điều kiện của Công ty. "Công ty", "Bản thân chúng tôi", "Chúng tôi", "Của chúng tôi" đề cập đến Công ty của chúng tôi. "Bên", "Các bên", hoặc "Chúng tôi" đề cập đến cả Khách hàng và bản thân chúng tôi.</p>
+Bài viết trên blog chia sẻ kiến thức và kinh nghiệm cá nhân về lập trình, phần mềm, thủ tục hành chính và các chủ đề khác. Tôi cố gắng giữ thông tin chính xác và ghi rõ nguồn, nhưng **không bảo đảm** nội dung luôn đầy đủ, đúng hoặc cập nhật. Quy định, giá cả, phần mềm và thủ tục có thể thay đổi sau ngày đăng bài.
 
-<h3><strong>Cookie</strong></h3>
+## 2. Miễn trừ trách nhiệm
 
-<p>Chúng tôi sử dụng cookie. Bằng cách truy cập tđ.vn, bạn đã đồng ý sử dụng cookie theo Thỏa thuận Chính sách Bảo mật của TĐ.VN.</p>
+- Nội dung về **thuế, lương hưu (nenkin), thủ tục ở Nhật Bản** và các chủ đề pháp lý, tài chính **không phải tư vấn thuế, pháp lý hay tài chính**. Trường hợp của bạn có thể khác. Hãy kiểm tra lại với cơ quan có thẩm quyền (ví dụ 日本年金機構, 税務署) hoặc chuyên gia (ví dụ 税理士) trước khi làm thủ tục.
+- Blog **không liên quan và không đại diện** cho bất kỳ cơ quan nhà nước hay tổ chức nào được nhắc tới trong bài, kể cả 日本年金機構 và 国税庁.
+- **Công cụ trên trang** (ví dụ <a href="/cong-cu-dien-don-nenkin-lan-2/">công cụ điền đơn nenkin lần 2</a>) chỉ hỗ trợ tính toán và điền đơn. Bạn chịu trách nhiệm kiểm tra kết quả trước khi sử dụng.
+- Code mẫu, lệnh và hướng dẫn kỹ thuật được cung cấp "nguyên trạng" (as is). Hãy thử trên môi trường thử nghiệm và sao lưu dữ liệu trước khi áp dụng.
+- Trong phạm vi pháp luật cho phép, tôi **không chịu trách nhiệm** về thiệt hại trực tiếp hay gián tiếp phát sinh từ việc sử dụng thông tin, code hoặc công cụ trên trang.
 
-<p>Hầu hết các trang web tương tác đều sử dụng cookie để cho phép chúng tôi lấy thông tin chi tiết của người dùng cho mỗi lần truy cập. Cookie được trang web của chúng tôi sử dụng để bật chức năng của một số khu vực nhất định giúp người truy cập trang web dễ dàng hơn.</p>
+## 3. Bản quyền
 
-<h3><strong>Giấy phép</strong></h3>
+- Nội dung bài viết, hình ảnh và thiết kế thuộc về tđ.vn, trừ khi có ghi chú khác. Không được sao chép toàn bộ bài viết để đăng lại ở nơi khác.
+- Bạn **được trích dẫn một phần** nội dung nếu ghi rõ nguồn kèm link về bài gốc.
+- Bạn **được tự do dùng code mẫu** trong bài cho dự án cá nhân hoặc thương mại.
+- Mẫu đơn, tài liệu của cơ quan nhà nước được link hoặc dùng làm minh họa thuộc về cơ quan đó.
 
-<p>Trừ khi có tuyên bố khác, TĐ.VN và/hoặc các bên cấp phép của TĐ.VN sở hữu quyền sở hữu trí tuệ đối với tất cả tài liệu trên tđ.vn. Tất cả các quyền sở hữu trí tuệ được bảo lưu. Bạn có thể truy cập nội dung này từ tđ.vn cho mục đích sử dụng cá nhân của riêng bạn tùy thuộc vào các hạn chế được thiết lập trong các điều khoản và điều kiện này.</p>
+## 4. Bình luận
 
-<p>Bạn không được:</p>
-<ul>
-    <li>Tái xuất bản tài liệu từ tđ.vn</li>
-    <li>Bán, cho thuê hoặc cấp phép lại tài liệu từ tđ.vn</li>
-    <li>Sao chép, nhân bản hoặc chép lại tài liệu từ tđ.vn</li>
-    <li>Phân phối lại nội dung từ tđ.vn</li>
-</ul>
+Bình luận được cung cấp qua **Disqus** và tuân theo điều khoản của Disqus. Bình luận thể hiện quan điểm của người viết, không phải của tđ.vn. Tôi có quyền ẩn hoặc xóa bình luận spam, quảng cáo, xúc phạm, vi phạm pháp luật hoặc chứa thông tin cá nhân của người khác. **Đừng đăng thông tin cá nhân** (số tài khoản, địa chỉ, mã số lương hưu…) trong bình luận.
 
-<h3><strong>Sự miễn trừ trách nhiệm</strong></h3>
+## 5. Liên kết ngoài và quảng cáo
 
-<p>Trong phạm vi tối đa được pháp luật hiện hành cho phép, chúng tôi loại trừ tất cả các đại diện, bảo đảm và điều kiện liên quan đến trang web của chúng tôi và việc sử dụng trang web này.</p>
+Blog có liên kết tới trang web khác và hiển thị quảng cáo của **Google AdSense**. Tôi không kiểm soát và không chịu trách nhiệm về nội dung, sản phẩm hay chính sách của các trang và nhà quảng cáo đó. Bạn có thể dẫn link tới bài viết trên tđ.vn mà không cần xin phép, miễn là không gây hiểu nhầm rằng tôi tài trợ hoặc xác nhận cho bạn.
+
+## 6. Quyền riêng tư
+
+Cách trang web thu thập và sử dụng dữ liệu được trình bày trong <a href="/privacy/">Chính sách bảo mật</a>.
+
+## 7. Thay đổi điều khoản
+
+Tôi có thể cập nhật các điều khoản này bất cứ lúc nào. Ngày cập nhật được ghi ở đầu trang. Việc bạn tiếp tục sử dụng trang sau khi thay đổi đồng nghĩa với việc bạn chấp nhận điều khoản mới.
+
+## 8. Liên hệ
+
+Mọi câu hỏi về điều khoản, yêu cầu gỡ nội dung hoặc báo lỗi, vui lòng gửi email tới **letrdo@gmail.com** hoặc qua trang <a href="/contact/">Liên hệ</a>.
