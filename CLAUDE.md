@@ -32,3 +32,4 @@ For simple comparisons (prices, timings, sizes), use the reusable HTML bar chart
 | 2026-10-13 | `2026/10/e2e-testing-cover.png` | Dark navy gradient, blue pill tag, sans title with blue second line, 3 stat cards with colored top bars |
 | 2026-10-26 | `2026/10/azure-self-hosted-agent-cover.png` | Same template as above (dark navy, pill tag, 3 stat cards) — do not reuse |
 | 2026-10-27 | `2026/10/mobile-ci-cd-comparison-cover.png` | Light cream editorial: orange left edge stripe, large black serif title with orange italic word, mono kicker, framed horizontal bar chart on the right |
+| 2026-11-06 | `2026/11/nenkin-lan-2-cover.png` | Washi-paper illustration: beige lined background, heavy black sans title with yellow marker highlight, vermilion underlined kicker, green/yellow chip legend, tilted white paper form on the right with highlighted fields and a red circular 還付 hanko stamp |
