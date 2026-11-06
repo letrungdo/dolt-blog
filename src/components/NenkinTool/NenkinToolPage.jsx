@@ -9,6 +9,7 @@ import NenkinTool from "./NenkinTool";
 
 export const TOOL_PATH = "/cong-cu-dien-don-nenkin-lan-2/";
 const GUIDE_PATH = "/huong-dan-tu-lam-nenkin-lan-2/";
+const LAN1_PATH = "/huong-dan-tu-lam-nenkin-lan-1/";
 
 const TEXT = {
   vi: {
@@ -17,6 +18,8 @@ const TEXT = {
       "Nhập thông tin để tự điền mẫu 納税管理人届出書 và 確定申告書 (令和7年分以降用) cho nenkin lần 2, tính trước số tiền được hoàn và tải PDF. Chạy hoàn toàn trên trình duyệt.",
     intro: "Nhập thông tin bên dưới, công cụ sẽ tính số tiền được hoàn và điền sẵn 2 mẫu đơn của 国税庁 thành 1 file PDF (4 trang A4).",
     guide: "Xem hướng dẫn chi tiết từng ô",
+    lan1: "Chưa nhận nenkin lần 1?",
+    lan1Link: "Xem hướng dẫn tự làm nenkin lần 1",
   },
   en: {
     title: "Japan Pension Lump-Sum Tax Refund Form Filler (20.42%)",
@@ -24,6 +27,8 @@ const TEXT = {
       "Enter your details to fill in the 納税管理人届出書 and the 確定申告書 (令和7年分以降用) for the pension lump-sum tax refund, estimate your refund and download a PDF. Runs entirely in your browser.",
     intro: "Enter your details below. The tool estimates your refund and fills in both National Tax Agency forms as one PDF (4 A4 pages).",
     guide: "Read the field-by-field guide",
+    lan1: "Haven't received the lump-sum payment yet?",
+    lan1Link: "Read the lump-sum withdrawal claim guide",
   },
 };
 
@@ -35,6 +40,9 @@ function NenkinToolPage({ lang = DEFAULT_LANGUAGE, location }) {
       <div className="main-content container padding-top-3 padding-bottom-3">
         <p>
           {tx.intro} <AutoLink to={getLocalizedPath(GUIDE_PATH, lang)}>{tx.guide}</AutoLink>.
+        </p>
+        <p>
+          {tx.lan1} <AutoLink to={getLocalizedPath(LAN1_PATH, lang)}>{tx.lan1Link}</AutoLink>.
         </p>
         <NenkinTool lang={lang} />
       </div>

@@ -19,25 +19,49 @@ const num = (xr, y, s, size = 40) => text(xr, y, s, size, "right");
 const strike = (x0, x1, y) => ({ kind: "strike", x0, x1, y });
 const todo = (x0, y0, x1, y1) => ({ kind: "todo", x0, y0, x1, y1 });
 
-// Split "160-0000" or "+84 963 273 900" into the segments of a dashed field.
+// Split a postal code or phone number into the segments of a dashed field.
+// Typed separators win ("160-0000", "+84 963 273 900"); otherwise the digits are split by pattern.
 function splitParts(value, count) {
-  const parts = (value || "").trim().split(/[-\s]+/).filter(Boolean);
-  if (parts.length <= count) return parts;
-  return [parts.slice(0, parts.length - count + 1).join(" "), ...parts.slice(parts.length - count + 1)];
+  const raw = (value || "").trim();
+  if (!raw) return [];
+  const parts = raw.split(/[-\s()]+/).filter(Boolean);
+  if (parts.length > count) {
+    return [parts.slice(0, parts.length - count + 1).join(" "), ...parts.slice(parts.length - count + 1)];
+  }
+  if (parts.length === count) return parts;
+
+  const digits = raw.replace(/\D/g, "");
+  const cut = (...lens) => {
+    let i = 0;
+    return lens.map((n) => digits.slice(i, (i += n)));
+  };
+  if (count === 2) return digits.length === 7 ? cut(3, 4) : null;
+  // International (+84…): keep the country code with the first group, then 3 + 3 digits.
+  // "+84 0963…" drops the domestic trunk 0 after a separated country code.
+  if (raw.startsWith("+")) {
+    const rest = parts.length > 1 ? parts.slice(1).join("").replace(/\D/g, "").replace(/^0/, "") : digits;
+    const cc = parts.length > 1 ? `${parts[0]} ` : "+";
+    return rest.length > 6 ? [`${cc}${rest.slice(0, -6)}`, rest.slice(-6, -3), rest.slice(-3)] : null;
+  }
+  if (digits.length === 11) return cut(3, 4, 4); // 090-1234-5678
+  if (digits.length === 10) return /^0[36]/.test(digits) ? cut(2, 4, 4) : cut(3, 3, 4); // 03-1234-5678, 0963-…
+  return null;
 }
 
 // Put text into the centred slots of a dashed field; empty value -> yellow box (handwrite) when box given.
-function slots(ops, value, xs, y, size, box) {
-  const parts = splitParts(value, xs.length);
-  if (!parts.length) {
+// A value that cannot be split is written once across the whole field (x0..x1).
+function slots(ops, value, xs, y, size, box, [x0, x1]) {
+  if (!(value || "").trim()) {
     if (box) ops.push(box);
     return;
   }
-  if (parts.length < xs.length) {
-    ops.push(text(xs[0], y, parts.join(" "), size, "center"));
+  const parts = splitParts(value, xs.length);
+  if (!parts) {
+    ops.push(text(x0, y, value.trim(), size, "left", x1 - x0));
     return;
   }
-  parts.forEach((p, i) => ops.push(text(xs[i], y, p, size, "center")));
+  const slotW = (xs[1] - xs[0]) * 0.75;
+  parts.forEach((p, i) => ops.push(text(xs[i], y, p, size, "center", slotW)));
 }
 
 function optional(ops, value, op, box) {
@@ -84,14 +108,14 @@ export function buildOps(d) {
     form1.push(text(1682, 476, dob.name, 34, "center"), text(1896, 476, dob.year, 40, "center"));
     form1.push(text(2111, 476, dob.month, 40, "center"), text(2325, 476, dob.day, 40, "center"));
   }
-  slots(form1, d.zipJP, [877, 1121], 1012, 40);
-  slots(form1, d.phoneAbroad, [1807, 2056, 2306], 1228, 36);
+  slots(form1, d.zipJP, [877, 1121], 1012, 40, null, [760, 1240]);
+  slots(form1, d.phoneAbroad, [1807, 2056, 2306], 1228, 36, null, [1700, 2390]);
   if (depart) {
     form1.push(text(906, 2773, depart.year, 40, "center"), text(1008, 2773, depart.month, 40, "center"));
     form1.push(text(1115, 2773, depart.day, 40, "center"));
   }
   // 2. 納税管理人 – blank fields stay yellow for handwriting
-  slots(form1, a.zip, [848, 1121], 1869, 40, todo(735, 1833, 1250, 1905));
+  slots(form1, a.zip, [848, 1121], 1869, 40, todo(735, 1833, 1250, 1905), [750, 1240]);
   optional(form1, a.addr, (v) => text(741, 1965, v, 36, "left", 920), todo(720, 1928, 1680, 2003));
   if (agentDob) {
     form1.push(text(1930, 1965, `${agentDob.name}${agentDob.year}`, 32, "right"));
@@ -101,7 +125,7 @@ export function buildOps(d) {
   }
   optional(form1, a.kana, (v) => text(526, 2062, v, 36, "left", 1780), todo(500, 2022, 2320, 2100));
   optional(form1, a.name, (v) => text(526, 2158, v, 40, "left", 1780), todo(500, 2118, 2320, 2198));
-  slots(form1, a.phone, [632, 875, 1121], 2253, 38, todo(500, 2215, 1250, 2293));
+  slots(form1, a.phone, [632, 875, 1121], 2253, 38, todo(500, 2215, 1250, 2293), [510, 1240]);
   optional(form1, a.job, (v) => text(2163, 2253, v, 34, "center"), todo(2005, 2215, 2320, 2293));
 
   // 第一表
@@ -136,9 +160,9 @@ export function buildOps(d) {
     p1.push(text(2066, 425, dob.code, 38, "center"), text(2161, 425, dob.year, 38, "center"));
     p1.push(text(2255, 425, dob.month, 38, "center"), text(2345, 425, dob.day, 38, "center"));
   }
-  slots(p1, d.zipJP, [774, 935], 425, 38);
+  slots(p1, d.zipJP, [774, 935], 425, 38, null, [700, 1010]);
   if (!agentLine) p1.push(todo(700, 640, 1380, 688));
-  slots(p1, a.phone, [1930, 2115, 2300], 737, 36, todo(1840, 712, 2385, 762));
+  slots(p1, a.phone, [1930, 2115, 2300], 737, 36, todo(1840, 712, 2385, 762), [1850, 2380]);
   optional(p1, a.bank, (v) => text(1862, 2832, v, 30, "left", 200), todo(1855, 2810, 2060, 2856));
   optional(p1, a.bank, () => text(2342, 2832, "1", 38, "center"), todo(2300, 2810, 2385, 2856));
   optional(p1, a.branch, (v) => text(1710, 2897, v.replace(/支店$/, ""), 32, "left", 350), todo(1690, 2875, 2060, 2920));

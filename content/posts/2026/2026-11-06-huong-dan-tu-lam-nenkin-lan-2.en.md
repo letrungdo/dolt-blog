@@ -26,6 +26,8 @@ This guide shows how to do it **yourself** after you have left Japan, without pa
 
 > 🛠️ **Rather not fill it in by hand?** Use the <a href="/en/cong-cu-dien-don-nenkin-lan-2/">refund form filler</a>: enter your details, and it estimates your refund and creates both forms as a ready-to-print PDF. It runs in your browser and sends your data nowhere.
 
+> 📬 **Haven't received the lump-sum payment yet?** Start with the <a href="/en/huong-dan-tu-lam-nenkin-lan-1/">lump-sum withdrawal (脱退一時金) claim guide</a>: eligibility, the amount and a highlighted sample of the claim form.
+
 > ⚠️ All names, addresses, amounts and account numbers in the images and sample files in this post are **fake**. They only show how to fill in the forms.
 
 ---
@@ -260,6 +262,13 @@ The sample uses the **一般** row, which is how the NTA fills it in for the lum
 
 **What if my calculation is wrong?**
 The return is not rejected. The tax office checks it, corrects the refund amount and sends a notice to your agent.
+
+---
+
+## Related
+
+- <a href="/en/huong-dan-tu-lam-nenkin-lan-1/">How to claim the Japan pension lump-sum withdrawal payment yourself</a>: eligibility, amount and a field-by-field form guide.
+- <a href="/en/cong-cu-dien-don-nenkin-lan-2/">Tax refund form filler</a>: enter your details and download both forms filled in.
 
 ---
 

@@ -25,6 +25,8 @@ Bài này hướng dẫn **tự làm** nenkin lần 2 khi bạn đã về Việt
 
 > 🛠️ **Không muốn tự điền?** Dùng <a href="/cong-cu-dien-don-nenkin-lan-2/">công cụ điền đơn nenkin lần 2</a>: nhập thông tin, công cụ tính số tiền được hoàn và tạo sẵn file PDF 2 mẫu đơn để in. Mọi thứ chạy trên trình duyệt của bạn, không gửi thông tin đi đâu.
 
+> 📬 **Chưa nhận nenkin lần 1?** Làm lần 1 trước: <a href="/huong-dan-tu-lam-nenkin-lan-1/">hướng dẫn tự làm nenkin lần 1 (脱退一時金)</a>, có cách tính tiền và bản mẫu đơn tiếng Việt tô màu từng ô.
+
 > ⚠️ Toàn bộ tên, địa chỉ, số tiền, số tài khoản trong ảnh và file mẫu ở bài này là **thông tin giả**, chỉ để minh họa cách điền.
 
 ---
@@ -259,6 +261,13 @@ Bản mẫu ghi dòng **一般** theo cách ghi cho nenkin của 国税庁. Vớ
 
 **Tính sai thì có bị hủy hồ sơ không?**
 Không. Cục thuế tự kiểm tra lại, sửa số tiền hoàn và gửi thư thông báo cho người đại diện.
+
+---
+
+## Bài liên quan
+
+- <a href="/huong-dan-tu-lam-nenkin-lan-1/">Hướng dẫn tự làm nenkin lần 1 (脱退一時金) khi về nước</a>: điều kiện, cách tính tiền, điền đơn tiếng Việt từng ô.
+- <a href="/cong-cu-dien-don-nenkin-lan-2/">Công cụ điền đơn nenkin lần 2</a>: nhập thông tin, tải PDF 2 mẫu đơn đã điền sẵn.
 
 ---
 
