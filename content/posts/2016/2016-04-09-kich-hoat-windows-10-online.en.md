@@ -14,7 +14,7 @@ tags:
 ---
 
 <p style="text-align: justify;">
-  Finding direct online activation keys for Windows 10 can be rare, often requiring users to find <a href="/tag/key-mak/" target="_blank" rel="noopener noreferrer"><strong>MAK keys</strong></a> with 0 online activations remaining to perform phone activation. However, phone activation requires calling automated IVR lines.
+  Finding direct online activation keys for Windows 10 can be rare, often requiring users to find <strong>MAK keys</strong> with 0 online activations remaining to perform phone activation. However, phone activation requires calling automated IVR lines.
 </p>
 
 <p style="text-align: justify;">

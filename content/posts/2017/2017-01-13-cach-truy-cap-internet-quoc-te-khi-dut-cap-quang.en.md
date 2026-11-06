@@ -20,7 +20,7 @@ Access the following link: <a href="http://vietpn.com/register?ref=d41d8cd98f00b
 
 After registering, you will receive 10GB of free data allowance.
 
-<img class="size-full wp-image-111 aligncenter" src="/media/2017/01/acc-vietpn-info.png" alt="" width="643" height="238" srcset="/media/2017/01/acc-vietpn-info.png 643w, /media/2017/01/acc-vietpn-info-640x238.png 640w" sizes="(max-width: 643px) 100vw, 643px" />
+<img class="size-full wp-image-111 aligncenter" src="/media/2017/01/acc-vietpn-info.png" alt="" width="643" height="238" />
 
 ### Step 2: Install VietPN to Access International Internet
 

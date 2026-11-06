@@ -11,10 +11,10 @@ categories:
 ---
 
 <p style="text-align: justify;">
-  After installing VNPT fiber internet with an <strong>iGate GW040</strong> modem, you may notice two Wi-Fi broadcast signals. One is your customized Wi-Fi network name, while the second named <strong>VinaphoneWifi</strong> cannot be connected to. <a href="/cach-dang-nhap-vao-modem-wifi/" target="_blank" rel="noopener">Logging in</a> to the modem configuration using the default account (username and password admin) allows modifying settings, but VinaphoneWifi persists even after restarting or resetting the modem.
+  After installing VNPT fiber internet with an <strong>iGate GW040</strong> modem, you may notice two Wi-Fi broadcast signals. One is your customized Wi-Fi network name, while the second named <strong>VinaphoneWifi</strong> cannot be connected to. Logging in to the modem configuration using the default account (username and password admin) allows modifying settings, but VinaphoneWifi persists even after restarting or resetting the modem.
 </p>
 
-<img class="aligncenter size-full wp-image-1916" src="/media/2016/07/VvinaphoneWifi.png" alt="" width="1160" height="617" srcset="/media/2016/07/VvinaphoneWifi.png 1160w, /media/2016/07/VvinaphoneWifi-768x408.png 768w" sizes="(max-width: 1160px) 100vw, 1160px" />
+<img class="aligncenter size-full wp-image-1916" src="/media/2016/07/VvinaphoneWifi.png" alt="" width="1160" height="617" />
 
 ## How to Disable VinaphoneWifi on VNPT iGate GW040 Modem Router
 

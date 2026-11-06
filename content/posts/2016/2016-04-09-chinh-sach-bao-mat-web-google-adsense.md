@@ -1,5 +1,6 @@
 ---
 title: Chính sách bảo mật cho website chạy google adsense
+description: "Vì sao website chạy Google AdSense cần trang chính sách bảo mật (privacy policy) và cách tạo một trang đáp ứng yêu cầu của Google."
 date: 2016-04-09T16:23:46+07:00
 author: letrungdo
 template: "post"

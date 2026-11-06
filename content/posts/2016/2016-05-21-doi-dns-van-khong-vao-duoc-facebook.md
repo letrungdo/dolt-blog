@@ -46,7 +46,7 @@ tags:
 </p>
 
 <p style="text-align: justify;">
-  <img class="aligncenter size-full wp-image-2073" src="/media/2016/05/turn-on-hola.png" alt="" width="430" height="312" srcset="/media/2016/05/turn-on-hola.png 430w, /media/2016/05/turn-on-hola-74x55.png 74w" sizes="(max-width: 430px) 100vw, 430px" />
+  <img class="aligncenter size-full wp-image-2073" src="/media/2016/05/turn-on-hola.png" alt="" width="430" height="312" />
 </p>
 
 <p style="text-align: justify;">

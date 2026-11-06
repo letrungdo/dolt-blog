@@ -9,7 +9,7 @@ categories:
   - Bugs
 ---
 
-Sau khi cài lại win hay sau khi update, lỗi laptop chỉ thấy một số tên <a href="/tag/wifi/" target="_blank" rel="noopener">wifi</a> của nhà hàng xóm, còn wifi phòng mình thì không. Lỗi này thường do driver không phù hợp với máy, hoặc cấu hình chọn kênh thu wifi bị sai. Bài viết sẽ hướng dẫn các bạn **sửa lỗi Laptop chỉ thấy một số tên Wifi** theo các cách sau.
+Sau khi cài lại win hay sau khi update, lỗi laptop chỉ thấy một số tên wifi của nhà hàng xóm, còn wifi phòng mình thì không. Lỗi này thường do driver không phù hợp với máy, hoặc cấu hình chọn kênh thu wifi bị sai. Bài viết sẽ hướng dẫn các bạn **sửa lỗi Laptop chỉ thấy một số tên Wifi** theo các cách sau.
 
 # Hướng dẫn sửa lỗi Laptop chỉ thấy một số tên Wifi
 

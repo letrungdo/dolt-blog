@@ -13,7 +13,7 @@ tags:
   - Wordpress
 ---
 
-<a href="/huong-dan-su-dung-openshift-v3-toan-tap/" target="_blank" rel="noopener"><strong>OpenShift v3</strong></a> no longer uses the SFTP file transfer protocol to manage files like <a href="/hosting-free/openshift/" target="_blank" rel="noopener">OpenShift v2</a> did. Uploading source code can be difficult for those who know nothing about Docker. So today I will guide you on how to **install PHP file manager on OpenShift v3**, helping you upload source code quickly and easily.
+<a href="/en/tag/openshift/" target="_blank" rel="noopener"><strong>OpenShift v3</strong></a> no longer uses the SFTP file transfer protocol to manage files like <a href="/en/tag/openshift/" target="_blank" rel="noopener">OpenShift v2</a> did. Uploading source code can be difficult for those who know nothing about Docker. So today I will guide you on how to **install PHP file manager on OpenShift v3**, helping you upload source code quickly and easily.
 
 # Guide to Install PHP File Manager on OpenShift v3
 
@@ -21,7 +21,7 @@ tags:
 
 We will use the file manager source code by author IzeroCs at: <a href="https://github.com/IzeroCs/Distro-Manager" target="_blank" rel="noopener">github.com/IzeroCs/Distro-Manager</a>
 
-<img class="aligncenter wp-image-263 size-full" src="/media/2017/09/tao-project-php.png" alt="Install PHP file manager on OpenShift v3" width="957" height="488" srcset="/media/2017/09/tao-project-php.png 957w, /media/2017/09/tao-project-php-768x392.png 768w" sizes="(max-width: 957px) 100vw, 957px" />
+<img class="aligncenter wp-image-263 size-full" src="/media/2017/09/tao-project-php.png" alt="Install PHP file manager on OpenShift v3" width="957" height="488" />
 
 Fill in project name; in the * Git Repository URL line, enter the following link:
 

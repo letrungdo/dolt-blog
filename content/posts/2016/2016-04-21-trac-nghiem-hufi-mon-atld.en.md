@@ -23,7 +23,7 @@ categories:
 - Credits / Hours: <b>30 hours</b>
 - Academic Level: <b>College / University</b>
 
-<img class="aligncenter size-full wp-image-2057" src="/media/2016/04/ATLD.png" alt="" width="1111" height="586" srcset="/media/2016/04/ATLD.png 1111w, /media/2016/04/ATLD-768x405.png 768w" sizes="(max-width: 1111px) 100vw, 1111px" />
+<img class="aligncenter size-full wp-image-2057" src="/media/2016/04/ATLD.png" alt="" width="1111" height="586" />
 
 ## Occupational Safety Quiz Chapters (Midterm & Final Exams)
 

@@ -30,7 +30,7 @@ Users simply need to append `.html` after `.jpg` in the image URL on Facebook or
 
 Result URL: <a href="https://scontent-hkg3-1.cdninstagram.com/t51.2885-15/e35/12716568_1554646574862270_552019220_n.jpg.html" target="_blank" rel="noopener">scontent-hkg3-1.cdninstagram.com/t51.2885-15/e35/12716568_1554646574862270_552019220_n.jpg.html</a>
 
-<img class="aligncenter size-full wp-image-2000" src="/media/2016/05/img-to-text.png" alt="" width="972" height="568" srcset="/media/2016/05/img-to-text.png 972w, /media/2016/05/img-to-text-768x449.png 768w" sizes="(max-width: 972px) 100vw, 972px" />
+<img class="aligncenter size-full wp-image-2000" src="/media/2016/05/img-to-text.png" alt="" width="972" height="568" />
 
 If you want color ASCII art, append `.html` to the end of the image URL. Appending `.txt` to the image URL on Instagram or Facebook renders a black-and-white ASCII version instead.
 

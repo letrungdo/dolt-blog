@@ -56,7 +56,8 @@ function MainLayout({
     },
     {
       label: t("navSitemap", currentLang),
-      url: getLocalizedPath("/sitemap-index.xml", currentLang),
+      // One sitemap covers both languages; there is no /en/sitemap-index.xml
+      url: "/sitemap-index.xml",
     },
   ];
 

@@ -1,5 +1,6 @@
 ---
 title: CPU Scheduling Algorithms in Operating Systems
+description: "CPU scheduling algorithms (FCFS, SJF, Round Robin, priority), preemptive and non-preemptive scheduling, and how to solve Operating Systems exercises."
 date: 2016-04-09T19:22:49+07:00
 author: letrungdo
 template: "post"

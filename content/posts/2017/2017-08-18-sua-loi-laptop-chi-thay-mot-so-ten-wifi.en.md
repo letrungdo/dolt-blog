@@ -10,7 +10,7 @@ categories:
   - Bugs
 ---
 
-After reinstalling Windows or after updating, an issue may occur where your laptop only sees certain neighbor <a href="/tag/wifi/" target="_blank" rel="noopener">Wi-Fi</a> networks while missing your own home Wi-Fi. This error is usually caused by an incompatible driver or incorrect Wi-Fi channel reception configuration. This article will guide you on how to **fix the issue where laptop only displays some Wi-Fi names** using the following methods.
+After reinstalling Windows or after updating, an issue may occur where your laptop only sees certain neighbor Wi-Fi networks while missing your own home Wi-Fi. This error is usually caused by an incompatible driver or incorrect Wi-Fi channel reception configuration. This article will guide you on how to **fix the issue where laptop only displays some Wi-Fi names** using the following methods.
 
 # How to Fix Laptop Displaying Only Some Wi-Fi Names
 

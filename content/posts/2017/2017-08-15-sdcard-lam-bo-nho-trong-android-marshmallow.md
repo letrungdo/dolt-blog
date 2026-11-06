@@ -58,4 +58,4 @@ Mặc định các ứng dụng cho phép lưu vào thẻ nhớ thì khi cài s�
 
 Còn nếu máy bạn đã root thì vào Cài đặt > Ứng dụng: Chọn 1 app > Nhấn vào mục **Lưu trữ**. Chọn Thay đổi > Thẻ SD. Ứng dụng sẽ chuyển qua thẻ nhớ 100%.
 
-Một số model nên áp dụng: <a href="/tag/sony-xperia/" target="_blank" rel="noopener"><strong>Sony Xperia M4 Aqua</strong></a>
+Một số model nên áp dụng: <a href="/cda-customization-number-si-tren-sony-xperia-la-gi/" target="_blank" rel="noopener"><strong>Sony Xperia M4 Aqua</strong></a>

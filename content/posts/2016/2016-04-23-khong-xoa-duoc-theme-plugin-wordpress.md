@@ -50,7 +50,7 @@ Vào **wp-content** > **themes**
 
 Trong thư mục theme này bạn chọn thư mục theme mà bạn xóa không được. Ở đây của mình là **glaroum**
 
-<img class="aligncenter size-full wp-image-2076" src="/media/2016/04/perm.png" alt="" width="780" height="490" srcset="/media/2016/04/perm.png 780w, /media/2016/04/perm-768x482.png 768w" sizes="(max-width: 780px) 100vw, 780px" />
+<img class="aligncenter size-full wp-image-2076" src="/media/2016/04/perm.png" alt="" width="780" height="490" />
 
 Thư mục theme glamour của mình "**perm**". đang có giá trị **577** do đó không thể xóa được cái này.
 

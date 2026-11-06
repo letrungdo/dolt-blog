@@ -17,7 +17,7 @@ Khi dùng <a href="/email-ao-la-gi-dang-ky-tai-khoan-rac/" target="_blank" rel="
 
 Để tìm lại email cũ, bạn truy cập vào: <a href="https://10minutemail.net/history.html" target="_blank" rel="noopener">10minutemail.net/history.html</a>
 
-<img class="aligncenter size-full wp-image-1920" src="/media/2016/07/mail-10-phut.png" alt="" width="763" height="425" srcset="/media/2016/07/mail-10-phut.png 763w, /media/2016/07/mail-10-phut-215x120.png 215w, /media/2016/07/mail-10-phut-300x168.png 300w, /media/2016/07/mail-10-phut-414x232.png 414w" sizes="(max-width: 763px) 100vw, 763px" />
+<img class="aligncenter size-full wp-image-1920" src="/media/2016/07/mail-10-phut.png" alt="" width="763" height="425" />
 
 1. Chọn tên miền giống đuôi email(phía sau @)
 2. Nhập địa chỉ email của bạn vào khung tìm kiếm

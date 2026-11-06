@@ -1,5 +1,6 @@
 ---
 title: Xác định tên font chữ trên web nhanh nhất
+description: "Cách xác định nhanh tên font chữ trên trang web và trong hình ảnh bằng tiện ích WhatFont và các công cụ nhận dạng font trực tuyến."
 date: 2016-05-23T19:54:42+07:00
 author: letrungdo
 template: "post"

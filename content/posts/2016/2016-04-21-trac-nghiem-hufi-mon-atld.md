@@ -22,7 +22,7 @@ categories:
 - Số tiết (hoặc số tín chỉ): <b>30</b>
 - Hệ đào tạo: <b>Cao đẳng, Đại học</b>
 
-<img class="aligncenter size-full wp-image-2057" src="/media/2016/04/ATLD.png" alt="" width="1111" height="586" srcset="/media/2016/04/ATLD.png 1111w, /media/2016/04/ATLD-768x405.png 768w" sizes="(max-width: 1111px) 100vw, 1111px" />
+<img class="aligncenter size-full wp-image-2057" src="/media/2016/04/ATLD.png" alt="" width="1111" height="586" />
 
 ## Câu hỏi trắc nghiệm hufi Giữa kỳ & Cuối kỳ An toàn lao động
 

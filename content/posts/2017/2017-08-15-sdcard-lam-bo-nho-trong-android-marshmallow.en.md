@@ -59,4 +59,4 @@ By default, apps that support SD card storage will automatically install to the 
 
 If your device is rooted, go to Settings > Apps: Select an app > Tap **Storage**. Choose Change > SD Card. The app will be moved 100% to the SD card.
 
-Recommended model to apply this: <a href="/tag/sony-xperia/" target="_blank" rel="noopener"><strong>Sony Xperia M4 Aqua</strong></a>
+Recommended model to apply this: <a href="/en/cda-customization-number-si-tren-sony-xperia-la-gi/" target="_blank" rel="noopener"><strong>Sony Xperia M4 Aqua</strong></a>

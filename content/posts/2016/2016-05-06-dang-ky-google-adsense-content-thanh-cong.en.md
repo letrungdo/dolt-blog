@@ -15,10 +15,10 @@ categories:
 </p>
 
 <p style="text-align: justify;">
-  <a href="/phan-biet-tai-khoan-google-adsense/" target="_blank" rel="noopener">Google AdSense</a> for Content (AdSense for Content - AFC) is an AdSense publisher account approved through a custom website rather than YouTube or Blogspot hosted accounts. Non-hosted AdSense content accounts are harder to obtain, but ad formats are versatile and produce higher revenue potential.
+  Google AdSense for Content (AdSense for Content - AFC) is an AdSense publisher account approved through a custom website rather than YouTube or Blogspot hosted accounts. Non-hosted AdSense content accounts are harder to obtain, but ad formats are versatile and produce higher revenue potential.
 </p>
 
-<img class="aligncenter size-full wp-image-2062" src="/media/2016/05/google-adsense-registry-success.png" alt="" width="1366" height="768" srcset="/media/2016/05/google-adsense-registry-success.png 1366w, /media/2016/05/google-adsense-registry-success-768x432.png 768w, /media/2016/05/google-adsense-registry-success-990x556.png 990w, /media/2016/05/google-adsense-registry-success-1320x742.png 1320w, /media/2016/05/google-adsense-registry-success-470x264.png 470w, /media/2016/05/google-adsense-registry-success-640x360.png 640w, /media/2016/05/google-adsense-registry-success-215x120.png 215w, /media/2016/05/google-adsense-registry-success-300x168.png 300w, /media/2016/05/google-adsense-registry-success-414x232.png 414w" sizes="(max-width: 1366px) 100vw, 1366px" />
+<img class="aligncenter size-full wp-image-2062" src="/media/2016/05/google-adsense-registry-success.png" alt="" width="1366" height="768" />
 
 ## 1. Preparing Your Website for Google AdSense Registration
 
@@ -27,7 +27,7 @@ categories:
 </p>
 
 <p style="text-align: justify;">
-  Host your site using custom hosting or <a href="/huong-dan-tao-hosting-openshift-cai-wordpress-toan-tap/" target="_blank" rel="noopener">free OpenShift hosting</a>.
+  Host your site using custom hosting or <a href="/en/tag/openshift/" target="_blank" rel="noopener">free OpenShift hosting</a>.
 </p>
 
 <p style="text-align: justify;">

@@ -10,10 +10,10 @@ categories:
 ---
 
 <p style="text-align: justify;">
-  Mới lắp mạng VNPT dùng Moderm <strong>iGate GW040</strong>, sau khi nhân viên lắp xong thấy có 2 cột sóng wifi. Một cột do mình đặt tên, cột còn lại tên <strong>VinaphoneWifi</strong> thì kết nối không được. <strong><a href="/cach-dang-nhap-vao-modem-wifi/" target="_blank" rel="noopener">Đăng nhập</a></strong> vào cấu hình modem bằng tài khoản mặc định: username và password là admin nhưng tắt VinaphoneWifi modem iGate lẫn reset luôn modem vẫn như cũ.
+  Mới lắp mạng VNPT dùng Moderm <strong>iGate GW040</strong>, sau khi nhân viên lắp xong thấy có 2 cột sóng wifi. Một cột do mình đặt tên, cột còn lại tên <strong>VinaphoneWifi</strong> thì kết nối không được. <strong>Đăng nhập</strong> vào cấu hình modem bằng tài khoản mặc định: username và password là admin nhưng tắt VinaphoneWifi modem iGate lẫn reset luôn modem vẫn như cũ.
 </p>
 
-<img class="aligncenter size-full wp-image-1916" src="/media/2016/07/VvinaphoneWifi.png" alt="" width="1160" height="617" srcset="/media/2016/07/VvinaphoneWifi.png 1160w, /media/2016/07/VvinaphoneWifi-768x408.png 768w" sizes="(max-width: 1160px) 100vw, 1160px" />
+<img class="aligncenter size-full wp-image-1916" src="/media/2016/07/VvinaphoneWifi.png" alt="" width="1160" height="617" />
 
 ## Cách tắt VinaphoneWifi modem iGate - GW040 VNPT
 

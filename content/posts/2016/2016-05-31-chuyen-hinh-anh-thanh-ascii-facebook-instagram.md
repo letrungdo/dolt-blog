@@ -29,7 +29,7 @@ Người sử dụng chỉ cần thêm ".html" vào sau ".jpg" trong địa ch�
 
 Kết quả: <a href="https://scontent-hkg3-1.cdninstagram.com/t51.2885-15/e35/12716568_1554646574862270_552019220_n.jpg.html" target="_blank" rel="noopener">scontent-hkg3-1.cdninstagram.com/t51.2885-15/e35/12716568_1554646574862270_552019220_n.jpg.html</a>
 
-<img class="aligncenter size-full wp-image-2000" src="/media/2016/05/img-to-text.png" alt="" width="972" height="568" srcset="/media/2016/05/img-to-text.png 972w, /media/2016/05/img-to-text-768x449.png 768w" sizes="(max-width: 972px) 100vw, 972px" />
+<img class="aligncenter size-full wp-image-2000" src="/media/2016/05/img-to-text.png" alt="" width="972" height="568" />
 
 Nếu bạn muốn tạo ảnh nghệ thuật ASCII, trước tiên bạn cần phải tìm các URL cụ thể cho hình ảnh. Sao chép URL, mở một cửa sổ trình duyệt mới và dán URL vào thanh địa chỉ. Sau đó, chỉ cần thêm .html vào cuối URL hình ảnh để có được một phiên bản màu ASCII. Phương pháp này cùng làm việc với ".txt" vào cuối URL hình ảnh trong Instagram hoặc Facebook. Nếu bạn sử dụng .txt, bạn sẽ tìm thấy những hình ảnh tương tự, chỉ có khác là nó sẽ có màu đen và trắng thay vì đầy màu sắc.
 

@@ -30,7 +30,7 @@ categories:
 
 # 1. Blank Content Pane in .chm Files
 
-<img class="aligncenter size-full wp-image-2040" src="/media/2016/05/chm-file-about.png" alt="" width="752" height="544" srcset="/media/2016/05/chm-file-about.png 752w, /media/2016/05/chm-file-about-74x55.png 74w" sizes="(max-width: 752px) 100vw, 752px" />
+<img class="aligncenter size-full wp-image-2040" src="/media/2016/05/chm-file-about.png" alt="" width="752" height="544" />
 
 <p style="text-align: justify;">
   <em><strong>Cause:</strong></em> Security blocking rules introduced by Windows (specifically starting from hotfix KB896358). Because CHM files can contain active HTML/scripts linking to remote network resources, Windows flags downloaded CHM files from external sources as untrusted by default.

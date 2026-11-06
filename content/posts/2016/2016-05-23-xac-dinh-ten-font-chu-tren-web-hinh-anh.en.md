@@ -1,5 +1,6 @@
 ---
 title: Identify Web Font Names in the Fastest Way
+description: "How to quickly identify the font used on a web page or in an image with the WhatFont extension and online font recognition tools."
 date: 2016-05-23T19:54:42+07:00
 author: letrungdo
 template: "post"

@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy for Google AdSense Websites
+description: "Why websites running Google AdSense need a privacy policy page, and how to create one that meets Google's requirements."
 date: 2016-04-09T16:23:46+07:00
 author: letrungdo
 template: "post"

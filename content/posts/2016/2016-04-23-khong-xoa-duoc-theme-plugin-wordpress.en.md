@@ -51,7 +51,7 @@ Go to **wp-content** > **themes**
 
 Locate the undeletable theme directory (`glamour` in this example).
 
-<img class="aligncenter size-full wp-image-2076" src="/media/2016/04/perm.png" alt="" width="780" height="490" srcset="/media/2016/04/perm.png 780w, /media/2016/04/perm-768x482.png 768w" sizes="(max-width: 780px) 100vw, 780px" />
+<img class="aligncenter size-full wp-image-2076" src="/media/2016/04/perm.png" alt="" width="780" height="490" />
 
 The theme folder permissions were set to **577**, preventing file removal commands from executing.
 

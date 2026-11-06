@@ -29,7 +29,7 @@ categories:
 
 # 1. Không đọc được file .chm, file không có nội dung
 
-<img class="aligncenter size-full wp-image-2040" src="/media/2016/05/chm-file-about.png" alt="" width="752" height="544" srcset="/media/2016/05/chm-file-about.png 752w, /media/2016/05/chm-file-about-74x55.png 74w" sizes="(max-width: 752px) 100vw, 752px" />
+<img class="aligncenter size-full wp-image-2040" src="/media/2016/05/chm-file-about.png" alt="" width="752" height="544" />
 
 <p style="text-align: justify;">
   <em><strong>Nguyên nhân:</strong></em> Do tính năng bảo mật và bản chất của các file .chm. Một sồ file .chm có bản chất remote dữ liệu từ 1 số server hay 1 số máy chủ online hoặc 1 Database nào đó trên chính PC của bạn, và kể từ khi Windows XP chính thức đc Update hotfix KB896358 thì hiện tượng không thể xem được file .chm đã bắt đầu xuất hiện và các phiên bản windows mới cũng vậy.

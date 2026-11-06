@@ -10,7 +10,7 @@ categories:
   - Bugs
 ---
 
-When starting to learn <a href="/hoc-lap-trinh/java" target="_blank" rel="noopener">JAVA</a>, everyone goes through their first **HelloWorld** program, learning to compile `HelloWorld.java` using `javac` and `java` commands in Command Prompt (CMD). You might encounter this error: "Error: Could not find or load main class HelloWorld". Fixing this **Java error** is very simple as it is a syntax mismatch error.
+When starting to learn JAVA, everyone goes through their first **HelloWorld** program, learning to compile `HelloWorld.java` using `javac` and `java` commands in Command Prompt (CMD). You might encounter this error: "Error: Could not find or load main class HelloWorld". Fixing this **Java error** is very simple as it is a syntax mismatch error.
 
 ## How to Fix Java "Error: Could not find or load main class HelloWorld"
 

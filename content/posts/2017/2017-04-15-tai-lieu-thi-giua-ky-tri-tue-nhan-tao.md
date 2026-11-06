@@ -24,7 +24,7 @@ Tìm kiếm rộng dùng cơ chế FIFO (First in First out) - QUEUE – Vào tr
 
 ### Thực hiện thuật toán BFS
 
-<img class="aligncenter size-full wp-image-1881" src="/media/2017/04/thuat-toan-bfs.png" alt="" width="835" height="467" srcset="/media/2017/04/thuat-toan-bfs.png 835w, /media/2017/04/thuat-toan-bfs-768x430.png 768w, /media/2017/04/thuat-toan-bfs-470x264.png 470w, /media/2017/04/thuat-toan-bfs-215x120.png 215w, /media/2017/04/thuat-toan-bfs-300x168.png 300w, /media/2017/04/thuat-toan-bfs-414x232.png 414w" sizes="(max-width: 835px) 100vw, 835px" />
+<img class="aligncenter size-full wp-image-1881" src="/media/2017/04/thuat-toan-bfs.png" alt="" width="835" height="467" />
 
 ## 2. Tìm kiếm sâu (Depth-first search) DFS
 
@@ -36,7 +36,7 @@ LIFO(Last in first out) – STACK – Vào sau ra trước
 
 ### Thực hiện thuật toán DFS
 
-<img class="aligncenter size-full wp-image-1882" src="/media/2017/04/thuat-toan-dfs.png" alt="" width="832" height="454" srcset="/media/2017/04/thuat-toan-dfs.png 832w, /media/2017/04/thuat-toan-dfs-768x419.png 768w" sizes="(max-width: 832px) 100vw, 832px" />
+<img class="aligncenter size-full wp-image-1882" src="/media/2017/04/thuat-toan-dfs.png" alt="" width="832" height="454" />
 
 ## 3. Tìm kiếm sâu dần (Iterative deepening search) IDS
 
@@ -53,7 +53,7 @@ Như DFS nhưng giới hạn(limit) độ sâu
 <img class="aligncenter size-full wp-image-1802" src="https://tđ.vnmedia/2017/04/tim-kiem-sau-dan-1.png" alt="tìm kiếm sâu dần" width="1061" height="118" />  
 3. Độ sâu limit = 2
 
-##<img class="aligncenter size-full wp-image-1884" src="/media/2017/04/tim-kiem-sau-dan-2.png" alt="" width="1072" height="255" srcset="/media/2017/04/tim-kiem-sau-dan-2.png 1072w, /media/2017/04/tim-kiem-sau-dan-2-768x183.png 768w" sizes="(max-width: 1072px) 100vw, 1072px" />
+##<img class="aligncenter size-full wp-image-1884" src="/media/2017/04/tim-kiem-sau-dan-2.png" alt="" width="1072" height="255" />
 
 4. Tìm kiếm leo đồi
 
@@ -87,7 +87,7 @@ b) Đánh giá trạng thái Tk mới:
 
 Giống như leo đồi đơn giản, chỉ khác ở điểm là **leo đồi dốc đứng** sẽ duyệt tất cả các hướng đi có thể và chọn đi theo trạng thái tốt nhất trong số các trạng thái kế tiếp có thể có.
 
-<img class="aligncenter size-full wp-image-1888" src="/media/2017/04/leo-doi-doc-dung.png" alt="" width="679" height="456" srcset="/media/2017/04/leo-doi-doc-dung.png 679w, /media/2017/04/leo-doi-doc-dung-300x200.png 300w, /media/2017/04/leo-doi-doc-dung-130x86.png 130w" sizes="(max-width: 679px) 100vw, 679px" />
+<img class="aligncenter size-full wp-image-1888" src="/media/2017/04/leo-doi-doc-dung.png" alt="" width="679" height="456" />
 
 **Ví dụ bài tập:**
 

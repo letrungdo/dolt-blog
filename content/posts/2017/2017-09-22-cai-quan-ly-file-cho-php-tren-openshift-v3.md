@@ -12,7 +12,7 @@ tags:
   - Wordpress
 ---
 
-<a href="/huong-dan-su-dung-openshift-v3-toan-tap/" target="_blank" rel="noopener"><strong>Openshift v3</strong></a> không còn dùng giao thức truyền file SFTP để quản lý file như <a href="/hosting-free/openshift/" target="_blank" rel="noopener">Openshift  v2</a> nữa. Việc up source code lên sẽ khó khăn với các bạn chưa biết gì về Docker. Nên hôm nay mình sẽ hướng dẫn các bạn cách **cài quản lý file cho PHP trên Openshift v3**. Giúp up source code lên nhanh chóng và dễ dàng.
+<a href="/tag/openshift/" target="_blank" rel="noopener"><strong>Openshift v3</strong></a> không còn dùng giao thức truyền file SFTP để quản lý file như <a href="/tag/openshift/" target="_blank" rel="noopener">Openshift  v2</a> nữa. Việc up source code lên sẽ khó khăn với các bạn chưa biết gì về Docker. Nên hôm nay mình sẽ hướng dẫn các bạn cách **cài quản lý file cho PHP trên Openshift v3**. Giúp up source code lên nhanh chóng và dễ dàng.
 
 # Hướng dẫn cài quản lý File cho PHP trên Openshift v3
 
@@ -20,7 +20,7 @@ tags:
 
 Ta sẽ dùng mã nguồn quản lý file của tác giả IzeroCs tại địa chỉ: <a href="https://github.com/IzeroCs/Distro-Manager" target="_blank" rel="noopener">github.com/IzeroCs/Distro-Manager</a>
 
-<img class="aligncenter wp-image-263 size-full" src="/media/2017/09/tao-project-php.png" alt="Cài quản lý file cho PHP trên Openshift v3" width="957" height="488" srcset="/media/2017/09/tao-project-php.png 957w, /media/2017/09/tao-project-php-768x392.png 768w" sizes="(max-width: 957px) 100vw, 957px" />
+<img class="aligncenter wp-image-263 size-full" src="/media/2017/09/tao-project-php.png" alt="Cài quản lý file cho PHP trên Openshift v3" width="957" height="488" />
 
 Điền tên project, ở dòng \* Git Repository URL: nhập link sau:
 

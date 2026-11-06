@@ -1,5 +1,6 @@
 ---
 title: Giải thuật định thời CPU môn Hệ điều hành
+description: "Giải thích các giải thuật định thời CPU (FCFS, SJF, Round Robin, ưu tiên), điều phối độc quyền và không độc quyền, kèm cách giải bài tập môn Hệ điều hành."
 date: 2016-04-09T19:22:49+07:00
 author: letrungdo
 template: "post"

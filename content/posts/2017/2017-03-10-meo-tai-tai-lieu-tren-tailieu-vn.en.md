@@ -25,8 +25,8 @@ The university provides each student with an account matching their student ID: 
 
 After logging in, you can freely download documents from tailieu.vn at no cost.
 
-<img class="aligncenter size-full wp-image-1895" src="/media/2017/03/meo-tai-tai-lieu-vip.png" alt="" width="1101" height="584" srcset="/media/2017/03/meo-tai-tai-lieu-vip.png 1101w, /media/2017/03/meo-tai-tai-lieu-vip-768x407.png 768w" sizes="(max-width: 1101px) 100vw, 1101px" />
+<img class="aligncenter size-full wp-image-1895" src="/media/2017/03/meo-tai-tai-lieu-vip.png" alt="" width="1101" height="584" />
 
-If you are a <a href="/hufi" target="_blank" rel="noopener"><strong>HUFI student</strong></a>, you can view detailed instructions on using the digital library <a href="https://drive.google.com/file/d/10PB67ceWqRPMDsFynr-aBc0o9-mTbYPP/view?usp=sharing" target="_blank" rel="noopener"><strong>here</strong></a>. Default login username and password match your Student ID.
+If you are a <a href="/en/category/huit/" target="_blank" rel="noopener"><strong>HUFI student</strong></a>, you can view detailed instructions on using the digital library <a href="https://drive.google.com/file/d/10PB67ceWqRPMDsFynr-aBc0o9-mTbYPP/view?usp=sharing" target="_blank" rel="noopener"><strong>here</strong></a>. Default login username and password match your Student ID.
 
 If you find this tip helpful, please like & share!
