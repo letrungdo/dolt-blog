@@ -272,3 +272,17 @@ img.size-full {
     padding: 0.75rem 0.75rem 0.25rem;
   }
 }
+
+// Dashed call-to-action box linking to a tool (used in posts)
+.tool-callout {
+  border: 2px dashed #e0a92e;
+  background: #fffbe6;
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin: 1.5rem 0;
+  font-size: 16px;
+  line-height: 1.6;
+  a {
+    font-weight: 700;
+  }
+}

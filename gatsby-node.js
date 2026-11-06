@@ -90,6 +90,10 @@ exports.createPages = async ({ graphql, actions }) => {
     "src/templates/category-template.jsx"
   );
   const indexPageTemplate = path.resolve("src/pages/index.jsx");
+  const nenkinToolTemplate = path.resolve("src/templates/nenkin-tool-template.jsx");
+  const nenkinToolTranslations = Object.fromEntries(
+    require("./src/i18n/config").SUPPORTED_LANGUAGES.map((l) => [l, getLocalizedPath("/cong-cu-dien-don-nenkin-lan-2/", l)])
+  );
 
   const markdownQueryResult = await graphql(`
     {
@@ -230,6 +234,19 @@ exports.createPages = async ({ graphql, actions }) => {
           latestPostEdges,
         },
       });
+    });
+
+    // Nenkin tax refund form filler (needs the same sidebar data as the pages)
+    createPage({
+      path: nenkinToolTranslations[lang],
+      component: nenkinToolTemplate,
+      context: {
+        lang,
+        translations: nenkinToolTranslations,
+        tagList,
+        categoryList,
+        latestPostEdges,
+      },
     });
 
     // Create Tag pages

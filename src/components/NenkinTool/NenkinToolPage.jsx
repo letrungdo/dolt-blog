@@ -1,7 +1,10 @@
 import React from "react";
 import config from "../../../data/SiteConfig";
 import AutoLink from "../AutoLink/AutoLink";
+import GoogleAds from "../GoogleAds";
 import Header from "../Header/Header";
+import MainContainer from "../MainContainer/MainContainer";
+import Sidebar from "../Sidebar/Sidebar";
 import SEO from "../SEO/SEO";
 import Layout from "../../layout";
 import { DEFAULT_LANGUAGE, LANGUAGES, getLocalizedPath } from "../../i18n/config";
@@ -32,30 +35,40 @@ const TEXT = {
   },
 };
 
-function NenkinToolPage({ lang = DEFAULT_LANGUAGE, location }) {
+function NenkinToolPage({ pageContext, location }) {
+  const { lang = DEFAULT_LANGUAGE, translations = {}, tagList, categoryList, latestPostEdges } = pageContext;
   const tx = TEXT[lang];
+  const sidebar = (
+    <Sidebar tagList={tagList} categoryList={categoryList} latestPostEdges={latestPostEdges} links={config.sidebarLinks} />
+  );
+  const content = (
+    <>
+      <p>
+        {tx.intro} <AutoLink to={getLocalizedPath(GUIDE_PATH, lang)}>{tx.guide}</AutoLink>.
+      </p>
+      <p>
+        {tx.lan1} <AutoLink to={getLocalizedPath(LAN1_PATH, lang)}>{tx.lan1Link}</AutoLink>.
+      </p>
+      <GoogleAds adSlot={config.adSlots.postTop} extraClass="padding-bottom" />
+      <NenkinTool lang={lang} />
+      {/* Kept well below the download buttons so the ad is not clicked by mistake (AdSense policy). */}
+      <GoogleAds adSlot={config.adSlots.postBottom} extraClass="padding-top-3" />
+    </>
+  );
   return (
-    <Layout lang={lang} pathname={location?.pathname || getLocalizedPath(TOOL_PATH, lang)}>
+    <Layout lang={lang} translations={translations} pathname={location?.pathname || getLocalizedPath(TOOL_PATH, lang)}>
       <Header title={tx.title} />
-      <div className="main-content container padding-top-3 padding-bottom-3">
-        <p>
-          {tx.intro} <AutoLink to={getLocalizedPath(GUIDE_PATH, lang)}>{tx.guide}</AutoLink>.
-        </p>
-        <p>
-          {tx.lan1} <AutoLink to={getLocalizedPath(LAN1_PATH, lang)}>{tx.lan1Link}</AutoLink>.
-        </p>
-        <NenkinTool lang={lang} />
-      </div>
+      <MainContainer content={content} sidebar={sidebar} />
     </Layout>
   );
 }
 
-export function NenkinToolHead({ lang = DEFAULT_LANGUAGE, location }) {
+export function NenkinToolHead({ lang = DEFAULT_LANGUAGE, translations = {}, location }) {
   const tx = TEXT[lang];
   const langConfig = LANGUAGES[lang] || LANGUAGES[DEFAULT_LANGUAGE];
   const siteTitle = langConfig.siteTitle || config.siteTitle;
   return (
-    <SEO lang={lang} postPath={location?.pathname || getLocalizedPath(TOOL_PATH, lang)}>
+    <SEO lang={lang} translations={translations} postPath={location?.pathname || getLocalizedPath(TOOL_PATH, lang)}>
       <title>{`${tx.title} - ${siteTitle}`}</title>
       <meta name="description" content={tx.description} />
     </SEO>
