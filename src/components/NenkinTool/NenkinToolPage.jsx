@@ -9,6 +9,7 @@ import SEO from "../SEO/SEO";
 import Layout from "../../layout";
 import { DEFAULT_LANGUAGE, LANGUAGES, getLocalizedPath } from "../../i18n/config";
 import NenkinTool from "./NenkinTool";
+import NenkinToolAbout from "./NenkinToolAbout";
 
 export const TOOL_PATH = "/cong-cu-dien-don-nenkin-lan-2/";
 const GUIDE_PATH = "/huong-dan-tu-lam-nenkin-lan-2/";
@@ -53,6 +54,7 @@ function NenkinToolPage({ pageContext, location }) {
       <NenkinTool lang={lang} />
       {/* Kept well below the download buttons so the ad is not clicked by mistake (AdSense policy). */}
       <GoogleAds adSlot={config.adSlots.postBottom} extraClass="padding-top-3" />
+      <NenkinToolAbout lang={lang} />
     </>
   );
   return (

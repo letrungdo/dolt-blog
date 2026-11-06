@@ -104,6 +104,7 @@ exports.createPages = async ({ graphql, actions }) => {
               slug
               lang
               translationKey
+              noAds
             }
             frontmatter {
               template
@@ -207,6 +208,8 @@ exports.createPages = async ({ graphql, actions }) => {
           slug: edge.node.fields.slug,
           lang,
           translations,
+          // Read by gatsby-ssr.js to skip the AdSense script
+          noAds: Boolean(edge.node.fields.noAds),
           nexttitle: nextEdge ? nextEdge.node.frontmatter.title : "",
           nextslug: nextEdge ? nextEdge.node.fields.slug : "",
           prevtitle: prevEdge ? prevEdge.node.frontmatter.title : "",

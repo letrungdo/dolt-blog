@@ -260,6 +260,8 @@ Send **one claim**. List all periods in item 7. Both parts are calculated togeth
 
 ---
 
+<div class="disclaimer"><strong>Disclaimer</strong><ul><li>This content is based on official documents from the Japan Pension Service (日本年金機構) and the National Tax Agency (国税庁), current as of November 6, 2026. Rules and forms may change.</li><li>It shares personal experience and is <strong>not tax or legal advice</strong>. Your situation may differ. Check with the Japan Pension Service, the tax office (税務署) or a tax accountant (税理士) before you submit anything.</li><li>This blog is <strong>not affiliated</strong> with the Japan Pension Service or the National Tax Agency and <strong>accepts no liability</strong> for any loss arising from use of this information or tool.</li><li>See also: <a href="/terms/">Terms of use</a>.</li></ul></div>
+
 ## Sources
 
 - <a href="https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/dattai-ichiji/20150406.html" target="_blank" rel="noopener noreferrer">Japan Pension Service – 脱退一時金の制度</a>

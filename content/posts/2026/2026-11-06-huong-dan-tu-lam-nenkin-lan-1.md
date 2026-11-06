@@ -262,6 +262,8 @@ Chuyển về Việt Nam bằng **USD**, ngân hàng Việt Nam đổi sang VND 
 
 ---
 
+<div class="disclaimer"><strong>Lưu ý / Miễn trừ trách nhiệm</strong><ul><li>Nội dung tổng hợp từ tài liệu chính thức của 日本年金機構 và 国税庁, cập nhật đến ngày 06/11/2026. Quy định và mẫu đơn có thể thay đổi.</li><li>Đây là chia sẻ kinh nghiệm cá nhân, <strong>không phải tư vấn thuế hay pháp lý</strong>. Trường hợp của bạn có thể khác. Hãy kiểm tra lại với 日本年金機構, cục thuế (税務署) hoặc chuyên viên thuế (税理士) trước khi nộp.</li><li>Blog <strong>không liên quan</strong> đến 日本年金機構 hay 国税庁 và <strong>không chịu trách nhiệm</strong> về thiệt hại phát sinh do sử dụng thông tin hoặc công cụ này.</li><li>Xem thêm: <a href="/terms/">Điều khoản sử dụng</a>.</li></ul></div>
+
 ## Nguồn
 
 - <a href="https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/dattai-ichiji/20150406.html" target="_blank" rel="noopener noreferrer">日本年金機構 – 脱退一時金の制度</a>

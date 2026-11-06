@@ -151,15 +151,8 @@ function SEO({
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
       <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-      {noAds ? (
-        <meta name="robots" content="noindex, follow" />
-      ) : (
-        <script
-          data-ad-client={config.adsClientId}
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        />
-      )}
+      {/* The AdSense script itself is added in gatsby-ssr.js: AdSense rejects the data-gatsby-head attribute of the Head API. */}
+      {noAds && <meta name="robots" content="noindex, follow" />}
       <script
         async
         defer
