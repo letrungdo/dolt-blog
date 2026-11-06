@@ -23,6 +23,8 @@ Bài này hướng dẫn **tự làm** nenkin lần 2 khi bạn đã về Việt
 - Nhờ người quen ở Nhật làm **người đại diện thuế (納税管理人)**.
 - Điền **mẫu mới (令和7年分以降用)**, bắt buộc với hồ sơ nộp từ **24/9/2026**. Có **bản mẫu tô màu từng ô** và link tải bản gốc.
 
+> 🛠️ **Không muốn tự điền?** Dùng <a href="/cong-cu-dien-don-nenkin-lan-2/">công cụ điền đơn nenkin lần 2</a>: nhập thông tin, công cụ tính số tiền được hoàn và tạo sẵn file PDF 2 mẫu đơn để in. Mọi thứ chạy trên trình duyệt của bạn, không gửi thông tin đi đâu.
+
 > ⚠️ Toàn bộ tên, địa chỉ, số tiền, số tài khoản trong ảnh và file mẫu ở bài này là **thông tin giả**, chỉ để minh họa cách điền.
 
 ---

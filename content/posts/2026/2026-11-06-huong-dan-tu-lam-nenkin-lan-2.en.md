@@ -24,6 +24,8 @@ This guide shows how to do it **yourself** after you have left Japan, without pa
 - Ask someone in Japan to be your **tax agent (納税管理人)**.
 - Fill in the **new form (令和7年分以降用)**, required for returns filed from **September 24, 2026**. You get **highlighted samples** of every field and links to the original forms.
 
+> 🛠️ **Rather not fill it in by hand?** Use the <a href="/en/cong-cu-dien-don-nenkin-lan-2/">refund form filler</a>: enter your details, and it estimates your refund and creates both forms as a ready-to-print PDF. It runs in your browser and sends your data nowhere.
+
 > ⚠️ All names, addresses, amounts and account numbers in the images and sample files in this post are **fake**. They only show how to fill in the forms.
 
 ---
